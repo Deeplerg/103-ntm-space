@@ -2,5 +2,6 @@
 .vscode/
 *.jar
 global-config.toml
+global-config.toml.example
 .github/
 README.md
