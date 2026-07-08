@@ -82,7 +82,7 @@ jobs:
           cd ..
 
       - name: Release
-        if: github.event_name == 'release'
+        if: github.event_name == 'push'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
