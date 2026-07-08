@@ -1,0 +1,63 @@
+name: Build Modpack
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.26"
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: "17"
+
+      - name: Inject GitHub Token for Packwiz
+        run: |
+          echo "[github]" > global-config.toml
+          echo "token = \"${{ secrets.PACKWIZ_GITHUB_TOKEN }}\"" >> global-config.toml
+
+      - name: Build Modrinth
+        run: packwiz --config global-config.toml modrinth export -o 103-ntm-space-modrinth.mrpack
+
+      - name: Download Packwiz Installer Bootstrap
+        run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Build Client Zip (Pre-downloaded Client)
+        run: |
+          mkdir client
+          cd client
+          java -jar ../packwiz-installer-bootstrap.jar --no-gui --side client "file://${{ github.workspace }}/pack.toml"
+          zip -rq ../103-ntm-space-client.zip ./*
+          cd ..
+
+      - name: Build Server Zip (Pre-downloaded Server)
+        run: |
+          mkdir server-pack
+          cd server-pack
+          java -jar ../packwiz-installer-bootstrap.jar --no-gui --side server "file://${{ github.workspace }}/pack.toml"
+          zip -rq ../103-ntm-space-server.zip ./*
+          cd ..
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: Modpack-Builds
+          path: |
+            103-ntm-space-modrinth.mrpack
+            103-ntm-space-client.zip
+            103-ntm-space-server.zip
