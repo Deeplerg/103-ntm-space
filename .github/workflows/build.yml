@@ -1,9 +1,8 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - "v*"
+  release:
+    types: [published, prereleased]
   workflow_dispatch:
     inputs:
       version:
@@ -82,7 +81,7 @@ jobs:
           cd ..
 
       - name: Release
-        if: github.event_name == 'push'
+        if: github.event_name == 'release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
