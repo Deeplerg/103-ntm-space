@@ -1,13 +1,21 @@
-name: Build Modpack
+name: Release
 
 on:
-  push:
-    branches: [ "main" ]
+  release:
+    types: [published]
   workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to build (e.g. 1.0.0)"
+        required: false
+        default: "manual-build"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
@@ -26,13 +34,32 @@ jobs:
           distribution: "temurin"
           java-version: "17"
 
+      - name: Extract Version
+        id: set_version_variable
+        run: |
+          if [[ "${{ github.event_name }}" == "release" ]]; then
+            VERSION="${{ github.event.release.tag_name }}"
+            VERSION="${VERSION#v}"
+          else
+            VERSION="${{ github.event.inputs.version }}"
+          fi
+          
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Set pack.toml version
+        id: set_pack_version
+        run: |
+          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
+          
+          packwiz refresh
+
       - name: Inject GitHub Token for Packwiz
         run: |
           echo "[github]" > global-config.toml
-          echo "token = \"${{ secrets.PACKWIZ_GITHUB_TOKEN }}\"" >> global-config.toml
+          echo "token = \"${{ secrets.GITHUB_TOKEN }}\"" >> global-config.toml
 
       - name: Build Modrinth
-        run: packwiz --config global-config.toml modrinth export -o 103-ntm-space-modrinth.mrpack
+        run: packwiz --config global-config.toml modrinth export -o "103-ntm-space-modrinth.mrpack"
 
       - name: Download Packwiz Installer Bootstrap
         run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
@@ -42,7 +69,7 @@ jobs:
           mkdir client
           cd client
           java -jar ../packwiz-installer-bootstrap.jar --no-gui --side client "file://${{ github.workspace }}/pack.toml"
-          zip -rq ../103-ntm-space-client.zip ./*
+          zip -rq "../103-ntm-space-client.zip" ./*
           cd ..
 
       - name: Build Server Zip (Pre-downloaded Server)
@@ -50,13 +77,25 @@ jobs:
           mkdir server-pack
           cd server-pack
           java -jar ../packwiz-installer-bootstrap.jar --no-gui --side server "file://${{ github.workspace }}/pack.toml"
-          zip -rq ../103-ntm-space-server.zip ./*
+          zip -rq "../103-ntm-space-server.zip" ./*
           cd ..
 
+      - name: Release
+        if: github.event_name == 'release'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload ${{ github.event.release.tag_name }} \
+            103-ntm-space-modrinth.mrpack \
+            103-ntm-space-client.zip \
+            103-ntm-space-server.zip \
+            --clobber
+
       - name: Upload Artifacts
+        if: github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v7
         with:
-          name: Modpack-Builds
+          name: ${{ env.VERSION }}
           path: |
             103-ntm-space-modrinth.mrpack
             103-ntm-space-client.zip
