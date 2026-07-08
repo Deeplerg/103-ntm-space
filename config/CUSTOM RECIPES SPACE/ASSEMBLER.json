@@ -16,9 +16,9 @@
       "name": "ass.4kstorage",
       "inputItem": [
         ["dict","plateSteel",4],
-        ["item","appliedenergistics2:item.ItemMultiMaterial",4,10],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,35],
         ["item","hbm:item.circuit",1,10],
-        ["dict","wireFineLead",8],
+        ["dict","wireFineLead",2],
         ["dict","ingotAnyResistantAlloy",1]
       ],
       "outputItem": [

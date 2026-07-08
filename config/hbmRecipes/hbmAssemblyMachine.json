@@ -1,27 +1,13 @@
 {
   "recipes": [
     {
-      "name": "ass.1kstorage",
-      "inputItem": [
-        ["dict","plateSteel",4],
-        ["item","appliedenergistics2:item.ItemMultiMaterial",4,10],
-        ["item","hbm:item.circuit",1,9],
-        ["dict","wireFineLead",8]
-      ],
-      "outputItem": [
-        ["single",["appliedenergistics2:item.ItemMultiMaterial",1,35]]
-      ],
-      "duration": 200,
-      "power": 100
-    },
-    {
       "name": "ass.4kstorage",
       "inputItem": [
-        ["dict","plateSteel",4],
-        ["item","appliedenergistics2:item.ItemMultiMaterial",4,10],
-        ["item","hbm:item.circuit",1,10],
+        ["dict","plateSteel",1],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,35],
+        ["item","hbm:item.circuit",1,3],
         ["dict","wireFineLead",8],
-        ["dict","ingotAnyResistantAlloy",1]
+        ["dict","ingotTitanium",1]
       ],
       "outputItem": [
         ["single",["appliedenergistics2:item.ItemMultiMaterial",1,36]]
@@ -32,11 +18,11 @@
     {
       "name": "ass.16kstorage",
       "inputItem": [
-        ["dict","plateSteel",4],
-        ["item","appliedenergistics2:item.ItemMultiMaterial",4,10],
-        ["item","hbm:item.circuit",1,12],
+        ["dict","plateSteel",1],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,36],
+        ["item","hbm:item.circuit",1,9],
         ["dict","wireFineLead",8],
-        ["dict","ingotAnyResistantAlloy",2]
+        ["dict","ingotCobalt",1]
       ],
       "outputItem": [
         ["single",["appliedenergistics2:item.ItemMultiMaterial",1,37]]
@@ -47,11 +33,11 @@
     {
       "name": "ass.64kstorage",
       "inputItem": [
-        ["dict","plateSteel",4],
-        ["item","appliedenergistics2:item.ItemMultiMaterial",4,10],
-        ["item","hbm:item.circuit",1,18],
+        ["dict","plateSteel",1],
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,37],
+        ["item","hbm:item.circuit",1,10],
         ["dict","wireFineLead",8],
-        ["dict","ingotAnyResistantAlloy",4]
+        ["dict","ingotDesh",1]
       ],
       "outputItem": [
         ["single",["appliedenergistics2:item.ItemMultiMaterial",1,38]]
