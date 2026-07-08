@@ -4877,11 +4877,6 @@ hash = "97bf78e411291fa0997449884c7999e789998e24ac2fb52ef9f4735cf703f090"
 metafile = true
 
 [[files]]
-file = "mods/blur.pw.toml"
-hash = "7e28be42219c7f22d2de94b05b838ae332967c5469d1e56a719f339cb28f82eb"
-metafile = true
-
-[[files]]
 file = "mods/bugtorch.pw.toml"
 hash = "9a0fe6503b6d3ff410471609fde283b20a2fc32267903409ad7fbd211b083733"
 metafile = true
@@ -5194,6 +5189,11 @@ metafile = true
 [[files]]
 file = "mods/ztones-unofficial.pw.toml"
 hash = "2f9b5bd425dad9fca3ab32a5d40ae9488ab6486fda5b9a45c3a120ddb102f401"
+metafile = true
+
+[[files]]
+file = "optional/blur.pw.toml"
+hash = "7e28be42219c7f22d2de94b05b838ae332967c5469d1e56a719f339cb28f82eb"
 metafile = true
 
 [[files]]
