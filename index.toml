@@ -4158,7 +4158,7 @@ hash = "ce742275a5f2a038ea3d391f52c3d6121a1987b10556f16387d346e67fab8206"
 
 [[files]]
 file = "config/enderio/EnderIO.cfg"
-hash = "eb97681d02fb790d87d13bfb22a179071ec96d959bea6e500bb999b6aa0e10ca"
+hash = "480b18e9e3fd9360a3c73ea5fce65bc3d472196ed7bbf1c9912ffc84b7c6da03"
 
 [[files]]
 file = "config/enderio/OreDictionaryPreferences_User.xml"
