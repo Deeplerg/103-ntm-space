@@ -1,0 +1,13 @@
+name = "aquaacrobaticslegacy"
+filename = "aquaacrobatics-0.0.6-1-7-10.44+6fc0f073fd-dirty.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "31289b86ac6cff6df2fcbee2bea4c8d498a30edb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7657359
+project-id = 1330962
