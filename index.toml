@@ -5018,6 +5018,11 @@ hash = "6b48bcda8cc9801f9b8835df47301e2b7fc8cbbc1b31ab9a9ba9524157dadc4d"
 metafile = true
 
 [[files]]
+file = "mods/lwjgl3ify.pw.toml"
+hash = "5d5ef76557b6c652d2f99f6333e4ed7ebc65767fa5618c8b1018cc436a2a4702"
+metafile = true
+
+[[files]]
 file = "mods/minetweaker-recipemaker.pw.toml"
 hash = "4daccaa1d6308827ee6cae0bdb73accd081611c9431e69877a542bc07e75f13f"
 metafile = true
