@@ -17,6 +17,16 @@ jobs:
       contents: write
 
     steps:
+      - name: Set commit status - Pending
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
+            -f state="pending" \
+            -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -f description="Building release..." \
+            -f context="Release Build"
+
       - name: Checkout Repository
         uses: actions/checkout@v7
 
@@ -100,3 +110,25 @@ jobs:
             103-ntm-space-modrinth.mrpack
             103-ntm-space-client.zip
             103-ntm-space-server.zip
+
+      - name: Set commit status - Success
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
+          -f state='success' \
+          -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+          -f description='Release build complete!' \
+          -f context='Release Build'
+
+      - name: Set commit status - Failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
+            -f state='failure' \
+            -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -f description='Release build failed.' \
+            -f context='Release Build'
