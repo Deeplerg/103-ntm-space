@@ -797,6 +797,10 @@ file = "config/angelica.cfg"
 hash = "1b9f7e7c336cd7976fe3b574287194ef226b763897261d2fa93a92865ffe9579"
 
 [[files]]
+file = "config/aquaacrobatics.cfg"
+hash = "0a85725b23add5764ffa7ca2580b612e8c83ecdccf729e168938c9ca750cc656"
+
+[[files]]
 file = "config/archaicfix.cfg"
 hash = "18c622072252416639d9bc3c3f528fbe36acf4a939cf05753bf5c2c248d56142"
 
@@ -4805,6 +4809,11 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2-unofficial.pw.toml"
 hash = "401557ceed6c0ce623cef217bf9f5ba72a6765f9473ba25da6da44f21d94408f"
+metafile = true
+
+[[files]]
+file = "mods/aquaacrobaticslegacy.pw.toml"
+hash = "a30b2ac9c8917e15d4e5004cb7e105f889ce7ea12cf6104db01837602d65bf46"
 metafile = true
 
 [[files]]
