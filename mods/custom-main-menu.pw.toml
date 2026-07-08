@@ -1,0 +1,15 @@
+name = "Custom-Main-Menu"
+filename = "custommainmenu-1.14.1.jar"
+side = "client"
+
+[download]
+url = "https://github.com/GTNewHorizons/Custom-Main-Menu/releases/download/1.14.1/custommainmenu-1.14.1.jar"
+hash-format = "sha256"
+hash = "a278b87bfa482f6e9dadfe879ae8b6fc18752fe288d786057ea72dbaab124fff"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Custom-Main-Menu"
+tag = "1.14.1"

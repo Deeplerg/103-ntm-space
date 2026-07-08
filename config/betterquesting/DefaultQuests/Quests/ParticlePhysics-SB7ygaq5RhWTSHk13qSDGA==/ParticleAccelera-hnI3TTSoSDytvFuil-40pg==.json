@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -109905158396034403,
+      "questIDLow:4": -5285318114980582696
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§2For recipes that demand high momentum, additional loops are needed. This quest serves as a guide on how to change the direction of particles.§r\n\nBelow is a miniature particle accelerator built for showcasing purposes. It is not connected to power, coolant or have any coils. It does not have rf cavities and uses two particle detectors as outputs. A compass is also provided in the image.\n\n[img height\u003d1000]betterquesting:textures/QB_PA1.png[/img]\n\nAfter constructing your PA, assuming the beamlines face the right directions, head over to the magnet that bridges the first and second loops.\n\n[img height\u003d1000]betterquesting:textures/QB_PA2.png[/img]\n\nOpen its GUI and configure the dipole magnet. \n\nThe first line is for particles that havent reached the desired momentum. \n\nThe second line is for particles that have reached the desired momentum. \n\nThe third line is for particles that have reached the desired momentum AND are powered by redstone.\n\nThe §cRed Line§r shows the direction the particle will travel towards and the §9Blue Line§r shows where the player is facing.\n\n[img height\u003d1000]betterquesting:textures/QB_PA3.png[/img]\n\nMake sure that for this specific dipole magnet the third line has the particle orientation facing towards the second loop, NORTH in this case.\n\nAfter this, the redstone logic must be set in order to be able to turn the particle orientation when powered. Simply provide power underneath the dipole magnet as such. A redstone signal should only exist when a particle needs momentum greater than what the first tier of coil allows.\n\n[img height\u003d1000]betterquesting:textures/QB_PA4.png[/img]\n\nHead over, WEST in this case, to the dipole magnet which is after the transitionary dipole and right before the detector, and which connects to the rest of the loop.\n\n[img height\u003d1000]betterquesting:textures/QB_PA5.png[/img]\n\nOpen its GUI and configure it. Make sure the second line is facing towards the particle detector and the first line towards the other dipole magnets.\n\n[img height\u003d1000]betterquesting:textures/QB_PA6.png[/img]\n\n",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.pa_dipole"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Particle Accelerator Looping",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8758877520546740164,
+  "questIDLow:4": -5927762255634615130,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

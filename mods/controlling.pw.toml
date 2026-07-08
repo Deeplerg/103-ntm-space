@@ -1,0 +1,15 @@
+name = "Controlling"
+filename = "controlling-2.1.7.jar"
+side = "client"
+
+[download]
+url = "https://github.com/GTNewHorizons/Controlling/releases/download/2.1.7/controlling-2.1.7.jar"
+hash-format = "sha256"
+hash = "5db18a1babdc2b8c84cd9e4e69264cf0bd01365932f3a21e7acbdd544418fd55"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Controlling"
+tag = "2.1.7"

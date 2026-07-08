@@ -1,0 +1,15 @@
+name = "Amazing-Trophies"
+filename = "amazingtrophies-1.4.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Amazing-Trophies/releases/download/1.4.3/amazingtrophies-1.4.3.jar"
+hash-format = "sha256"
+hash = "c5abd882fec3e08b8bb8685e8867ebb954461bcd2f0ea024e99ddfa0e893168d"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Amazing-Trophies"
+tag = "1.4.3"

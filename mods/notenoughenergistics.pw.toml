@@ -1,0 +1,15 @@
+name = "NotEnoughEnergistics"
+filename = "NotEnoughEnergistics-1.7.34.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.34/NotEnoughEnergistics-1.7.34.jar"
+hash-format = "sha256"
+hash = "04d7bd24f14aaf5dc0cbd4ab56b3b658d7e59c183cba309cdc3a132bb1dda5da"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/NotEnoughEnergistics"
+tag = "1.7.34"

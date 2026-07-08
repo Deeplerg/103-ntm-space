@@ -1,0 +1,77 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -1618871914067440657,
+      "questIDLow:4": -7346320627956013138
+    },
+    "1:10": {
+      "questIDHigh:4": 3751710317272321553,
+      "questIDLow:4": -8726799385330671044
+    },
+    "2:10": {
+      "questIDHigh:4": -5611897343271811411,
+      "questIDLow:4": -7977956902623247239
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "By having an orbital station have an §3Orbital Station Computer§r and §3Drop Pods§r, one can move their station to any destination they wish, massively cutting down on material costs needed to make new rockets.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:tile.orbital_station"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Mobile Orbital Station",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3389644743339916683,
+  "questIDLow:4": -6879391547384081704,
+  "rewards:9": {
+    "0:10": {
+      "ignoreDisabled:1": 0,
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "amazingtrophies:trophy",
+          "tag:10": {
+            "trophyID:8": "orbital"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

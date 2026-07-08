@@ -1,0 +1,7 @@
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","etfuturum:nether_gold_ore"],
+      "output": ["hbm:item.crystal_gold"],
+      "productivity": 0.05000000074505806
+    },    

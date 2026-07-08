@@ -1,0 +1,13 @@
+name = "103-ntm-space"
+author = "103"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8203631bcf661adc8950a67433ad4380f3e43ee812a0d4ca1372cd5d37fa8001"
+
+[versions]
+forge = "10.13.4.1614"
+minecraft = "1.7.10"

@@ -1,0 +1,15 @@
+name = "StorageDrawers"
+filename = "StorageDrawers-2.2.26-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/StorageDrawers/releases/download/2.2.26-GTNH/StorageDrawers-2.2.26-GTNH.jar"
+hash-format = "sha256"
+hash = "6f5e26e13cd7b4419ab5c80851282d9848605decb44e48a719e19a20a93a4b2e"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/StorageDrawers"
+tag = "2.2.26-GTNH"

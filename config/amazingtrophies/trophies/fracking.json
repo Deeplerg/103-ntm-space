@@ -1,0 +1,12 @@
+{
+  "id": "fracking",
+  "condition": {
+    "type": "achievement",
+    "id": "fracking"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.machine_fracking_tower",
+    "scale": 0.75
+  }
+}

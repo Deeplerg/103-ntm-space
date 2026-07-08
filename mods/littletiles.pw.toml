@@ -1,0 +1,15 @@
+name = "LittleTiles"
+filename = "littletiles-1.6.30.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.30/littletiles-1.6.30.jar"
+hash-format = "sha256"
+hash = "1a44a97e496c4aa39f8afe4d0df1b3c585b44fe760d74eae4c810852e870a867"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/LittleTiles"
+tag = "1.6.30"

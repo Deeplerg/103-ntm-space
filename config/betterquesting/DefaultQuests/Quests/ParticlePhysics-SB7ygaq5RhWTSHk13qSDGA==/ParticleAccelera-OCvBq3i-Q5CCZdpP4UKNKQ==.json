@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -109905158396034403,
+      "questIDLow:4": -5285318114980582696
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "The §3Particle Accelerator§r is highly modular and as such has many parts, each serving a different function:\n\n§3Particle Source§r: To create the particle.\n\n§3Particle Detector§r (at a receiving end): To form the intended byproduct.\n\n§3Quadrupole Magnets§r: To reduce particle defocus.\n\n§3RF Cavities§r: For electromagnetic acceleration.\n\n§3Dipole Magnets§r: For re-directing the particle.\n\n§6Coils§r: For quadrupole and dipole magnets to function.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.pa_coil"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Particle Accelerator Components",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 4047541632331826064,
+  "questIDLow:4": -9050587839514637015,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

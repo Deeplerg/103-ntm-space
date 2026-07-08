@@ -1,0 +1,13 @@
+name = "Campfire Backport"
+filename = "campfirebackport-1.7.10-1.11.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/yRcrQfWl/versions/faPjmd7J/campfirebackport-1.7.10-1.11.3.jar"
+hash-format = "sha512"
+hash = "adb0a9982a8d18486e035859dc9f0c653798663a27ada481febeb565952baf6db53b5a879dfb424176b3e46e5664860a1205767be013368dc98ea94180cb9dc9"
+
+[update]
+[update.modrinth]
+mod-id = "yRcrQfWl"
+version = "faPjmd7J"

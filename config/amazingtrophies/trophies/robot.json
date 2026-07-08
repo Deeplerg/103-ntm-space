@@ -1,0 +1,12 @@
+{
+  "id": "robot",
+  "condition": {
+    "type": "achievement",
+    "id": "zirnox"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "OpenComputers:robot",
+    "yawOffset": 180.0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fusion",
+  "condition": {
+    "type": "achievement",
+    "id": "fusion"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.fusion_torus",
+    "yawOffset": 90.0,
+    "scale": 0.70
+  }
+}

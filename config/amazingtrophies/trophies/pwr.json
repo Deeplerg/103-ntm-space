@@ -1,0 +1,12 @@
+{
+  "id": "pwr",
+  "condition": {
+    "type": "achievement",
+    "id": "pwr"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.pwr_controller",
+    "yawOffset": 90.0
+  }
+}

@@ -1,0 +1,15 @@
+name = "AsieLib"
+filename = "AsieLib-0.7.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/AsieLib/releases/download/0.7.2/AsieLib-0.7.2.jar"
+hash-format = "sha256"
+hash = "abda0dc5e7ed2586213df270f42a3bad024b2e5b8a469773dfab9b705f753061"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/AsieLib"
+tag = "0.7.2"

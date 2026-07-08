@@ -1,0 +1,12 @@
+{
+  "id": "orbital",
+  "condition": {
+    "type": "achievement",
+    "id": "orbital"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.orbital_station_port",
+    "scale": 0.75
+  }
+}

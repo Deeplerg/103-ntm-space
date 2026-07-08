@@ -1,0 +1,15 @@
+name = "NaturesCompass"
+filename = "naturescompass-1.5.2-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/NaturesCompass/releases/download/1.5.2-GTNH/naturescompass-1.5.2-GTNH.jar"
+hash-format = "sha256"
+hash = "aea94f65e5828b4d66c86a6cb19fd9fc1d45be09f9dd055980567f3ed56729b6"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/NaturesCompass"
+tag = "1.5.2-GTNH"

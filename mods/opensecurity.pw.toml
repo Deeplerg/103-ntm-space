@@ -1,0 +1,15 @@
+name = "OpenSecurity"
+filename = "opensecurity-1.2.2-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/OpenSecurity/releases/download/1.2.2-GTNH/opensecurity-1.2.2-GTNH.jar"
+hash-format = "sha256"
+hash = "7c4617caccbc3ccff63ae6cffbce7e7a9129be38b31db3111847b00d0988755f"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/OpenSecurity"
+tag = "1.2.2-GTNH"

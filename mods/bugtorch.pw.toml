@@ -1,0 +1,15 @@
+name = "BugTorch"
+filename = "bugtorch-1.2.14-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/BugTorch/releases/download/1.2.14-GTNH/bugtorch-1.2.14-GTNH.jar"
+hash-format = "sha256"
+hash = "b5604dffa58f4b91309d2fd6746bfb46f501b392bdf3a0144ad1040fd437696f"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/BugTorch"
+tag = "1.2.14-GTNH"

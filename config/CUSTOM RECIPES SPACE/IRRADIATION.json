@@ -1,0 +1,5 @@
+    {
+      "input": ["item","GraviGun:GraviGun",1,0],
+      "solidOutput": ["GraviGun:GraviGun",1,1],
+      "fusionOnly": true
+    },

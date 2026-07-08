@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8723169831049015384,
+      "questIDLow:4": -5617307265269807801
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "After the first centrifuging stage, ores can be washed with various fluids to increase primary products or add byproducts, these include:\n\n§s§bSulfuric Acid§r - adds the first tier of byproducts to your outputs\n\n§bSolvent§r - adds the second tier of byproducts\n\n§bHigh-Performance Solvent§r - adds the final tier of byproducts\n\n§bLiquid Hydrogen§r - increases the yield of the first primary product\n\n§bChlorine Gas§r - increases the yield of the second primary product\n\n§2Note that processing with higher tier solvents will produce lower tier products as well, meaning processing with HPS will provide all available byproducts. Ores processed with lower tier solvents can be processed again with higher tiers to further increase yields, doubling outputs each time!",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 64,
+        "Damage:2": 2305,
+        "OreDict:8": "",
+        "id:8": "hbm:item.bedrock_ore"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Solvent Washed Bedrock Ore",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8528160235584142897,
+  "questIDLow:4": -6733214252069556353,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

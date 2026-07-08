@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3189155225901186415,
+      "questIDLow:4": -5647093611698956888
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 79
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Ores can be washed to increase the number of primary products and even add useful additional byproducts. Washing is done in §3Ore Acidizers§r with different fluids.\n\nOres straight out of the §3Bedrock Ore Processor§r (before initial centrifuging) can be washed with §bWater§r to immediately duplicate all products, making it a very desirable first step.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 64,
+        "Damage:2": 513,
+        "OreDict:8": "",
+        "id:8": "hbm:item.bedrock_ore"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Water Washed Bedrock Ore",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3468242713993723436,
+  "questIDLow:4": -5789887558239546501,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

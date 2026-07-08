@@ -1,0 +1,15 @@
+name = "NotEnoughItems"
+filename = "NotEnoughItems-2.8.112-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.112-GTNH/NotEnoughItems-2.8.112-GTNH.jar"
+hash-format = "sha256"
+hash = "a662cc0af9f53b129c7f6935002aeb7616a2daa9b73bb7daa3e6e45e518e067a"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/NotEnoughItems"
+tag = "2.8.112-GTNH"

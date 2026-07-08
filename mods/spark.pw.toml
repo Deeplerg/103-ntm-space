@@ -1,0 +1,15 @@
+name = "spark"
+filename = "spark-forge1710-1.10-SNAPSHOT.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/spark/releases/download/v0.0.16/spark-forge1710-1.10-SNAPSHOT.jar"
+hash-format = "sha256"
+hash = "36c0bc7c5665dbd2af384f3609e06842d3c14a52b5dfaf7632288f8f0a57314f"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^spark-forge1710.+(?<!-dev)\\.jar$"
+slug = "GTNewHorizons/spark"
+tag = "v0.0.16"

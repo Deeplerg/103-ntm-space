@@ -1,0 +1,65 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2562880177024710778,
+      "questIDLow:4": -4897313248440661630
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§dFindIt§r allows one to find any item stored in their storage area. Hover over the item of choice in NEI and press §6T§r. The container will become outlined.\n\n§6Holo Glasses§r will visualise the contents of an inventory when looking at them. Equip them either in the head armor slot, or one of the baubles slot available from the button next to the player model in the inventory. They can be toggled on and off by the use of a keybind.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "holoinventory:Hologlasses"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Inventory Management",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 8441057239247307992,
+  "questIDLow:4": -7017227900546496957,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "holoinventory:Hologlasses"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

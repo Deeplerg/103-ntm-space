@@ -1,0 +1,13 @@
+name = "GTNH's Forgelin"
+filename = "forgelin-2.0.3-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qwLdfNrQ/versions/5jKr7yfn/forgelin-2.0.3-GTNH.jar"
+hash-format = "sha512"
+hash = "f1ac22618fad6210446ed68b1b05d51b9865c9bd320acfa80bfac18bad85754a55be1b3d8fde03b19490575754624142bd5989bb73b12b91924eb8f1a3298e54"
+
+[update]
+[update.modrinth]
+mod-id = "qwLdfNrQ"
+version = "5jKr7yfn"

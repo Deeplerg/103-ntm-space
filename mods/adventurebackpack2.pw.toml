@@ -1,0 +1,15 @@
+name = "AdventureBackpack2"
+filename = "adventurebackpack-1.4.22-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.4.22-GTNH/adventurebackpack-1.4.22-GTNH.jar"
+hash-format = "sha256"
+hash = "f95cc7d9711859ea96d24fd5210fb85df3727380ae886b58a3497246aeebe1ce"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/AdventureBackpack2"
+tag = "1.4.22-GTNH"

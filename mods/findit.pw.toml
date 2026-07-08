@@ -1,0 +1,15 @@
+name = "FindIt"
+filename = "findit-1.4.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/FindIt/releases/download/1.4.3/findit-1.4.3.jar"
+hash-format = "sha256"
+hash = "2f607496567689fccdaae6618148fda54276cfc55d73797f0c1a32288585936b"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/FindIt"
+tag = "1.4.3"

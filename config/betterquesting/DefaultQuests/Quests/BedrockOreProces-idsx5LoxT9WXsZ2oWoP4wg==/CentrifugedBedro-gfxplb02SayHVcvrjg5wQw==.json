@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3468242713993723436,
+      "questIDLow:4": -5789887558239546501
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "All ores must be processed in a §3Centrifuge§r in order to extract products from them. The first stage of centrifuging will produce a second stage of ore which can either be centrifuged again to immediately get primary products and finish processing, or can be washed with solvents to acquire useful byproducts.\n\nGravel obtained from centrifuging can be processed into concrete for base building, in a §3SILEX§r for additional byproducts, such as §6Lithium§r and §6Boron§r, or shredded into sand for §6Silicon§r.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 64,
+        "Damage:2": 769,
+        "OreDict:8": "",
+        "id:8": "hbm:item.bedrock_ore"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Centrifuged Bedrock Ore",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -9080266656840267348,
+  "questIDLow:4": -8694819293007810493,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

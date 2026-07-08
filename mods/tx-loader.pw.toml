@@ -1,0 +1,13 @@
+name = "TX Loader"
+filename = "txloader-1.8.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eh8us8FY/versions/PebXoMM1/txloader-1.8.11.jar"
+hash-format = "sha512"
+hash = "8319a73d077709547c83fe7407f57a9d486e2a3e5c11fffe2d7ab43caefb3f1699e6f71bb196e591c1f3356818792d536d31763c2edf46ed1d79caf692808a47"
+
+[update]
+[update.modrinth]
+mod-id = "eh8us8FY"
+version = "PebXoMM1"

@@ -1,0 +1,48 @@
+    { 
+      "name": "chem.certus",
+      "inputItem": [
+        ["item","hbm:item.powder_quartz",1],
+        ["item","appliedenergistics2:item.ItemCrystalSeed",1]
+      ],
+      "inputFluid": [
+        ["WATER",2000]
+      ],
+      "outputItem": [
+        ["single",["appliedenergistics2:item.ItemMultiMaterial",1,0]],
+        ["single",["appliedenergistics2:item.ItemCrystalSeed",1]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "chem.fluix",
+      "inputItem": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,1],
+        ["item","appliedenergistics2:item.ItemCrystalSeed",1,1200],
+        ["item", "minecraft:redstone",1]
+      ],
+      "inputFluid": [
+        ["WATER",2000]
+      ],
+      "outputItem": [
+        ["single",["appliedenergistics2:item.ItemMultiMaterial",2,7]],
+        ["single",["appliedenergistics2:item.ItemCrystalSeed",1,1200]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "chem.quartzfiber",
+      "inputItem": [
+        ["item","hbm:item.powder_quartz",1],
+        ["item","hbm:item.ingot_fiberglass",1]
+      ],
+      "inputFluid": [
+        ["WATER",2000]
+      ],
+      "outputItem": [
+        ["single",["appliedenergistics2:item.ItemMultiPart",2,140]]
+      ],
+      "duration": 100,
+      "power": 100
+    },

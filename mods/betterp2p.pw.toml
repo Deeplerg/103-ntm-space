@@ -1,0 +1,15 @@
+name = "BetterP2P"
+filename = "betterp2p-1.4.5.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.4.5/betterp2p-1.4.5.jar"
+hash-format = "sha256"
+hash = "3091aed31ffb180e22b81f3b135f9b1eea3cdfe023338253a625022a5d4634f9"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/BetterP2P"
+tag = "1.4.5"

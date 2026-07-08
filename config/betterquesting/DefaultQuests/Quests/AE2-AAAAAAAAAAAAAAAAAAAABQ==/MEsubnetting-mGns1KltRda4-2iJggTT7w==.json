@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 8036000502216148548,
+      "questIDLow:4": -9137182608201938826
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§eSubnetworks§r are ME networks which can be accessed from a §eMain Network§r. In §dNTM§r§r they can be useful for storing items from passive processes without flooding the main storage network.\n\n§2This quest serves as a guide on how to set up a subnet, which can be used to store the resourses that Bedrock Ore Processing produces.§r\n\nIn the image below are two ME networks, the §cRed§r one as the §cMainnet§r, and the §9Blue§r one as the §9Subnet§r.\n\n[img height\u003d1000]betterquesting:textures/BQ_NET1.png[/img]\n\nFor the purposes of this quest, the main network will store dirt blocks, while the subnet will store copper blocks.\n\n[img height\u003d1000]betterquesting:textures/BQ_NET2.png[/img]\n\n[img height\u003d1000]betterquesting:textures/BQ_NET3.png[/img]\n\nTo make the contents of the subnet, the copper blocks, visible to the main net, one must make an §3Interface§r-§3Storage Bus§r§r combo. The storage bus must be on the side of the main network.\n\n[img height\u003d1000]betterquesting:textures/BQ_NET4.png[/img]\n\nMake sure to filter the main network storage bus, and to also make it \"Extract Only\".\n\n[img height\u003d1000]betterquesting:textures/BQ_NET5.png[/img]\n\nNow the main network has access to materials stored on the sub network, which can be used for crafting.\n\n[img height\u003d1000]betterquesting:textures/BQ_NET6.png[/img]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 440,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiPart"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "ME subnetting",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -7464174509270153770,
+  "questIDLow:4": -5117381611775274001,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

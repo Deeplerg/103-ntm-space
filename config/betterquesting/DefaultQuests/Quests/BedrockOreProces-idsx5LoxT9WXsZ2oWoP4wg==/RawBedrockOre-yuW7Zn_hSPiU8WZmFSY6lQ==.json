@@ -1,0 +1,52 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 44
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "The first step to processing §eRaw Bedrock Ore§r straight out of the ground is to run it through a §3Bedrock Ore Processor§r. This will split the raw ore into general types, with amounts depending on the location the ore was extracted and any effectiveness upgrades. These types are:\n\n§eLight Metal§r - common metals including §6Iron/Copper§r\n\n§eHeavy Metal§r - heavier metals including §6Tungsten/Lead§r\n\n§eRare Earth§r - rare earth metals including §6Cobalt/Rare Earth§r\n\n§eActinide§r - radioactive heavy metals including §6Uranium/Thorium§r\n\n§eNon-Metal§r - non-metallic ores including §6Coal/Sulfur§r\n\n§eCrystalline§r - crystals including §6Redstone/Cinnabar§r",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "OreDict:8": "",
+        "id:8": "hbm:item.bedrock_ore"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Raw Bedrock Ore",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3826446259474839304,
+  "questIDLow:4": -7714272098081424747,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

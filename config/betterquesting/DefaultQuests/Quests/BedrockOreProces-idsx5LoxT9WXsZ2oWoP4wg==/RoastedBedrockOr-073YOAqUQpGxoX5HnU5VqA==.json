@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 33
+    },
+    "1:10": {
+      "questIDHigh:4": -3826446259474839304,
+      "questIDLow:4": -7714272098081424747
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "Most ore processing stages can be passed through a §3Combination Oven§r or a §3Pyrolysis Oven§r to produce §bVitriol§r. The ore itself will not be affected by this process - yielding the same outputs whether or not the ore is roasted - so this can be done to add bonus byproducts (from processing the vitriol) effectively for free.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 64,
+        "Damage:2": 257,
+        "OreDict:8": "",
+        "id:8": "hbm:item.bedrock_ore"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Roasted Bedrock Ore",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -3189155225901186415,
+  "questIDLow:4": -5647093611698956888,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

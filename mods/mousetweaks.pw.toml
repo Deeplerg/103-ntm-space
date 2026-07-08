@@ -1,0 +1,15 @@
+name = "MouseTweaks"
+filename = "MouseTweaks-2.5.2-GTNH.jar"
+side = "client"
+
+[download]
+url = "https://github.com/GTNewHorizons/MouseTweaks/releases/download/2.5.2-GTNH/MouseTweaks-2.5.2-GTNH.jar"
+hash-format = "sha256"
+hash = "b05c7f67372bd2ff16520159672005311b0e7c3166c1419b6cefd4193a603f99"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/MouseTweaks"
+tag = "2.5.2-GTNH"

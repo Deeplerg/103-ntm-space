@@ -1,0 +1,13 @@
+name = "Shader fixer"
+filename = "shaderfixer-5.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/N50mCZS0/versions/cuPR700Q/shaderfixer-5.4.jar"
+hash-format = "sha512"
+hash = "4a83f5f0fef89d0a726098a5d380337bfa9f5acfc546fb18718c88ed390bbf0e5cc5e91625e66b5e39cf87165444a7a8a1462d66970b466c21b9ff99803ce8af"
+
+[update]
+[update.modrinth]
+mod-id = "N50mCZS0"
+version = "cuPR700Q"

@@ -1,0 +1,56 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -8952569304068829753,
+      "questIDLow:4": -7428806490616029659
+    },
+    "1:10": {
+      "questIDHigh:4": -9163488475795534917,
+      "questIDLow:4": -6568254931196449181
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§2The following quest serves as a guide on how to automate the production of fuels produced by a chicago pile.§r\n\nBegin by constructing a chicago pile in a ⊥ shape, where the two sides are for the neutron sources (item frames are in place to indicate) and the middle two are for fuel breeding. Place a conveyor going out into storage from the bottom middle graphite block.\n\nOne block above the top graphite block place an §3Inserter§r (not conveyor one) facing down one block above the top graphite block. The inserter, once given a redstone signal and a fuel rod, will place the fuel into the top drilled graphite. If the bottom drilled graphite is empty (fuel bred and exported) the inserter will move the fuel from the top drilled graphite into the bottom one, and place a new fuel rod at the top.\n\n[img height\u003d1000]betterquesting:textures/BQ_CHICAGO1.png[/img]\n\nPlace a §3Redstone-Over Radio Transmitter§r on the bottom drilled graphite above the conveyor and give it an ID.\n\n[img height\u003d1000]betterquesting:textures/BQ_CHICAGO2.png[/img]\n\nHead over to the inserter above and place a Redstone-Over Radio Receiver. Put the same ID as the transmitter below, set it to Custom Mapping and make it output a redstone level once it receives power from the transmitter below.\n\n[img height\u003d1000]betterquesting:textures/BQ_CHICAGO3.png[/img]",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.pile_rod_plutonium"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Chicago Pile Automation",
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 3719291560233485871,
+  "questIDLow:4": -5436021736759786666,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

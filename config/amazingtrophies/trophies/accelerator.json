@@ -1,0 +1,12 @@
+{
+  "id": "accelerator",
+  "condition": {
+    "type": "achievement",
+    "id": "accelerator"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.pa_detector",
+    "scale": 0.75
+  }
+}

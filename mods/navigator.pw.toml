@@ -1,0 +1,15 @@
+name = "Navigator"
+filename = "navigator-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.4/navigator-1.1.4.jar"
+hash-format = "sha256"
+hash = "ae7167310f60d30b3d8e4b66ba3d891eb2aaa32bac82bfb841a96175b95a275f"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Navigator"
+tag = "1.1.4"

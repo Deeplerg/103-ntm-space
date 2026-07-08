@@ -1,0 +1,13 @@
+{
+  "id": "icf",
+  "condition": {
+    "type": "achievement",
+    "id": "icf"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.icf",
+    "yawOffset": 90.0,
+    "scale": 0.70
+  }
+}

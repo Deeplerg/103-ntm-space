@@ -1,0 +1,15 @@
+name = "OCGlasses"
+filename = "OpenGlasses-1.6.7-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.7-GTNH/OpenGlasses-1.6.7-GTNH.jar"
+hash-format = "sha256"
+hash = "d2f6c05df5759c417a4882203538d27e39a1ce6567d246cbc6999b924e86cfe8"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/OCGlasses"
+tag = "1.6.7-GTNH"

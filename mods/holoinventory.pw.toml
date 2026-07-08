@@ -1,0 +1,15 @@
+name = "HoloInventory"
+filename = "holoinventory-2.5.15-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.5.15-GTNH/holoinventory-2.5.15-GTNH.jar"
+hash-format = "sha256"
+hash = "cde118cb5a59dfd5bf302f9ff5adedc779529379969564d801779776d87a40d6"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/HoloInventory"
+tag = "2.5.15-GTNH"

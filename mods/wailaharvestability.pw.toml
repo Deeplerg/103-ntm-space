@@ -1,0 +1,15 @@
+name = "WailaHarvestability"
+filename = "WailaHarvestability-1.3.6-GTNH.jar"
+side = "client"
+
+[download]
+url = "https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.3.6-GTNH/WailaHarvestability-1.3.6-GTNH.jar"
+hash-format = "sha256"
+hash = "f947078e58bb765b79bda0100dfb6388b6dff6c8d1098827240f3204405254aa"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/WailaHarvestability"
+tag = "1.3.6-GTNH"

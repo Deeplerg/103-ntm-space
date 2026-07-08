@@ -1,0 +1,12 @@
+{
+  "id": "dfc",
+  "condition": {
+    "type": "achievement",
+    "id": "dfc"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.dfc_emitter",
+    "scale": 0.75
+  }
+}

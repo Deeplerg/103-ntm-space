@@ -1,0 +1,15 @@
+name = "Ztones-Unofficial"
+filename = "Ztones-2.3.3-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Ztones-Unofficial/releases/download/2.3.3-GTNH/Ztones-2.3.3-GTNH.jar"
+hash-format = "sha256"
+hash = "10760006bb1a7aa74ce8d21dba992f6de2642c38c49563144afeced7e3b2e6b8"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Ztones-Unofficial"
+tag = "2.3.3-GTNH"

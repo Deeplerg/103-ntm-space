@@ -1,0 +1,15 @@
+name = "Schematica"
+filename = "Schematica-1.12.6-GTNH.jar"
+side = "client"
+
+[download]
+url = "https://github.com/GTNewHorizons/Schematica/releases/download/1.12.6-GTNH/Schematica-1.12.6-GTNH.jar"
+hash-format = "sha256"
+hash = "9b12f671791c336288a8ba7541eaef388a3d0a1db6ece04295555604bdb8a6c1"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Schematica"
+tag = "1.12.6-GTNH"

@@ -1,0 +1,15 @@
+name = "ModernMarkings"
+filename = "modernmarkings-0.3.13-1.7.10.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/ModernMarkings/releases/download/0.3.13-1.7.10/modernmarkings-0.3.13-1.7.10.jar"
+hash-format = "sha256"
+hash = "b40ed4b95b143d28b64d895b54dd89adec418af5f599b2787ec6acac9e7d0e28"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/ModernMarkings"
+tag = "0.3.13-1.7.10"

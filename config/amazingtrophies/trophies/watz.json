@@ -1,0 +1,12 @@
+{
+  "id": "watz",
+  "condition": {
+    "type": "achievement",
+    "id": "watz"
+  },
+  "model": {
+    "type": "item",
+    "registryName": "hbm:tile.watz",
+    "scale": 0.70
+  }
+}
