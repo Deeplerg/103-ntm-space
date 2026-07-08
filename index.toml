@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "aa9392b42fbcb95b666fdb17b10daea317ce9686fded32f289e88b1b9faf9144"
-
-[[files]]
 file = "config/AE2Stuff/readme.txt"
 hash = "f86901d1cbf94aa31daff7fd7898391008892b2a4c0d4c6983d491427184d412"
 
@@ -4872,6 +4868,11 @@ hash = "a527b7a427fe47ae8c5ea0f69813a55b2856825c3c702cdf9957bef2a7c0e23f"
 metafile = true
 
 [[files]]
+file = "mods/blur.pw.toml"
+hash = "7e28be42219c7f22d2de94b05b838ae332967c5469d1e56a719f339cb28f82eb"
+metafile = true
+
+[[files]]
 file = "mods/bugtorch.pw.toml"
 hash = "a9d846c2c91738581150b88d9f0f316ecb3aa0e669e81a8c85c2b44b356ff1fc"
 metafile = true
@@ -4939,6 +4940,11 @@ metafile = true
 [[files]]
 file = "mods/enderio.pw.toml"
 hash = "6c9df55d2b3051e45a1477c86c8031e31a20e7df32c70d74d6c2328b3def8298"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-mob-variants.pw.toml"
+hash = "9918515c26893cb42f21401c3b81b379c904f54ee8e51630fc3dafb79e58ab55"
 metafile = true
 
 [[files]]
