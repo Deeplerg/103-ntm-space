@@ -16,8 +16,9 @@ runs:
       shell: bash
       run: go install github.com/packwiz/packwiz@latest
 
-    - name: Set pack.toml version
+    - name: Set pack.toml version and packwiz refresh
       shell: bash
       run: |
         sed -i "s/^version = .*/version = \"${{ inputs.version }}\"/" pack.toml
+        
         packwiz refresh

@@ -28,7 +28,7 @@ jobs:
       - name: Install Packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Set pack.toml version
+      - name: Set pack.toml version and packwiz refresh
         run: |
           sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
           
