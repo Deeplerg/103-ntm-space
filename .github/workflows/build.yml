@@ -10,6 +10,13 @@ on:
         required: false
         default: "manual-build"
 
+env:
+  LAUNCHER_VERSION: "11.0.2-1"
+  PORTABLE_JAVA_VERSION: "17"
+  LWJGL3IFY_VERSION: "3.0.26"
+  MODPACK_NAME: "103-ntm-space"
+  INSTANCE_DIR: "103-ntm-space"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -70,17 +77,17 @@ jobs:
           echo "token = \"${{ secrets.GITHUB_TOKEN }}\"" >> global-config.toml
 
       - name: Build Modrinth
-        run: packwiz --config global-config.toml modrinth export -o "103-ntm-space-modrinth.mrpack"
+        run: packwiz --config global-config.toml modrinth export -o "$MODPACK_NAME-modrinth.mrpack"
 
       - name: Download Packwiz Installer Bootstrap
-        run: wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
 
       - name: Build Client Zip (Pre-downloaded Client)
         run: |
           mkdir client
           cd client
           java -jar ../packwiz-installer-bootstrap.jar --no-gui --side client "file://${{ github.workspace }}/pack.toml"
-          zip -rq "../103-ntm-space-client.zip" ./*
+          zip -rq "../$MODPACK_NAME-client.zip" ./*
           cd ..
 
       - name: Build Server Zip (Pre-downloaded Server)
@@ -88,8 +95,115 @@ jobs:
           mkdir server-pack
           cd server-pack
           java -jar ../packwiz-installer-bootstrap.jar --no-gui --side server "file://${{ github.workspace }}/pack.toml"
-          zip -rq "../103-ntm-space-server.zip" ./*
+          zip -rq "../$MODPACK_NAME-server.zip" ./*
           cd ..
+
+      - name: Build portable client - Windows
+        run: |
+          mkdir build-win
+          cd build-win
+
+          echo "Downloading Launcher..."
+          curl -L -s -o launcher.zip "https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/$LAUNCHER_VERSION/PrismLauncher-Windows-MSVC-Portable-$LAUNCHER_VERSION.zip"
+          mkdir -p launcher/
+          unzip -q launcher.zip -d launcher
+          rm launcher.zip
+
+          echo "Downloading Java..."
+          curl -L -s -o java.zip "https://api.adoptium.net/v3/binary/latest/$PORTABLE_JAVA_VERSION/ga/windows/x64/jre/hotspot/normal/eclipse"
+          unzip -q java.zip
+          mv jdk* launcher/java
+          rm java.zip
+
+          cp -r ../launcher-template/windows/* launcher/
+          cp -r ../launcher-template/shared/* launcher/
+
+          echo "Downloading LWJGL 3 patches..."
+          curl -L -s -o lwjgl3.zip "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/$LWJGL3IFY_VERSION/lwjgl3ify-$LWJGL3IFY_VERSION-multimc.zip"
+
+          unzip -q lwjgl3.zip -d launcher/instances/$INSTANCE_DIR/
+          rm lwjgl3.zip
+
+          mkdir -p launcher/instances/$INSTANCE_DIR/minecraft
+          cp ../packwiz-installer-bootstrap.jar launcher/instances/$INSTANCE_DIR/minecraft/
+
+          echo "Compressing..."
+          cd launcher
+          zip -rq "../../$MODPACK_NAME-Windows.zip" ./*
+          cd ../../
+
+      - name: Build portable client - Linux
+        run: |
+          mkdir build-linux
+          cd build-linux
+
+          echo "Downloading Launcher..."
+          curl -L -s -o launcher.tar.gz "https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/$LAUNCHER_VERSION/PrismLauncher-Linux-Qt6-Portable-$LAUNCHER_VERSION.tar.gz"
+          mkdir -p launcher/
+          tar -zxf launcher.tar.gz -C launcher
+          rm launcher.tar.gz
+
+          echo "Downloading Java..."
+          curl -L -s -o java.tar.gz "https://api.adoptium.net/v3/binary/latest/$PORTABLE_JAVA_VERSION/ga/linux/x64/jre/hotspot/normal/eclipse"
+          mkdir -p launcher/java
+          tar -zxf java.tar.gz -C launcher/java --strip-components=1
+          rm java.tar.gz
+
+          cp -r ../launcher-template/linux/* launcher/
+          cp -r ../launcher-template/shared/* launcher/
+
+          echo "Downloading LWJGL 3 patches..."
+          curl -L -s -o lwjgl3.zip "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/$LWJGL3IFY_VERSION/lwjgl3ify-$LWJGL3IFY_VERSION-multimc.zip"
+
+          unzip -q lwjgl3.zip -d launcher/instances/$INSTANCE_DIR/
+          rm lwjgl3.zip
+
+          mkdir -p launcher/instances/$INSTANCE_DIR/minecraft
+          cp ../packwiz-installer-bootstrap.jar launcher/instances/$INSTANCE_DIR/minecraft/
+
+          echo "Compressing..."
+          cd launcher
+          tar -czf "../../$MODPACK_NAME-Linux.tar.gz" ./*
+          cd ../../
+
+      - name: Build portable client - macOS
+        run: |
+          mkdir build-macos
+          cd build-macos
+
+          echo "Downloading Launcher..."
+          curl -L -s -o launcher.zip "https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/$LAUNCHER_VERSION/PrismLauncher-macOS-$LAUNCHER_VERSION.zip"
+          mkdir -p launcher/
+          unzip -q launcher.zip -d launcher
+          rm launcher.zip
+          
+          rm -rf launcher/__MACOSX
+          
+          APP_NAME="Prism Launcher"
+          APP_DIR="$APP_NAME.app/Contents/MacOS"
+
+          echo "Downloading Java..."
+          curl -L -s -o java.tar.gz "https://api.adoptium.net/v3/binary/latest/$PORTABLE_JAVA_VERSION/ga/mac/x64/jre/hotspot/normal/eclipse"
+          mkdir -p "launcher/$APP_DIR/java"
+          tar -zxf java.tar.gz -C "launcher/$APP_DIR/java" --strip-components=1
+          rm java.tar.gz
+
+          cp -r ../launcher-template/macos/* "launcher/$APP_DIR/"
+          cp -r ../launcher-template/shared/* "launcher/$APP_DIR/"
+
+          echo "Downloading LWJGL 3 patches..."
+          curl -L -s -o lwjgl3.zip "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/$LWJGL3IFY_VERSION/lwjgl3ify-$LWJGL3IFY_VERSION-multimc.zip"
+
+          unzip -q lwjgl3.zip -d "launcher/$APP_DIR/instances/$INSTANCE_DIR/"
+          rm lwjgl3.zip
+
+          mkdir -p "launcher/$APP_DIR/instances/$INSTANCE_DIR/minecraft"
+          cp ../packwiz-installer-bootstrap.jar "launcher/$APP_DIR/instances/$INSTANCE_DIR/minecraft/"
+
+          echo "Compressing..."
+          cd launcher
+          zip -rq "../../$MODPACK_NAME-macOS.zip" "$APP_NAME.app"
+          cd ../../
 
       - name: Release
         if: github.event_name == 'release'
@@ -97,9 +211,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release upload ${{ github.event.release.tag_name }} \
-            103-ntm-space-modrinth.mrpack \
-            103-ntm-space-client.zip \
-            103-ntm-space-server.zip \
+            $MODPACK_NAME-Windows.zip \
+            $MODPACK_NAME-Linux.tar.gz \
+            $MODPACK_NAME-macOS.zip \
+            $MODPACK_NAME-modrinth.mrpack \
+            $MODPACK_NAME-client.zip \
+            $MODPACK_NAME-server.zip \
             --clobber
 
       - name: Upload Artifacts
@@ -108,9 +225,12 @@ jobs:
         with:
           name: ${{ env.VERSION }}
           path: |
-            103-ntm-space-modrinth.mrpack
-            103-ntm-space-client.zip
-            103-ntm-space-server.zip
+            $MODPACK_NAME-Windows.zip
+            $MODPACK_NAME-Linux.tar.gz
+            $MODPACK_NAME-macOS.zip
+            $MODPACK_NAME-modrinth.mrpack
+            $MODPACK_NAME-client.zip
+            $MODPACK_NAME-server.zip
 
       - name: Set commit status - Success
         if: success()
