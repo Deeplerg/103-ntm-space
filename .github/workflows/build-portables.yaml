@@ -1,0 +1,180 @@
+name: Build Portables
+
+on:
+  workflow_call:
+    inputs:
+      modpack_name:
+        type: string
+        required: true
+      launcher_version:
+        type: string
+        required: true
+      portable_java_version:
+        type: string
+        required: true
+      lwjgl3ify_version:
+        type: string
+        required: true
+      instance_dir:
+        type: string
+        required: true
+
+env:
+  MODPACK_NAME: ${{ inputs.modpack_name }}
+  LAUNCHER_VERSION: ${{ inputs.launcher_version }}
+  PORTABLE_JAVA_VERSION: ${{ inputs.portable_java_version }}
+  LWJGL3IFY_VERSION: ${{ inputs.lwjgl3ify_version }}
+  INSTANCE_DIR: ${{ inputs.instance_dir }}
+
+jobs:
+  build-portable-windows:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Download Packwiz Installer Bootstrap
+        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Build portable client - Windows
+        run: |
+          mkdir build-win
+          cd build-win
+
+          echo "Downloading Launcher..."
+          curl -L -s -o launcher.zip "https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/$LAUNCHER_VERSION/PrismLauncher-Windows-MSVC-Portable-$LAUNCHER_VERSION.zip"
+          mkdir -p launcher/
+          unzip -q launcher.zip -d launcher
+          rm launcher.zip
+
+          echo "Downloading Java..."
+          curl -L -s -o java.zip "https://api.adoptium.net/v3/binary/latest/$PORTABLE_JAVA_VERSION/ga/windows/x64/jre/hotspot/normal/eclipse"
+          unzip -q java.zip
+          mv jdk* launcher/java
+          rm java.zip
+
+          cp -r ../launcher-template/windows/* launcher/
+          cp -r ../launcher-template/shared/* launcher/
+
+          echo "Downloading LWJGL 3 patches..."
+          curl -L -s -o lwjgl3.zip "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/$LWJGL3IFY_VERSION/lwjgl3ify-$LWJGL3IFY_VERSION-multimc.zip"
+
+          unzip -q lwjgl3.zip -d launcher/instances/$INSTANCE_DIR/
+          rm lwjgl3.zip
+
+          mkdir -p launcher/instances/$INSTANCE_DIR/minecraft
+          cp ../packwiz-installer-bootstrap.jar launcher/instances/$INSTANCE_DIR/minecraft/
+
+          echo "Compressing..."
+          cd launcher
+          zip -rq "../../$MODPACK_NAME-Windows.zip" ./*
+          cd ../../
+
+      - name: Upload Windows Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: windows-artifact
+          path: ${{ env.MODPACK_NAME }}-Windows.zip
+
+  build-portable-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Download Packwiz Installer Bootstrap
+        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Build portable client - Linux
+        run: |
+          mkdir build-linux
+          cd build-linux
+
+          echo "Downloading Launcher..."
+          curl -L -s -o launcher.tar.gz "https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/$LAUNCHER_VERSION/PrismLauncher-Linux-Qt6-Portable-$LAUNCHER_VERSION.tar.gz"
+          mkdir -p launcher/
+          tar -zxf launcher.tar.gz -C launcher
+          rm launcher.tar.gz
+
+          echo "Downloading Java..."
+          curl -L -s -o java.tar.gz "https://api.adoptium.net/v3/binary/latest/$PORTABLE_JAVA_VERSION/ga/linux/x64/jre/hotspot/normal/eclipse"
+          mkdir -p launcher/java
+          tar -zxf java.tar.gz -C launcher/java --strip-components=1
+          rm java.tar.gz
+
+          cp -r ../launcher-template/linux/* launcher/
+          cp -r ../launcher-template/shared/* launcher/
+
+          echo "Downloading LWJGL 3 patches..."
+          curl -L -s -o lwjgl3.zip "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/$LWJGL3IFY_VERSION/lwjgl3ify-$LWJGL3IFY_VERSION-multimc.zip"
+
+          unzip -q lwjgl3.zip -d launcher/instances/$INSTANCE_DIR/
+          rm lwjgl3.zip
+
+          mkdir -p launcher/instances/$INSTANCE_DIR/minecraft
+          cp ../packwiz-installer-bootstrap.jar launcher/instances/$INSTANCE_DIR/minecraft/
+
+          echo "Compressing..."
+          cd launcher
+          tar -czf "../../$MODPACK_NAME-Linux.tar.gz" ./*
+          cd ../../
+
+      - name: Upload Linux Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: linux-artifact
+          path: ${{ env.MODPACK_NAME }}-Linux.tar.gz
+
+  build-portable-macos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Download Packwiz Installer Bootstrap
+        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Build portable client - macOS
+        run: |
+          mkdir build-macos
+          cd build-macos
+
+          echo "Downloading Launcher..."
+          curl -L -s -o launcher.zip "https://github.com/Diegiwg/PrismLauncher-Cracked/releases/download/$LAUNCHER_VERSION/PrismLauncher-macOS-$LAUNCHER_VERSION.zip"
+          mkdir -p launcher/
+          unzip -q launcher.zip -d launcher
+          rm launcher.zip
+          
+          rm -rf launcher/__MACOSX
+          
+          APP_NAME="Prism Launcher"
+          APP_DIR="$APP_NAME.app/Contents/MacOS"
+
+          echo "Downloading Java..."
+          curl -L -s -o java.tar.gz "https://api.adoptium.net/v3/binary/latest/$PORTABLE_JAVA_VERSION/ga/mac/x64/jre/hotspot/normal/eclipse"
+          mkdir -p "launcher/$APP_DIR/java"
+          tar -zxf java.tar.gz -C "launcher/$APP_DIR/java" --strip-components=1
+          rm java.tar.gz
+
+          cp -r ../launcher-template/macos/* "launcher/$APP_DIR/"
+          cp -r ../launcher-template/shared/* "launcher/$APP_DIR/"
+
+          echo "Downloading LWJGL 3 patches..."
+          curl -L -s -o lwjgl3.zip "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/$LWJGL3IFY_VERSION/lwjgl3ify-$LWJGL3IFY_VERSION-multimc.zip"
+
+          unzip -q lwjgl3.zip -d "launcher/$APP_DIR/instances/$INSTANCE_DIR/"
+          rm lwjgl3.zip
+
+          mkdir -p "launcher/$APP_DIR/instances/$INSTANCE_DIR/minecraft"
+          cp ../packwiz-installer-bootstrap.jar "launcher/$APP_DIR/instances/$INSTANCE_DIR/minecraft/"
+
+          echo "Compressing..."
+          cd launcher
+          zip -rq "../../$MODPACK_NAME-macOS.zip" "$APP_NAME.app"
+          cd ../../
+
+      - name: Upload macOS Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: macos-artifact
+          path: ${{ env.MODPACK_NAME }}-macOS.zip

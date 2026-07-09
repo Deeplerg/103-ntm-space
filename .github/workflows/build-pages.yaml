@@ -1,0 +1,59 @@
+name: Build Pages
+
+on:
+  workflow_call:
+    inputs:
+      version:
+        required: true
+        type: string
+
+env:
+  VERSION: ${{ inputs.version }}
+
+jobs:
+  build-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.26"
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Set pack.toml version
+        run: |
+          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
+          
+          packwiz refresh
+
+      - name: Prepare GitHub Pages Site
+        run: |
+          mkdir _site
+          
+          rsync -a \
+            --include='/pack.toml' \
+            --include='/index.toml' \
+            --include='/icon.png' \
+            --include='/settings.rtg' \
+            --include='/config/***' \
+            --include='/modpack/***' \
+            --include='/mods/***' \
+            --include='/mods-optional/***' \
+            --include='/scripts/***' \
+            --include='/serverutilities/***' \
+            --exclude='*' \
+            ./ _site/
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: '_site'
