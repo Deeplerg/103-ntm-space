@@ -32,6 +32,9 @@ jobs:
       lwjgl3ify_version: ${{ steps.export_vars.outputs.LWJGL3IFY_VERSION }}
       instance_dir: ${{ steps.export_vars.outputs.INSTANCE_DIR }}
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
       - name: Set commit status - Pending
         uses: ./.github/actions/set-commit-status
         with:
@@ -170,6 +173,9 @@ jobs:
     permissions:
       statuses: write
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
       - name: Set commit status - Success
         if: ${{ !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled') }}
         uses: ./.github/actions/set-commit-status
