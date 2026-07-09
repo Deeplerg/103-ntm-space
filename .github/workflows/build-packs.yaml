@@ -9,13 +9,54 @@ on:
       modpack_name:
         required: true
         type: string
+      build_java_version:
+        required: true
+        type: string
 
 env:
   VERSION: ${{ inputs.version }}
   MODPACK_NAME: ${{ inputs.modpack_name }}
+  BUILD_JAVA_VERSION: ${{ inputs.build_java_version }}
 
 jobs:
-  build-packs:
+  build-modrinth:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.26"
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Set pack.toml version
+        id: set_pack_version
+        run: |
+          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
+          
+          packwiz refresh
+
+      - name: Inject GitHub Token for Packwiz
+        run: |
+          echo "[github]" > global-config.toml
+          echo "token = \"${{ secrets.GITHUB_TOKEN }}\"" >> global-config.toml
+
+      - name: Build Modrinth
+        run: packwiz --config global-config.toml modrinth export -o "$MODPACK_NAME-modrinth.mrpack"
+
+      - name: Upload Modrinth Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: modrinth-artifact
+          path: ${{ env.MODPACK_NAME }}-modrinth.mrpack
+
+  build-client:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -35,22 +76,12 @@ jobs:
         uses: actions/setup-java@v5
         with:
           distribution: "temurin"
-          java-version: "17"
+          java-version: ${{ env.BUILD_JAVA_VERSION }}
 
       - name: Set pack.toml version
-        id: set_pack_version
         run: |
           sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
-          
           packwiz refresh
-
-      - name: Inject GitHub Token for Packwiz
-        run: |
-          echo "[github]" > global-config.toml
-          echo "token = \"${{ secrets.GITHUB_TOKEN }}\"" >> global-config.toml
-
-      - name: Build Modrinth
-        run: packwiz --config global-config.toml modrinth export -o "$MODPACK_NAME-modrinth.mrpack"
 
       - name: Download Packwiz Installer Bootstrap
         run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
@@ -63,7 +94,43 @@ jobs:
           zip -rq "../$MODPACK_NAME-client.zip" ./*
           cd ..
 
-      - name: Build Server Zip (Pre-downloaded Server)
+      - name: Upload Client Artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: client-artifact
+          path: ${{ env.MODPACK_NAME }}-client.zip
+
+  build-server:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.26"
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: ${{ env.BUILD_JAVA_VERSION }}
+
+      - name: Set pack.toml version
+        run: |
+          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
+          packwiz refresh
+
+      - name: Download Packwiz Installer Bootstrap
+        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+      - name: Build Server Zip
         run: |
           mkdir server-pack
           cd server-pack
@@ -71,11 +138,8 @@ jobs:
           zip -rq "../$MODPACK_NAME-server.zip" ./*
           cd ..
 
-      - name: Upload Pack Artifacts
+      - name: Upload Server Artifact
         uses: actions/upload-artifact@v7
         with:
-          name: pack-artifacts
-          path: |
-            ${{ env.MODPACK_NAME }}-modrinth.mrpack
-            ${{ env.MODPACK_NAME }}-client.zip
-            ${{ env.MODPACK_NAME }}-server.zip
+          name: server-artifact
+          path: ${{ env.MODPACK_NAME }}-server.zip

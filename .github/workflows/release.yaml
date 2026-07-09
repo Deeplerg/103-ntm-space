@@ -14,6 +14,7 @@ env:
   MODPACK_NAME: "103-ntm-space"
   LAUNCHER_VERSION: "11.0.2-1"
   PORTABLE_JAVA_VERSION: "17"
+  BUILD_JAVA_VERSION: "17"
   LWJGL3IFY_VERSION: "3.0.26"
   INSTANCE_DIR: "103-ntm-space"
 
@@ -27,6 +28,7 @@ jobs:
       modpack_name: ${{ steps.export_vars.outputs.MODPACK_NAME }}
       launcher_version: ${{ steps.export_vars.outputs.LAUNCHER_VERSION }}
       portable_java_version: ${{ steps.export_vars.outputs.PORTABLE_JAVA_VERSION }}
+      build_java_version: ${{ steps.export_vars.outputs.BUILD_JAVA_VERSION }}
       lwjgl3ify_version: ${{ steps.export_vars.outputs.LWJGL3IFY_VERSION }}
       instance_dir: ${{ steps.export_vars.outputs.INSTANCE_DIR }}
     steps:
@@ -58,6 +60,7 @@ jobs:
           echo "MODPACK_NAME=${{ env.MODPACK_NAME }}" >> $GITHUB_OUTPUT
           echo "LAUNCHER_VERSION=${{ env.LAUNCHER_VERSION }}" >> $GITHUB_OUTPUT
           echo "PORTABLE_JAVA_VERSION=${{ env.PORTABLE_JAVA_VERSION }}" >> $GITHUB_OUTPUT
+          echo "BUILD_JAVA_VERSION=${{ env.BUILD_JAVA_VERSION }}" >> $GITHUB_OUTPUT
           echo "LWJGL3IFY_VERSION=${{ env.LWJGL3IFY_VERSION }}" >> $GITHUB_OUTPUT
           echo "INSTANCE_DIR=${{ env.INSTANCE_DIR }}" >> $GITHUB_OUTPUT
 
@@ -69,6 +72,7 @@ jobs:
     with:
       version: ${{ needs.setup.outputs.version }}
       modpack_name: ${{ needs.setup.outputs.modpack_name }}
+      build_java_version: ${{ needs.setup.outputs.build_java_version }}
     secrets: inherit
 
   build-portables:
@@ -104,10 +108,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Download Pack Artifacts
+      - name: Download Modrinth Artifact
         uses: actions/download-artifact@v8
         with:
-          name: pack-artifacts
+          name: modrinth-artifact
+          path: .
+
+      - name: Download Client Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: client-artifact
+          path: .
+
+      - name: Download Server Artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: server-artifact
           path: .
 
       - name: Download Windows Artifact
