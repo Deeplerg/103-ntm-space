@@ -92,6 +92,7 @@ jobs:
     permissions:
       contents: write
       id-token: write
+      attestations: write
     env:
       VERSION: ${{ needs.setup.outputs.version }}
     steps:
@@ -121,6 +122,18 @@ jobs:
         with:
           name: macos-artifact
           path: .
+
+      - name: Generate Artifact Attestations
+        if: github.event_name == 'release'
+        uses: actions/attest@v4
+        with:
+          subject-path: |
+            ${{ env.MODPACK_NAME }}-Windows.zip
+            ${{ env.MODPACK_NAME }}-Linux.tar.gz
+            ${{ env.MODPACK_NAME }}-macOS.zip
+            ${{ env.MODPACK_NAME }}-modrinth.mrpack
+            ${{ env.MODPACK_NAME }}-client.zip
+            ${{ env.MODPACK_NAME }}-server.zip
 
       - name: Release
         if: github.event_name == 'release'
