@@ -797,12 +797,16 @@ file = "config/angelica.cfg"
 hash = "df92656189f015205824622b45a53fe0677a687af1a298b2e7c70b0df181188b"
 
 [[files]]
+file = "config/aquaacrobatics.cfg"
+hash = "8b31fea04bac7540bcb63436469f7ff89ca3719a30265e002649645d1ec22004"
+
+[[files]]
 file = "config/archaicfix.cfg"
 hash = "71d0606a296026636c48402fd26f632118e50570a555e9365a679a16817ef7dc"
 
 [[files]]
 file = "config/aroma1997/Aroma1997Core.cfg"
-hash = "40ba28137c057d578ba1dfb746c71b08d76063a6ff6af1f4039c35c253bff861"
+hash = "54e8567a068fd61a2e8c71680e7ea2d989203a6f9dc6ef8ac72f7977a1fadef1"
 
 [[files]]
 file = "config/aroma1997/Aroma1997sDimension.cfg"
@@ -4765,6 +4769,11 @@ file = "modpack/gamemodes.json"
 hash = "0033e93b01434ed4a363e1c638c7f7c8035729a4abaef22f37b94daf2de48858"
 
 [[files]]
+file = "mods-optional/blur.pw.toml"
+hash = "7e28be42219c7f22d2de94b05b838ae332967c5469d1e56a719f339cb28f82eb"
+metafile = true
+
+[[files]]
 file = "mods/OpenSecurity/sounds/alarms/klaxon1.ogg"
 hash = "535fa0b607f39a65a46690ee636db8b27354e7d0f0727d15cfe959fb666bfac2"
 
@@ -4805,6 +4814,11 @@ metafile = true
 [[files]]
 file = "mods/applied-energistics-2-unofficial.pw.toml"
 hash = "ae404d6b9ba6b4e2ccde6ce966d48bee69d292bc642fa47ea803025ad18bc6c2"
+metafile = true
+
+[[files]]
+file = "mods/aquaacrobaticslegacy.pw.toml"
+hash = "a30b2ac9c8917e15d4e5004cb7e105f889ce7ea12cf6104db01837602d65bf46"
 metafile = true
 
 [[files]]
@@ -4938,6 +4952,11 @@ hash = "e9a8ad387a32d3d5465a2767a5810f973d06ddc95e865cb48ff34388bd8bc044"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-mob-variants.pw.toml"
+hash = "9918515c26893cb42f21401c3b81b379c904f54ee8e51630fc3dafb79e58ab55"
+metafile = true
+
+[[files]]
 file = "mods/et-futurum-requiem.pw.toml"
 hash = "0a6284da21f79c2b036247002a84478d21292564632db3f28b845a255dd8c63d"
 metafile = true
@@ -5010,6 +5029,11 @@ metafile = true
 [[files]]
 file = "mods/lunatriuscore.pw.toml"
 hash = "6b48bcda8cc9801f9b8835df47301e2b7fc8cbbc1b31ab9a9ba9524157dadc4d"
+metafile = true
+
+[[files]]
+file = "mods/lwjgl3ify.pw.toml"
+hash = "5d5ef76557b6c652d2f99f6333e4ed7ebc65767fa5618c8b1018cc436a2a4702"
 metafile = true
 
 [[files]]
