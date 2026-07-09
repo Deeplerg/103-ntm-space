@@ -806,7 +806,7 @@ hash = "71d0606a296026636c48402fd26f632118e50570a555e9365a679a16817ef7dc"
 
 [[files]]
 file = "config/aroma1997/Aroma1997Core.cfg"
-hash = "40ba28137c057d578ba1dfb746c71b08d76063a6ff6af1f4039c35c253bff861"
+hash = "54e8567a068fd61a2e8c71680e7ea2d989203a6f9dc6ef8ac72f7977a1fadef1"
 
 [[files]]
 file = "config/aroma1997/Aroma1997sDimension.cfg"
@@ -4769,6 +4769,11 @@ file = "modpack/gamemodes.json"
 hash = "0033e93b01434ed4a363e1c638c7f7c8035729a4abaef22f37b94daf2de48858"
 
 [[files]]
+file = "mods-optional/blur.pw.toml"
+hash = "7e28be42219c7f22d2de94b05b838ae332967c5469d1e56a719f339cb28f82eb"
+metafile = true
+
+[[files]]
 file = "mods/OpenSecurity/sounds/alarms/klaxon1.ogg"
 hash = "535fa0b607f39a65a46690ee636db8b27354e7d0f0727d15cfe959fb666bfac2"
 
@@ -5194,11 +5199,6 @@ metafile = true
 [[files]]
 file = "mods/ztones-unofficial.pw.toml"
 hash = "2f9b5bd425dad9fca3ab32a5d40ae9488ab6486fda5b9a45c3a120ddb102f401"
-metafile = true
-
-[[files]]
-file = "optional/blur.pw.toml"
-hash = "7e28be42219c7f22d2de94b05b838ae332967c5469d1e56a719f339cb28f82eb"
 metafile = true
 
 [[files]]
