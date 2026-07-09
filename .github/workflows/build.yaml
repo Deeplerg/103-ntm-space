@@ -22,7 +22,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      statuses: "write"
+      statuses: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Set commit status - Pending
@@ -231,6 +233,36 @@ jobs:
             $MODPACK_NAME-modrinth.mrpack
             $MODPACK_NAME-client.zip
             $MODPACK_NAME-server.zip
+
+      - name: Prepare GitHub Pages Site
+        if: github.event_name == 'release'
+        run: |
+          mkdir _site
+          
+          rsync -a \
+            --include='/pack.toml' \
+            --include='/index.toml' \
+            --include='/icon.png' \
+            --include='/settings.rtg' \
+            --include='/config/***' \
+            --include='/modpack/***' \
+            --include='/mods/***' \
+            --include='/mods-optional/***' \
+            --include='/scripts/***' \
+            --include='/serverutilities/***' \
+            --exclude='*' \
+            ./ _site/
+
+      - name: Upload GitHub Pages Artifact
+        if: github.event_name == 'release'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: '_site'
+
+      - name: Deploy to GitHub Pages
+        if: github.event_name == 'release'
+        id: deployment
+        uses: actions/deploy-pages@v5
 
       - name: Set commit status - Success
         if: success()
