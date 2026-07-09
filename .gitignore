@@ -1,3 +1,5 @@
 .idea/
 .vscode/
 global-config.toml
+index.toml
+pack.toml
