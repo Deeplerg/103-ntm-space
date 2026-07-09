@@ -27,20 +27,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Setup Go
-        uses: actions/setup-go@v6
+      - name: Setup Packwiz and Set Version
+        uses: ./.github/actions/setup-packwiz
         with:
-          go-version: "1.26"
-
-      - name: Install Packwiz
-        run: go install github.com/packwiz/packwiz@latest
-
-      - name: Set pack.toml version
-        id: set_pack_version
-        run: |
-          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
-          
-          packwiz refresh
+          version: ${{ env.VERSION }}
 
       - name: Inject GitHub Token for Packwiz
         run: |
@@ -64,24 +54,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Setup Go
-        uses: actions/setup-go@v6
+      - name: Setup Packwiz and Set Version
+        uses: ./.github/actions/setup-packwiz
         with:
-          go-version: "1.26"
-
-      - name: Install Packwiz
-        run: go install github.com/packwiz/packwiz@latest
+          version: ${{ env.VERSION }}
 
       - name: Setup Java
-        uses: actions/setup-java@v5
+        uses: ./.github/actions/setup-java
         with:
-          distribution: "temurin"
-          java-version: ${{ env.BUILD_JAVA_VERSION }}
-
-      - name: Set pack.toml version
-        run: |
-          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
-          packwiz refresh
+          version: ${{ env.BUILD_JAVA_VERSION }}
 
       - name: Download Packwiz Installer Bootstrap
         run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
@@ -108,24 +89,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Setup Go
-        uses: actions/setup-go@v6
+      - name: Setup Packwiz and Set Version
+        uses: ./.github/actions/setup-packwiz
         with:
-          go-version: "1.26"
-
-      - name: Install Packwiz
-        run: go install github.com/packwiz/packwiz@latest
+          version: ${{ env.VERSION }}
 
       - name: Setup Java
-        uses: actions/setup-java@v5
+        uses: ./.github/actions/setup-java
         with:
-          distribution: "temurin"
-          java-version: ${{ env.BUILD_JAVA_VERSION }}
-
-      - name: Set pack.toml version
-        run: |
-          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
-          packwiz refresh
+          version: ${{ env.BUILD_JAVA_VERSION }}
 
       - name: Download Packwiz Installer Bootstrap
         run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar

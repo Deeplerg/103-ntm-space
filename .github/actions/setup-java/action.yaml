@@ -1,0 +1,14 @@
+name: "Setup Java"
+description: "Sets up Java"
+inputs:
+  version:
+    description: "Java version"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Java
+      uses: actions/setup-java@v5
+      with:
+        distribution: "temurin"
+        java-version: ${{ inputs.version }}

@@ -1,0 +1,23 @@
+name: "Setup Packwiz and Set Version"
+description: "Sets up Go, installs Packwiz, and updates the pack.toml version"
+inputs:
+  version:
+    description: "The modpack version"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Go
+      uses: actions/setup-go@v6
+      with:
+        go-version: "1.26"
+
+    - name: Install Packwiz
+      shell: bash
+      run: go install github.com/packwiz/packwiz@latest
+
+    - name: Set pack.toml version
+      shell: bash
+      run: |
+        sed -i "s/^version = .*/version = \"${{ inputs.version }}\"/" pack.toml
+        packwiz refresh

@@ -14,7 +14,7 @@ env:
   MODPACK_NAME: "103-ntm-space"
   LAUNCHER_VERSION: "11.0.2-1"
   PORTABLE_JAVA_VERSION: "17"
-  BUILD_JAVA_VERSION: "17"
+  BUILD_JAVA_VERSION: "17" # Renamed
   LWJGL3IFY_VERSION: "3.0.26"
   INSTANCE_DIR: "103-ntm-space"
 
@@ -33,14 +33,11 @@ jobs:
       instance_dir: ${{ steps.export_vars.outputs.INSTANCE_DIR }}
     steps:
       - name: Set commit status - Pending
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
-            -f state="pending" \
-            -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            -f description="Building release..." \
-            -f context="Release Build"
+        uses: ./.github/actions/set-commit-status
+        with:
+          state: 'pending'
+          desc: 'Building release...'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract Version
         id: set_version_variable
@@ -108,41 +105,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Download Modrinth Artifact
+      - name: Download Build Artifacts
         uses: actions/download-artifact@v8
         with:
-          name: modrinth-artifact
+          pattern: '*-artifact'
           path: .
-
-      - name: Download Client Artifact
-        uses: actions/download-artifact@v8
-        with:
-          name: client-artifact
-          path: .
-
-      - name: Download Server Artifact
-        uses: actions/download-artifact@v8
-        with:
-          name: server-artifact
-          path: .
-
-      - name: Download Windows Artifact
-        uses: actions/download-artifact@v8
-        with:
-          name: windows-artifact
-          path: .
-
-      - name: Download Linux Artifact
-        uses: actions/download-artifact@v8
-        with:
-          name: linux-artifact
-          path: .
-
-      - name: Download macOS Artifact
-        uses: actions/download-artifact@v8
-        with:
-          name: macos-artifact
-          path: .
+          merge-multiple: true
 
       - name: Generate Artifact Attestations
         if: github.event_name == 'release'
@@ -204,22 +172,16 @@ jobs:
     steps:
       - name: Set commit status - Success
         if: ${{ !contains(needs.*.result, 'failure') && !contains(needs.*.result, 'cancelled') }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
-          -f state='success' \
-          -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-          -f description='Release build complete!' \
-          -f context='Release Build'
+        uses: ./.github/actions/set-commit-status
+        with:
+          state: 'success'
+          desc: 'Release build complete!'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set commit status - Failure
         if: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
-            -f state='failure' \
-            -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            -f description='Release build failed.' \
-            -f context='Release Build'
+        uses: ./.github/actions/set-commit-status
+        with:
+          state: 'failure'
+          desc: 'Release build failed.'
+          github_token: ${{ secrets.GITHUB_TOKEN }}

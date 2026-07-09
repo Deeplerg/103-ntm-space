@@ -1,0 +1,8 @@
+name: "Download Bootstrap"
+description: "Downloads the latest packwiz-installer-bootstrap.jar"
+runs:
+  using: "composite"
+  steps:
+    - name: Download Packwiz Installer Bootstrap
+      shell: bash
+      run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar

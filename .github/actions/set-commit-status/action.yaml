@@ -1,0 +1,25 @@
+name: "Set Commit Status"
+description: "Sets a GitHub commit status using the GH CLI"
+inputs:
+  state:
+    description: "The status state (pending, success, failure)"
+    required: true
+  desc:
+    description: "The status description"
+    required: true
+  github_token:
+    description: "The GITHUB_TOKEN"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Set Commit Status
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.github_token }}
+      run: |
+        gh api --method POST /repos/${{ github.repository }}/statuses/${{ github.sha }} \
+          -f state="${{ inputs.state }}" \
+          -f target_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+          -f description="${{ inputs.desc }}" \
+          -f context="Release Build"
