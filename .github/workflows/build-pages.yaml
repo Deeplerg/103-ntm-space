@@ -20,19 +20,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Setup Go
-        uses: actions/setup-go@v6
+      - name: Setup Packwiz and Set Version
+        uses: ./.github/actions/setup-packwiz
         with:
-          go-version: "1.26"
-
-      - name: Install Packwiz
-        run: go install github.com/packwiz/packwiz@latest
-
-      - name: Set pack.toml version and packwiz refresh
-        run: |
-          sed -i "s/^version = .*/version = \"${{ env.VERSION }}\"/" pack.toml
-          
-          packwiz refresh
+          version: ${{ env.VERSION }}
 
       - name: Prepare GitHub Pages Site
         run: |

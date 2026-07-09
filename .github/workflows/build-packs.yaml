@@ -67,7 +67,7 @@ jobs:
           version: ${{ env.BUILD_JAVA_VERSION }}
 
       - name: Download Packwiz Installer Bootstrap
-        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+        uses: ./.github/actions/download-bootstrap
 
       - name: Build Client Zip (Pre-downloaded Client)
         run: |
@@ -102,7 +102,7 @@ jobs:
           version: ${{ env.BUILD_JAVA_VERSION }}
 
       - name: Download Packwiz Installer Bootstrap
-        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+        uses: ./.github/actions/download-bootstrap
 
       - name: Build Server Zip
         run: |

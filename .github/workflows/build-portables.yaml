@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Download Packwiz Installer Bootstrap
-        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+        uses: ./.github/actions/download-bootstrap
 
       - name: Build portable client - Windows
         run: |
@@ -83,7 +83,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Download Packwiz Installer Bootstrap
-        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+        uses: ./.github/actions/download-bootstrap
 
       - name: Build portable client - Linux
         run: |
@@ -132,7 +132,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Download Packwiz Installer Bootstrap
-        run: curl -L -s -o packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+        uses: ./.github/actions/download-bootstrap
 
       - name: Build portable client - macOS
         run: |
