@@ -53,7 +53,9 @@
 Установка:
 1. Установить Go: https://golang.org/dl/
 2. `go install github.com/packwiz/packwiz@latest`
-3. (Опционально) Даем packwiz токен гитхаба, чтобы избежать rate limit:
+3. Копируем `index.toml.template` и `pack.toml.template` в обычные .toml 
+и делаем `packwiz refresh`  
+4. (Опционально) Даем packwiz токен гитхаба, чтобы избежать rate limit:
    1. Копируем `global-config.toml.example` в `global-config.toml`
    2. [Здесь](https://github.com/settings/tokens) генерируем классический токен, разрешения ставить не обязательно 
 
