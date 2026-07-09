@@ -81,6 +81,8 @@ jobs:
 
   build-pages:
     if: github.event_name == 'release'
+    permissions:
+      pages: write
     needs: setup
     uses: ./.github/workflows/build-pages.yaml
     with:
