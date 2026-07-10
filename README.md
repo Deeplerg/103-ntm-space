@@ -16,7 +16,7 @@
 
 Лаунчеры собираются автоматически на основе 
 [PrismLauncher-Cracked](https://github.com/Diegiwg/PrismLauncher-Cracked) 
-и Java 17. 
+и Java 21.
 
 Лаунчер нужно просто распаковать и запустить исполняемый файл. 
 
