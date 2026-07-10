@@ -1,0 +1,13 @@
+name = "Quadrum"
+filename = "Quadrum-1.7.10-1.2.0.B13-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a68f939df38ac9a464647c8a27cfc62b6ab8cea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2213127
+project-id = 223773
