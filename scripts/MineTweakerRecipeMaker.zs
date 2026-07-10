@@ -321,6 +321,7 @@ recipes.addShapeless(<ae2stuff:Wireless:4>, [<ae2stuff:Wireless>, <ore:dyeLightB
 recipes.addShapeless(<ae2stuff:Wireless:2>, [<ae2stuff:Wireless>, <ore:dyeOrange>]);
 recipes.addShapeless(<ae2stuff:Wireless:1>, [<ae2stuff:Wireless>, <ore:dyeWhite>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [<hbm:item.plate_polymer>, <appliedenergistics2:item.ItemMultiPart:16>]);
+recipes.addShapeless(<Quadrum:flower_sandwich>, [<minecraft:bread>, <minecraft:yellow_flower:*>, <minecraft:red_flower:*>, <minecraft:bread>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
