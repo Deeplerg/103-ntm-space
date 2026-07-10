@@ -1,0 +1,15 @@
+name = "DistantHorizonsStandalone"
+filename = "DistantHorizons-3.0.4-b-dev-1.7.10-forge17-pre2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/DarkShadow44/DistantHorizonsStandalone/releases/download/upstream-preview-2/DistantHorizons-3.0.4-b-dev-1.7.10-forge17-pre2.jar"
+hash-format = "sha256"
+hash = "34dda356e7f950c52f69383cce85af12c80b1263c4c169e9e19563fa4b170b76"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "DarkShadow44/DistantHorizonsStandalone"
+tag = "upstream-preview-2"
