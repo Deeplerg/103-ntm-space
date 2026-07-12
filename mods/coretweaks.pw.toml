@@ -1,0 +1,15 @@
+name = "CoreTweaks"
+filename = "coretweaks-0.3.4.7-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/CoreTweaks/releases/download/0.3.4.7-GTNH/coretweaks-0.3.4.7-GTNH.jar"
+hash-format = "sha256"
+hash = "89c117aeee723df3a31d8d341626e7d080b78e50e23564c889e59b198f9bde9b"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/CoreTweaks"
+tag = "0.3.4.7-GTNH"
