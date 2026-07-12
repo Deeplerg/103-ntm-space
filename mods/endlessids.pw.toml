@@ -1,0 +1,13 @@
+name = "EndlessIDs"
+filename = "endlessids-mc1.7.10-1.7.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a0ec763e3f49f46f407d040ec364c4bed5c928b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8169819
+project-id = 665730
