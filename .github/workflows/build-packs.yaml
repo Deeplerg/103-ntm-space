@@ -113,14 +113,9 @@ jobs:
           
           cp ../packwiz-installer-bootstrap.jar .
           
-          # pterodactyl-cmd.txt is just for reference
           rsync -a \
-            --include='eula.txt' \
-            --include='java9args.txt' \
-            --include='gc-args.txt' \
-            --include='pretodactyl-cmd.txt' \
-            --include='lwjgl3ify-*-forgePatches.jar' \
-            --exclude '*' \
+            --include='*' \
+            --exclude '*.pw.toml' \
             server-template/ ./
           
           zip -rq "../$MODPACK_NAME-server.zip" ./*
