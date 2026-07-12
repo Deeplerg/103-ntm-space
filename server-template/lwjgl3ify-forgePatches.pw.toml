@@ -1,0 +1,15 @@
+name = "lwjgl3ify-forgePatches"
+filename = "lwjgl3ify-3.0.26-forgePatches.jar"
+side = "server"
+
+[download]
+url = "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.26/lwjgl3ify-3.0.26-forgePatches.jar"
+hash-format = "sha256"
+hash = "fefeaad04ca8c7793b6cbb59f325582f2a70a5effad609d8fa3338745b56de4d"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^lwjgl3ify-.+-forgePatches\\.jar$"
+slug = "GTNewHorizons/lwjgl3ify"
+tag = "3.0.26"

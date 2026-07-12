@@ -1,0 +1,5 @@
+-XX:+UseShenandoahGC
+-XX:ConcGCThreads=4
+-XX:ShenandoahGCHeuristics=compact
+-XX:+AlwaysPreTouch
+-XX:+DisableExplicitGC

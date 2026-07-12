@@ -108,7 +108,20 @@ jobs:
         run: |
           mkdir server-pack
           cd server-pack
+          
           java -jar ../packwiz-installer-bootstrap.jar --no-gui --side server "file://${{ github.workspace }}/pack.toml"
+          
+          cp ../packwiz-installer-bootstrap.jar .
+          
+          rsync -a \
+            --include='eula.txt' \
+            --include='java9args.txt' \
+            --include='gc-args.txt' \
+            --include='pretodactyl-cmd.txt' \ # this is just for reference
+            --include='lwjgl3ify-*-forgePatches.jar' \
+            --exclude '*' \
+            server-template/ ./
+          
           zip -rq "../$MODPACK_NAME-server.zip" ./*
           cd ..
 
