@@ -40,6 +40,11 @@ jobs:
             --include='/mods-optional/***' \
             --include='/scripts/***' \
             --include='/serverutilities/***' \
+            --include='/server-template/eula.txt' \
+            --include='/server-template/java9args.txt' \
+            --include='/server-template/gc-args.txt' \
+            --include='/server-template/pretodactyl-cmd.txt' \
+            --include='/server-template/lwjgl3ify-*-forgePatches.jar' \
             --exclude='*' \
             ./ _site/
 
