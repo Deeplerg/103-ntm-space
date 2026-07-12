@@ -1,8 +1,0 @@
-{
-  "name": "flower_sandwich",
-  "texture": "flower_sandwich",
-  "type": "food",
-  "creativeTab": "food",
-  "isWolfFood": false,
-  "alwaysEdible": true
-}
