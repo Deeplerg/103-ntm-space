@@ -1,0 +1,13 @@
+name = "End Globules"
+filename = "End Globules (1.7.10) V1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "82a49d3f7f894f912b8164c3b64b3b637529dd99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3777808
+project-id = 620117
