@@ -1,0 +1,1 @@
+java -jar packwiz-installer-bootstrap.jar --no-gui --side server "https://deeplerg.github.io/103-ntm-space/pack.toml" && java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true @java9args.txt @gc-args.txt $( [[ ! -f unix_args.txt ]] && printf %s "-jar lwjgl3ify-*-forgePatches.jar" || printf %s "@unix_args.txt" )
