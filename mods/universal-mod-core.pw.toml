@@ -1,0 +1,13 @@
+name = "Universal Mod Core"
+filename = "UniversalModCore-1.7.10-forge-1.3.0-hotfix4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6d8a7c3c21347fabe34de30150863a8b6447d58"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8400453
+project-id = 371784
