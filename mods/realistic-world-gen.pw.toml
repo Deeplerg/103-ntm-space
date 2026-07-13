@@ -1,0 +1,15 @@
+name = "Realistic-World-Gen"
+filename = "RWG-alpha-1.5.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.5.2/RWG-alpha-1.5.2.jar"
+hash-format = "sha256"
+hash = "9be5c54b56cf2a08d507a5568dec1537ca6f5e958a2ce9d39e32207870a6bd6f"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Realistic-World-Gen"
+tag = "alpha-1.5.2"
