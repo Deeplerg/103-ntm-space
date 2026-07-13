@@ -299,8 +299,6 @@ When holding Schrabidium, the player will receive the blindness effect, so it is
 .defaultquests.quests87.desc=The Industrial Solidification Machine is a general use machine for the solidification of various fluids. An important product of this machine is Tar, which can be used to create Tanks.
 .defaultquests.quests88.name=Industrial Liquification Machine
 .defaultquests.quests88.desc=The Industrial Liquification Machine is a general use machine for the liquifying various items.
-.defaultquests.quests89.name=Waystone
-.defaultquests.quests89.desc=The Waystone is a long distance and interdimensional form of teleportation at the cost of experience. Access to the end is needed to craft them.
 .defaultquests.quests90.name=Little Boy
 .defaultquests.quests90.desc=The Little Boy is the first atomic bomb one usually makes. 
 

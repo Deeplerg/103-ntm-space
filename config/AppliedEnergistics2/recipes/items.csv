@@ -5588,7 +5588,6 @@ StorageDrawers:fullCustom4, Framed Drawers 2x2
 StorageDrawers:halfCustom2, Framed Drawers 1x2
 StorageDrawers:halfCustom4, Framed Drawers 2x2
 StorageDrawers:trimCustom, Framed Trim
-waystones:waystone, Waystone
 Ztones:auroraBlock, Aurora
 Ztones:cleanDirt, Garden Soil
 Ztones:lampf, Flat Lamp
@@ -15446,5 +15445,3 @@ StorageDrawers:shroudKey, Concealment Key
 StorageDrawers:quantifyKey, Quantify Key
 StorageDrawers:tape, Packing Tape
 StorageDrawers:upgradeDowngrade, Storage Downgrade
-waystones:warpScroll, Return Scroll
-waystones:warpStone, Warp Stone
