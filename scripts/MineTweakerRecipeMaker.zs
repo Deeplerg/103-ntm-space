@@ -245,7 +245,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:32>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:38>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:37>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:36>);
-recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:35>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
@@ -272,6 +271,17 @@ recipes.remove(<appliedenergistics2:tile.BlockSpatialIOPort>);
 recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
 recipes.remove(<appliedenergistics2:tile.BlockSecurity>);
 recipes.remove(<appliedenergistics2:tile.BlockCharger>);
+recipes.remove(<EnderIO:itemTravelStaff:16>.withTag({Energy: 0}));
+recipes.remove(<EnderIO:blockTravelAnchor>);
+recipes.remove(<EnderIO:blockTelePad>);
+recipes.remove(<ExtraUtilities:angelRing>);
+recipes.remove(<ExtraUtilities:angelRing:1>);
+recipes.remove(<ExtraUtilities:angelRing:2>);
+recipes.remove(<ExtraUtilities:angelRing:3>);
+recipes.remove(<ExtraUtilities:angelRing:4>);
+
+
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
