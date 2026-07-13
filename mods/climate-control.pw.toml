@@ -1,0 +1,15 @@
+name = "Climate-Control"
+filename = "ClimateControl-0.10.0-GTNH.jar"
+side = "both"
+
+[download]
+url = "https://github.com/GTNewHorizons/Climate-Control/releases/download/0.10.0-GTNH/ClimateControl-0.10.0-GTNH.jar"
+hash-format = "sha256"
+hash = "91a70c9fd67b89b006e7dfd38990c12b21dba460207d11a61edb2813f43ca1aa"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "GTNewHorizons/Climate-Control"
+tag = "0.10.0-GTNH"
