@@ -277,7 +277,7 @@ recipes.remove(<ExtraUtilities:angelRing:1>);
 recipes.remove(<ExtraUtilities:angelRing:2>);
 recipes.remove(<ExtraUtilities:angelRing:3>);
 recipes.remove(<ExtraUtilities:angelRing:4>);
-recipes.remove(<ExtraUtilities:generator:0>);
+recipes.remove(<ExtraUtilities:generator>);
 recipes.remove(<ExtraUtilities:generator:1>);
 recipes.remove(<ExtraUtilities:generator:2>);
 recipes.remove(<ExtraUtilities:generator:7>);
