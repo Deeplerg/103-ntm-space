@@ -24,17 +24,10 @@ lead.remove(<Railcraft:ingot:3>);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Railcraft:machine.epsilon:3>);
+recipes.remove(<Railcraft:machine.epsilon:4>);
 recipes.remove(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}));
 recipes.remove(<Railcraft:part.rail:5>);
-recipes.remove(<Railcraft:cart.tank>);
-recipes.remove(<Railcraft:machine.zeta:4>);
-recipes.remove(<Railcraft:machine.zeta:7>);
-recipes.remove(<Railcraft:machine.zeta:10>);
-recipes.remove(<Railcraft:machine.zeta:13>);
-recipes.remove(<Railcraft:machine.eta:1>);
-recipes.remove(<Railcraft:machine.eta:4>);
-recipes.remove(<Railcraft:machine.eta:7>);
-recipes.remove(<Railcraft:machine.zeta:1>);
 recipes.remove(<Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"}));
 recipes.remove(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}));
 recipes.remove(<Railcraft:part.rail:3>);
@@ -384,6 +377,8 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [<hbm:item.pla
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>]]);
+recipes.addShaped(<Railcraft:machine.epsilon:4>, [[<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>], [<ore:ingotGold>, <ore:blockRedstone>, <ore:ingotGold>], [<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>]]);
 recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}) * 16, [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:blockSteel>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);
 recipes.addShaped(<Railcraft:part.rail:5> * 6, [[<Railcraft:part.rail>, <ore:ingotCopper>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:ingotCopper>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:ingotCopper>, <Railcraft:part.rail>]]);
 recipes.addShaped(<Railcraft:cart.tank>, [[<ore:blockGlass>], [<minecraft:minecart>], []]);
