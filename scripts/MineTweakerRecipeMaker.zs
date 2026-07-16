@@ -24,6 +24,7 @@ lead.remove(<Railcraft:ingot:3>);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Railcraft:tool.electric.meter>);
 recipes.remove(<Railcraft:machine.epsilon:3>);
 recipes.remove(<Railcraft:machine.epsilon:4>);
 recipes.remove(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}));
@@ -377,6 +378,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [<hbm:item.pla
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Railcraft:tool.electric.meter>, [[<ore:ingotAluminum>, null, <ore:ingotAluminum>], [<ore:buttonStone>, <ore:paneGlass>, <ore:buttonStone>], [null, <ore:ingotCopper>, null]]);
 recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>]]);
 recipes.addShaped(<Railcraft:machine.epsilon:4>, [[<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>], [<ore:ingotGold>, <ore:blockRedstone>, <ore:ingotGold>], [<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>]]);
 recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}) * 16, [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:blockSteel>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);
