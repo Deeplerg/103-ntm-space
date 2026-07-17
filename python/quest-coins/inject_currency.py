@@ -2,7 +2,7 @@ import os
 import re
 from dict import *
 
-CURRENCY="CURRENCY:PLACEHOLDER"
+CURRENCY="universalcoins:item.iron_coin"
 
 QUESTS_DIR = os.path.join("config", "betterquesting", "DefaultQuests", "Quests")
 
