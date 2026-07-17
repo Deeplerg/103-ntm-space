@@ -1,0 +1,13 @@
+name = "NTM Fluid Converters"
+filename = "ntmfluidconverters-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd16dfe85cef75eec18cd25febe39bbce641b6df"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8347504
+project-id = 1489676
