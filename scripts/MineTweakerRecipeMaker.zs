@@ -22,8 +22,56 @@ tin.remove(<Railcraft:ingot:2>);
 lead.remove(<Railcraft:ingot:3>);
 
 
-// ================================================================================
+// ================================================================================r
 //#MARKER REMOVE
+recipes.remove(<harvestcraft:fishtrapbaitItem>);
+recipes.remove(<harvestcraft:fishtrap>);
+recipes.remove(<ae2fc:oc_pattern_editor>);
+recipes.remove(<OpenComputers:item.ae:2>);
+recipes.remove(<ae2fc:part_fluid_export>);
+recipes.remove(<ae2fc:part_fluid_import>);
+recipes.remove(<ae2fc:walrus>);
+recipes.remove(<ae2fc:energy_card>);
+recipes.remove(<ae2fc:quantum_bridge_card>);
+recipes.remove(<ae2fc:fluid_part:0>);
+recipes.remove(<ae2fc:fluid_part:1>);
+recipes.remove(<ae2fc:fluid_part:2>);
+recipes.remove(<ae2fc:fluid_part:3>);
+recipes.remove(<ae2fc:fluid_part:4>);
+recipes.remove(<ae2fc:fluid_part:5>);
+recipes.remove(<ae2fc:fluid_part:6>);
+recipes.remove(<ae2fc:fluid_part:7>);
+recipes.remove(<ae2fc:fluid_storage_housing:3>);
+recipes.remove(<ae2fc:fluid_storage_housing:2>);
+recipes.remove(<ae2fc:fluid_storage_housing:1>);
+recipes.remove(<ae2fc:fluid_storage_housing:0>);
+recipes.remove(<ae2fc:multi_fluid_storage1>);
+recipes.remove(<ae2fc:multi_fluid_storage4>);
+recipes.remove(<ae2fc:multi_fluid_storage16>);
+recipes.remove(<ae2fc:multi_fluid_storage64>);
+recipes.remove(<ae2fc:multi_fluid_storage256>);
+recipes.remove(<ae2fc:multi_fluid_storage1024>);
+recipes.remove(<ae2fc:multi_fluid_storage4096>);
+recipes.remove(<ae2fc:multi_fluid_storage16384>);
+recipes.remove(<ae2fc:fluid_storage1>);
+recipes.remove(<ae2fc:fluid_storage4>);
+recipes.remove(<ae2fc:fluid_storage16>);
+recipes.remove(<ae2fc:fluid_storage64>);
+recipes.remove(<ae2fc:fluid_storage256>);
+recipes.remove(<ae2fc:fluid_storage1024>);
+recipes.remove(<ae2fc:fluid_storage4096>);
+recipes.remove(<ae2fc:fluid_storage16384>);
+recipes.remove(<ae2fc:fluid_storage.quantum>);
+recipes.remove(<ae2fc:fluid_storage.singularity>);
+recipes.remove(<ae2fc:fluid_storage.Universe>);
+recipes.remove(<ae2fc:fluid_storage.infinity.water>);
+recipes.remove(<ae2fc:fluid_storage.void>);
+recipes.remove(<ae2fc:fluid_packet_decoder>);
+recipes.remove(<ae2fc:fluid_interface>);
+recipes.remove(<ae2fc:fluid_pattern_encoder>);
+recipes.remove(<ae2fc:certus_quartz_tank>);
+recipes.remove(<ae2fc:large_ingredient_buffer>);
+recipes.remove(<ae2fc:ingredient_buffer>);
 recipes.remove(<Railcraft:tool.electric.meter>);
 recipes.remove(<Railcraft:machine.epsilon:3>);
 recipes.remove(<Railcraft:machine.epsilon:4>);
@@ -378,6 +426,17 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [<hbm:item.pla
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ae2fc:oc_pattern_editor>, [[<hbm:item.ingot_steel>, <OpenComputers:item:24>, <hbm:item.ingot_steel>], [<OpenComputers:cable>, <appliedenergistics2:item.ItemMultiMaterial:52>, <OpenComputers:cable>], [<hbm:item.ingot_steel>, <minecraft:bucket>, <hbm:item.ingot_steel>]]);
+recipes.addShaped(<ae2fc:part_fluid_export>, [[<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:22>, <hbm:item.ingot_steel>], [<ore:gemLapis>, <minecraft:piston>, <ore:gemLapis>]]);
+recipes.addShaped(<ae2fc:part_fluid_import>, [[<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:gemLapis>], [<hbm:item.ingot_steel>, <minecraft:piston>, <hbm:item.ingot_steel>]]);
+recipes.addShaped(<ae2fc:energy_card>, [[<appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:item.ItemMultiMaterial:47>, <appliedenergistics2:tile.BlockDenseEnergyCell>], [<appliedenergistics2:tile.BlockCharger>, <hbm:item.circuit:19>, <appliedenergistics2:tile.BlockCharger>], [<appliedenergistics2:tile.BlockDenseEnergyCell>, <appliedenergistics2:item.ItemMultiMaterial:47>, <appliedenergistics2:tile.BlockDenseEnergyCell>]]);
+recipes.addShaped(<ae2fc:fluid_part:0>, [[<ore:gemLapis>, <ore:anyCertusCrystal>, <ore:gemLapis>], [<ore:anyCertusCrystal>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:anyCertusCrystal>], [<ore:gemLapis>, <ore:anyCertusCrystal>, <ore:gemLapis>]]);
+recipes.addShaped(<ae2fc:fluid_packet_decoder>, [[<hbm:item.ingot_steel>, <minecraft:hopper>, <hbm:item.ingot_steel>], [<appliedenergistics2:item.ItemMultiPart:16>, <ae2fc:fluid_interface>, <appliedenergistics2:item.ItemMultiPart:16>], [<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <hbm:item.ingot_steel>]]);
+recipes.addShaped(<ae2fc:fluid_interface>, [[<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <hbm:item.ingot_steel>], [<hbm:item.plate_cast:30>, <appliedenergistics2:tile.BlockInterface>, <hbm:item.plate_cast:30>], [<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <hbm:item.ingot_steel>]]);
+recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [[<hbm:item.plate_cast:30>, <appliedenergistics2:item.ItemMultiMaterial:24>,<hbm:item.plate_cast:30>], [<hbm:item.ingot_steel>, <appliedenergistics2:tile.BlockCellWorkbench>, <hbm:item.ingot_steel>], [<hbm:item.ingot_steel>, <hbm:item.ingot_steel>, <hbm:item.ingot_steel>]]);
+recipes.addShaped(<ae2fc:certus_quartz_tank>, [[<hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>], [<hbm:tile.glass_quartz>, null, <hbm:tile.glass_quartz>], [<hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>]]);
+recipes.addShaped(<ae2fc:large_ingredient_buffer>, [[<ae2fc:ingredient_buffer>, <hbm:tile.glass_quartz>, <ae2fc:ingredient_buffer>], [<hbm:tile.glass_quartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <hbm:tile.glass_quartz>], [<ae2fc:ingredient_buffer>, <hbm:tile.glass_quartz>, <ae2fc:ingredient_buffer>]]);
+recipes.addShaped(<ae2fc:ingredient_buffer>, [[<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:35>, <hbm:item.ingot_steel>], [<appliedenergistics2:item.ItemMultiMaterial:7>, <hbm:tile.glass_quartz>, <appliedenergistics2:item.ItemMultiMaterial:1>], [<hbm:item.ingot_steel>, <minecraft:bucket>, <hbm:item.ingot_steel>]]);
 recipes.addShaped(<Railcraft:tool.electric.meter>, [[<ore:ingotAluminum>, null, <ore:ingotAluminum>], [<ore:buttonStone>, <ore:paneGlass>, <ore:buttonStone>], [null, <ore:ingotCopper>, null]]);
 recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>]]);
 recipes.addShaped(<Railcraft:machine.epsilon:4>, [[<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>], [<ore:ingotGold>, <ore:blockRedstone>, <ore:ingotGold>], [<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>]]);
@@ -434,7 +493,6 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:473>, [[<appliedenergi
 recipes.addShaped(<appliedenergistics2:tile.BlockStorageReshuffle>, [[null, <ore:Steel>, null], [<ore:Steel>, <appliedenergistics2:tile.BlockCellWorkbench>, <ore:Steel>], [null, <ore:Steel>, null]]);
 recipes.addShaped(<holoinventory:Hologlasses>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockCharger>, [[<ore:plateSteel>, <ore:crystalFluix>, <ore:plateSteel>], [<ore:Steel>, null, null], [<ore:plateSteel>, <ore:crystalFluix>, <ore:plateSteel>]]);
-recipes.addShaped(<OpenComputers:item.ae:2>, [[<OpenComputers:item:26>], [<appliedenergistics2:item.ToolWirelessTerminal>]]);
 recipes.addShaped(<OpenComputers:item.ae:1>, [[<OpenComputers:item:25>], [<appliedenergistics2:item.ToolWirelessTerminal>]]);
 recipes.addShaped(<OpenComputers:item.ae>, [[<ore:oc:circuitChip1>], [<appliedenergistics2:item.ToolWirelessTerminal>]]);
 recipes.addShaped(<chisel:limestone> * 16, [[<minecraft:gravel>, <ore:sand>, <ore:sand>], [<minecraft:gravel>, <ore:dustLimestone>, <ore:sand>], [<minecraft:gravel>, <minecraft:gravel>, <ore:sand>]]);
@@ -548,7 +606,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:260>, [[<ore:ingotStee
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:420>, [[<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiPart:400>, <appliedenergistics2:item.ItemMultiMaterial:22>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:320>, [[<ore:crystalFluix>, <ore:crystalFluix>, <ore:crystalFluix>], [<ore:plateTripleSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateTripleSteel>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:300>, [[<ore:crystalFluix>, <ore:crystalFluix>, <ore:crystalFluix>], [<ore:plateTripleSteel>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:plateTripleSteel>]]);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:42>, [[<ore:dustFluix>, <ore:crystalCertusQuartz>, <ore:dustEnder>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:42>, [[<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiMaterial:9>], [<hbm:item.ingot_steel>, <hbm:item.ingot_steel>, <hbm:item.ingot_steel>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:41>, [[null, <ore:pearlFluix>, null], [<ore:ingotSteel>, <appliedenergistics2:item.ItemMultiPart:140>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:26>, [[<appliedenergistics2:item.ItemMultiMaterial:25>, <minecraft:redstone_torch>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [[<ore:ingotGold>, <ore:ingotSteel>, null], [<ore:dustRedstone>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:ingotSteel>, null]]);
