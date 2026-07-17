@@ -1,4 +1,4 @@
-REWARD_MODIFIER = 1
+REWARD_MODIFIER = 2
 
 INTRO = {
     # Modpack Introduction
