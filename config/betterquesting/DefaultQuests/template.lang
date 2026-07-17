@@ -1528,6 +1528,15 @@ betterquesting.quest.wAu-q390TlKihyp-bEI2lw.name=Sign Pictures
 betterquesting.quest.wAu-q390TlKihyp-bEI2lw.desc=The §dSignPicture§r mod allows one to put any image on a sign, opening the door to many unique building designs. Press \ to get started.
 
 
+## Quest Line: Admin Shop
+betterquesting.questline.AoTW_N_4T8esuIXYcFrQDw.name=Админский магазин
+betterquesting.questline.AoTW_N_4T8esuIXYcFrQDw.desc=Special
+
+# Quest: Cat On Watermelon
+betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.name=Кот на Арбузе
+betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.desc=103 103 103
+
+
 ### Quests in multiple quest lines ###
 
 # Quest: Antimatter
