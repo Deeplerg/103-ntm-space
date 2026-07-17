@@ -412,7 +412,7 @@ BUILD = {
     "ModernMarkings-j9eLuGnhRVWn5uJS_KI5lg==.json": 3 * REWARD_MODIFIER,
     "Schematica-VyF-RUbsSuS8J2hbI5CIkw==.json": 3 * REWARD_MODIFIER,
     "SignPictures-wAu-q390TlKihyp-bEI2lw==.json": 3 * REWARD_MODIFIER,
-    "Ztones-cJN-gv7iQzSfYZQVm1ZyVQ==.json": 3
+    "Ztones-cJN-gv7iQzSfYZQVm1ZyVQ==.json": 3 * REWARD_MODIFIER
 }
 
 
