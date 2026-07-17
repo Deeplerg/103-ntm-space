@@ -1,15 +1,15 @@
 name = "Cat-On-Watermelon-mod"
-filename = "cat-on-watermelon-0.0.5.jar"
+filename = "cat-on-watermelon-0.0.6.jar"
 side = "both"
 
 [download]
-url = "https://github.com/vodavodochka/Cat-On-Watermelon-mod/releases/download/v0.0.5/cat-on-watermelon-0.0.5.jar"
+url = "https://github.com/vodavodochka/Cat-On-Watermelon-mod/releases/download/v0.0.6/cat-on-watermelon-0.0.6.jar"
 hash-format = "sha256"
-hash = "f9be8ffdf04413a0326eb8fe438dad3a8554bc24fbe6dd2bffa923a09fdaa6a9"
+hash = "106463fb2c6e45d0d72deb85efbe8f22bc469ac15dc9625e2a67e87d8f1f2f96"
 
 [update]
 [update.github]
 branch = "master"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "vodavodochka/Cat-On-Watermelon-mod"
-tag = "v0.0.5"
+tag = "v0.0.6"
