@@ -1540,6 +1540,317 @@ betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.desc=103 103 103
 betterquesting.quest.H610CIV2R5yHHX8FqZ5YnA.name=Скоро™ будет больше
 betterquesting.quest.H610CIV2R5yHHX8FqZ5YnA.desc=Скоро™ будет больше
 
+# Quest: ChlorinePinwheel
+betterquesting.quest.OYBzGhRQWLW8Ti8XuoSOlA.name=Хлорная вертушка
+betterquesting.quest.OYBzGhRQWLW8Ti8XuoSOlA.desc=Найдено в: Пул дорогих предметов.
+
+# Quest: GunDoubleBarrel
+betterquesting.quest.l68-e5JbWzmgxF_9m8c0hg.name=Двустволка
+betterquesting.quest.l68-e5JbWzmgxF_9m8c0hg.desc=Найдено в: Пул дорогих предметов.
+
+# Quest: LaunchCode
+betterquesting.quest.GWaUxt5-Xyeb7612183N4w.name=Часть кода запуска
+betterquesting.quest.GWaUxt5-Xyeb7612183N4w.desc=Найдено в: Пул дорогих предметов и Сокровище метеорита.
+
+# Quest: SyringeAwesome
+betterquesting.quest.-1f31nqUWGGm7U_hf__iEQ.name=Шприц «Крутость»
+betterquesting.quest.-1f31nqUWGGm7U_hf__iEQ.desc=Найдено в: Пул дорогих предметов.
+
+# Quest: StealthBoy
+betterquesting.quest.poEa3Vh6UvG2Omu60c4hXg.name=Стелс-бой
+betterquesting.quest.poEa3Vh6UvG2Omu60c4hXg.desc=Найдено в: Пул дорогих предметов, Башни связи и Обломки винтокрыла.
+
+# Quest: FusionCore
+betterquesting.quest.q7D7K_4vX36ZoZZU4YZ7aw.name=Ядерный блок
+betterquesting.quest.q7D7K_4vX36ZoZZU4YZ7aw.desc=Найдено в: Пул дорогих предметов и Обломки винтокрыла.
+
+# Quest: GunPanzerschreck
+betterquesting.quest.-ELVdRn3WQOxcuJyMEwKww.name=Панцершрек
+betterquesting.quest.-ELVdRn3WQOxcuJyMEwKww.desc=Найдено в: Пул дорогих предметов и Обломки C-130.
+
+# Quest: GunHangman
+betterquesting.quest.9yYslFRKXaip9DQF-YbX5g.name=Револьвер «Палач»
+betterquesting.quest.9yYslFRKXaip9DQF-YbX5g.desc=Найдено в: Красная комната.
+
+# Quest: GunMas36
+betterquesting.quest.BIZu9RXuWdyNTOUgFzkEqg.name=Винтовка MAS-36
+betterquesting.quest.BIZu9RXuWdyNTOUgFzkEqg.desc=Найдено в: Красная комната.
+
+# Quest: SecretFolly
+betterquesting.quest.4YrtLGsUVhi6KZ_BrgBBfw.name=Секретный предмет: Folly
+betterquesting.quest.4YrtLGsUVhi6KZ_BrgBBfw.desc=Найдено в: Красная комната.
+
+# Quest: SecretSeleniumSteel
+betterquesting.quest._h-eS2usUyefrCp8NLJJaw.name=Селеновая сталь
+betterquesting.quest._h-eS2usUyefrCp8NLJJaw.desc=Найдено в: Красная комната.
+
+# Quest: SecretController
+betterquesting.quest.OeLebbJgW_WdaeruN4_5xA.name=Секретный контроллер
+betterquesting.quest.OeLebbJgW_WdaeruN4_5xA.desc=Найдено в: Красная комната.
+
+# Quest: SecretCanister
+betterquesting.quest.AVOi4J0DU_eO_1vk50a8ng.name=Секретная канистра
+betterquesting.quest.AVOi4J0DU_eO_1vk50a8ng.desc=Найдено в: Красная комната.
+
+# Quest: BlackBook
+betterquesting.quest.rKMTSxH1WaqZGsvlDyTwYQ.name=Черная книга
+betterquesting.quest.rKMTSxH1WaqZGsvlDyTwYQ.desc=Найдено в: Красная комната и Метеоритные сейфы.
+
+# Quest: Alexandrite
+betterquesting.quest.W-mpDfldW_2wgc8dHTxXHQ.name=Александрит
+betterquesting.quest.W-mpDfldW_2wgc8dHTxXHQ.desc=Найдено в: Красная комната и Сокровище метеорита.
+
+# Quest: StarmetalSword
+betterquesting.quest.W3WdpViVXJikyTQvMUps-Q.name=Меч из звездного металла
+betterquesting.quest.W3WdpViVXJikyTQvMUps-Q.desc=Найдено в: Красная комната.
+
+# Quest: T51BHelmet
+betterquesting.quest.bZ5rB7T_U1qU5xIGyxyKbA.name=Шлем T-51b
+betterquesting.quest.bZ5rB7T_U1qU5xIGyxyKbA.desc=Найдено в: Обломки винтокрыла.
+
+# Quest: T51BChest
+betterquesting.quest.wqwOXQ-9Vwya5LLMrpbKwg.name=Нагрудник T-51b
+betterquesting.quest.wqwOXQ-9Vwya5LLMrpbKwg.desc=Найдено в: Обломки винтокрыла.
+
+# Quest: T51BLegs
+betterquesting.quest.mYyDLMRlVei9ujIaq1qiAw.name=Поножи T-51b
+betterquesting.quest.mYyDLMRlVei9ujIaq1qiAw.desc=Найдено в: Обломки винтокрыла.
+
+# Quest: T51BBoots
+betterquesting.quest.5GpwI6iXWEC9Bf8TITrQIw.name=Ботинки T-51b
+betterquesting.quest.5GpwI6iXWEC9Bf8TITrQIw.desc=Найдено в: Обломки винтокрыла.
+
+# Quest: GunCongolake
+betterquesting.quest.ZqLCdmd1Vq2or5GWS2ig3g.name=Дробовик Конго-Лейк
+betterquesting.quest.ZqLCdmd1Vq2or5GWS2ig3g.desc=Найдено в: Неразрушимые сейфы.
+
+# Quest: GunCarbine
+betterquesting.quest._WkyHNJAV3mvGiO-CqyV9Q.name=Карабин
+betterquesting.quest._WkyHNJAV3mvGiO-CqyV9Q.desc=Найдено в: Неразрушимые сейфы.
+
+# Quest: GunAm180
+betterquesting.quest.BnSie2oqUraXK9973uuPjQ.name=Пистолет-пулемет AM-180
+betterquesting.quest.BnSie2oqUraXK9973uuPjQ.desc=Найдено в: Ржавые сейфы.
+
+# Quest: CellAntimatter
+betterquesting.quest.ona6iE8zWmi9smaMfIaSVw.name=Ячейка антиматерии
+betterquesting.quest.ona6iE8zWmi9smaMfIaSVw.desc=Найдено в: Космические корабли.
+
+# Quest: AncientScrap
+betterquesting.quest.jMaifU1SUzyQd63Kd-dv5g.name=Древний металлолом
+betterquesting.quest.jMaifU1SUzyQd63Kd-dv5g.desc=Найдено в: Древние гробницы (Пирамиды).
+
+# Quest: BallisticGauntlet
+betterquesting.quest.zgq_0m9yUWGFbn49dp1mxA.name=Баллистическая перчатка
+betterquesting.quest.zgq_0m9yUWGFbn49dp1mxA.desc=Найдено в: Красная комната.
+
+# Quest: HeartContainer
+betterquesting.quest.oFwWjjsiXzClu6NZ3404cA.name=Контейнер для сердца
+betterquesting.quest.oFwWjjsiXzClu6NZ3404cA.desc=Найдено в: Красная комната.
+
+# Quest: HeartPiece
+betterquesting.quest.QYdlL2gMVjiHeA-K_J4xtw.name=Часть сердца
+betterquesting.quest.QYdlL2gMVjiHeA-K_J4xtw.desc=Найдено в: Сокровище метеорита.
+
+# Quest: EggGlyphid
+betterquesting.quest.yVkVPlgyX1CwTTWX94f_0w.name=Яйцо глифида
+betterquesting.quest.yVkVPlgyX1CwTTWX94f_0w.desc=Найдено в: Улей глифидов и Сокровище метеорита.
+
+# Quest: CobaltPickaxe
+betterquesting.quest.NhEedcDTUtKCfDrmkK91mQ.name=Кобальтовая кирка
+betterquesting.quest.NhEedcDTUtKCfDrmkK91mQ.desc=Найдено в: Сокровище метеорита.
+
+# Quest: CardAos
+betterquesting.quest.pOvSn4oqXhSIZiceJecQQA.name=Пиковый туз
+betterquesting.quest.pOvSn4oqXhSIZiceJecQQA.desc=Найдено в: Красная комната.
+
+# Quest: CardQos
+betterquesting.quest.iUN0N7U-WN6kuCbOEFu6yw.name=Пиковая дама
+betterquesting.quest.iUN0N7U-WN6kuCbOEFu6yw.desc=Найдено в: Красная комната.
+
+# Quest: BlackDiamond
+betterquesting.quest.-u-rUw4JXIe29lZIWwHywQ.name=Черный бриллиант
+betterquesting.quest.-u-rUw4JXIe29lZIWwHywQ.desc=Найдено в: Красная комната.
+
+# Quest: QuartzPlutonium
+betterquesting.quest.CjO7E-qkXcuwpA2qanv60g.name=Плутониевый кварц
+betterquesting.quest.CjO7E-qkXcuwpA2qanv60g.desc=Найдено в: Красная комната.
+
+# Quest: ClayTablet
+betterquesting.quest.bLrVVKHvVq-iQWnd3o6Vgg.name=Глиняная табличка
+betterquesting.quest.bLrVVKHvVq-iQWnd3o6Vgg.desc=Найдено в: Красная комната.
+
+# Quest: FlaskInfusion
+betterquesting.quest.cM6SeDTJU6CldPqOJs_twQ.name=Настойка
+betterquesting.quest.cM6SeDTJU6CldPqOJs_twQ.desc=Найдено в: Красная комната.
+
+# Quest: SpiderMilk
+betterquesting.quest.dpNlTMhjUaafPOT6iJzstQ.name=Паучье молоко
+betterquesting.quest.dpNlTMhjUaafPOT6iJzstQ.desc=Найдено в: Красная комната.
+
+# Quest: Scrumpy
+betterquesting.quest.O6TaQnVcVza3PWuCPB-bAA.name=Скрампи
+betterquesting.quest.O6TaQnVcVza3PWuCPB-bAA.desc=Найдено в: Красная комната и Сокровище метеорита.
+
+# Quest: WildP
+betterquesting.quest.5eNfPehlXH2Y5kfgkDh6hw.name=Дикий P
+betterquesting.quest.5eNfPehlXH2Y5kfgkDh6hw.desc=Найдено в: Красная комната.
+
+# Quest: Serum
+betterquesting.quest.D_p6Fru2VVaEmp7RUqzyTg.name=Сыворотка
+betterquesting.quest.D_p6Fru2VVaEmp7RUqzyTg.desc=Найдено в: Красная комната и Сокровище метеорита.
+
+# Quest: Ink
+betterquesting.quest.vJU7aKrOVi6kdQ5Xq8lZPw.name=Чернила
+betterquesting.quest.vJU7aKrOVi6kdQ5Xq8lZPw.desc=Найдено в: Красная комната и Картотечные шкафы.
+
+# Quest: MorningGlory
+betterquesting.quest.Mv0Be4phWgOxAd7vkVOMZQ.name=Ипомея
+betterquesting.quest.Mv0Be4phWgOxAd7vkVOMZQ.desc=Найдено в: Красная комната и Лабораторные хранилища.
+
+# Quest: ArmorPolish
+betterquesting.quest.LSNVJ0cKXb2hPTkcJiNt1w.name=Полироль для брони
+betterquesting.quest.LSNVJ0cKXb2hPTkcJiNt1w.desc=Найдено в: Красная комната и Шкафчики в убежище.
+
+# Quest: Crackpipe
+betterquesting.quest.Pcyv0PM1XGim2vGOQKHhNA.name=Крэк-трубка
+betterquesting.quest.Pcyv0PM1XGim2vGOQKHhNA.desc=Найдено в: Красная комната.
+
+# Quest: WmodNickel
+betterquesting.quest.pLpvBPEYVUmIsNxGtVG1Yw.name=Оружейный мод: Никелирование
+betterquesting.quest.pLpvBPEYVUmIsNxGtVG1Yw.desc=Найдено в: Красная комната.
+
+# Quest: WmodDoubloons
+betterquesting.quest.zMw7WSZQXOuu6Pb4vJnqSA.name=Оружейный мод: Дублоны
+betterquesting.quest.zMw7WSZQXOuu6Pb4vJnqSA.desc=Найдено в: Красная комната.
+
+# Quest: StampBook0
+betterquesting.quest.FfEhGw-bXvW8S3Up92h_DQ.name=Альбом с марками (Том 1)
+betterquesting.quest.FfEhGw-bXvW8S3Up92h_DQ.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook1
+betterquesting.quest.qKaSMqJOWme6oHE0ApcEYg.name=Альбом с марками (Том 2)
+betterquesting.quest.qKaSMqJOWme6oHE0ApcEYg.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook2
+betterquesting.quest.v8D8XgQsWZmRYisZR8wrcQ.name=Альбом с марками (Том 3)
+betterquesting.quest.v8D8XgQsWZmRYisZR8wrcQ.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook3
+betterquesting.quest.DQrtob30UzOF-U6JOJknXg.name=Альбом с марками (Том 4)
+betterquesting.quest.DQrtob30UzOF-U6JOJknXg.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook4
+betterquesting.quest.oNtwGO9RVsyou5M8VEdK9w.name=Альбом с марками (Том 5)
+betterquesting.quest.oNtwGO9RVsyou5M8VEdK9w.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook5
+betterquesting.quest.QuInn9RrUiGrl3fuAomeCg.name=Альбом с марками (Том 6)
+betterquesting.quest.QuInn9RrUiGrl3fuAomeCg.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook6
+betterquesting.quest.OeWzgWuiXaWtrOuKiujcPA.name=Альбом с марками (Том 7)
+betterquesting.quest.OeWzgWuiXaWtrOuKiujcPA.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: StampBook7
+betterquesting.quest.snJUfl9jVVGQPGmi_ZdkOA.name=Альбом с марками (Том 8)
+betterquesting.quest.snJUfl9jVVGQPGmi_ZdkOA.desc=Найдено в: Метеоритные сейфы.
+
+# Quest: BoxcarBlock
+betterquesting.quest.TwFTEV_OVqStx_V2EUXbVA.name=Вагон
+betterquesting.quest.TwFTEV_OVqStx_V2EUXbVA.desc=Найдено в: Красная комната.
+
+# Quest: BlueprintFolder0
+betterquesting.quest.l9ZfhbWWUkSg7SRdHKUDIA.name=Папка с чертежами (Обычная)
+betterquesting.quest.l9ZfhbWWUkSg7SRdHKUDIA.desc=Найдено в: Детали машин, Картотечные шкафы и Сундуки с чертежами.
+
+# Quest: BlueprintFolder1
+betterquesting.quest.fFuiNT9iXEy5uAnyDkJK9A.name=Папка с чертежами (Редкая)
+betterquesting.quest.fFuiNT9iXEy5uAnyDkJK9A.desc=Найдено в: Лабораторные хранилища, Пул дорогих предметов и Сокровище метеорита.
+
+# Quest: BlueprintFolder2
+betterquesting.quest.hdLa6xgDV9ei8fwx08WXCA.name=Папка с чертежами (Секретная)
+betterquesting.quest.hdLa6xgDV9ei8fwx08WXCA.desc=Найдено в: Красная комната и Сундуки с чертежами.
+
+# Quest: CircuitVacuumTube
+betterquesting.quest.h3bIsynYX46N6PUin1TM2g.name=Вакуумная трубка
+betterquesting.quest.h3bIsynYX46N6PUin1TM2g.desc=Найдено в: Различные хранилища, Сейфы и Сокровище метеорита.
+
+# Quest: CircuitAnalog
+betterquesting.quest.1yIL2cCEUhi6KJnPyQOF9A.name=Конденсатор
+betterquesting.quest.1yIL2cCEUhi6KJnPyQOF9A.desc=Найдено в: Пул дорогих предметов и Нефтяные вышки.
+
+# Quest: CircuitChip
+betterquesting.quest.OgDmVeM3VH63s59g7TWL5Q.name=Танталовый конденсатор
+betterquesting.quest.OgDmVeM3VH63s59g7TWL5Q.desc=Найдено в: Сейфы, Пул дорогих предметов и Сокровище метеорита.
+
+# Quest: CircuitAdvanced
+betterquesting.quest.YJD8qEF4UOePOdJcXjMW6Q.name=Печатная плата
+betterquesting.quest.YJD8qEF4UOePOdJcXjMW6Q.desc=Найдено в: Неразрушимые сейфы.
+
+# Quest: GunKit1
+betterquesting.quest.Z3HAlED-W6Spb5LX48E64g.name=Оружейный набор 1
+betterquesting.quest.Z3HAlED-W6Spb5LX48E64g.desc=Найдено в: Пул дорогих предметов, Обычные пулы и Обломки винтокрыла.
+
+# Quest: GunKit2
+betterquesting.quest.3kVsAHHaXre2q-pidH61Ng.name=Оружейный набор 2
+betterquesting.quest.3kVsAHHaXre2q-pidH61Ng.desc=Найдено в: Пул дорогих предметов.
+
+# Quest: GrenadeTriplex
+betterquesting.quest.AMZQKPjfWHeRkmaxdjPFYg.name=Граната Triplex
+betterquesting.quest.AMZQKPjfWHeRkmaxdjPFYg.desc=Найдено в: Пул дорогих предметов и Укрепленные сейфы.
+
+# Quest: BatteryPackLithium
+betterquesting.quest.MxkfJ5CBU4advH-80ziinw.name=Литиевая батарея
+betterquesting.quest.MxkfJ5CBU4advH-80ziinw.desc=Найдено в: Пул дорогих предметов.
+
+# Quest: BottleNuka
+betterquesting.quest.oMtVL77zVhWgoOpaM40U9A.name=Ядер-Кола
+betterquesting.quest.oMtVL77zVhWgoOpaM40U9A.desc=Найдено в: Пусковые шахты, Обломки винтокрыла, Торговые автоматы и Ульи глифидов.
+
+# Quest: BottleQuantum
+betterquesting.quest.kp2BhnaXU92PnB3IMYvyEA.name=Квантовая Ядер-Кола
+betterquesting.quest.kp2BhnaXU92PnB3IMYvyEA.desc=Найдено в: Пул дорогих предметов, Ядерные отходы и Обломки винтокрыла.
+
+# Quest: RedBarrel
+betterquesting.quest.uLNWwhu0UZKFRf_RfqpWVw.name=Красная бочка
+betterquesting.quest.uLNWwhu0UZKFRf_RfqpWVw.desc=Найдено в: Пул дорогих предметов и Пусковые шахты.
+
+# Quest: GasMaskM65
+betterquesting.quest.T6XAJn0XW4K8UDWneDuHGQ.name=Противогаз M65
+betterquesting.quest.T6XAJn0XW4K8UDWneDuHGQ.desc=Найдено в: Пусковые шахты, Пул дорогих предметов, Ядерные отходы и Обломки винтокрыла.
+
+# Quest: BombCaller0
+betterquesting.quest.wizSsZX8W9y_KqJrnOcX4Q.name=Пульт вызова бомбардировщика
+betterquesting.quest.wizSsZX8W9y_KqJrnOcX4Q.desc=Найдено в: Пусковые шахты, Пул дорогих предметов и Обломки винтокрыла.
+
+# Quest: BombCaller1
+betterquesting.quest.7_aINBCQWEOZJvtZpfaAfw.name=Пульт вызова бомбардировщика (Зажигательный)
+betterquesting.quest.7_aINBCQWEOZJvtZpfaAfw.desc=Найдено в: Пул дорогих предметов и Обломки винтокрыла.
+
+# Quest: BombCaller2
+betterquesting.quest.CFCsa0WYXxWUIuzpoYBQKQ.name=Пульт вызова бомбардировщика (Ядерный)
+betterquesting.quest.CFCsa0WYXxWUIuzpoYBQKQ.desc=Найдено в: Пул дорогих предметов и Обломки винтокрыла.
+
+# Quest: GasMaskFilter
+betterquesting.quest.BFquaCyJXqOw7uRmPT8yeg.name=Фильтр противогаза
+betterquesting.quest.BFquaCyJXqOw7uRmPT8yeg.desc=Найдено в: Обычные пулы, Пул дорогих предметов и Шкафчики в убежище.
+
+# Quest: AmmoContainer
+betterquesting.quest.yJrLE-J2UJyuvvT9QxCqKg.name=Контейнер с патронами
+betterquesting.quest.yJrLE-J2UJyuvvT9QxCqKg.desc=Найдено в: Обломки C-130 и Сейфы всех уровней.
+
+# Quest: GunHeavyRevolver
+betterquesting.quest.y5O4ErTBWUqHzzFzUO_zZA.name=Тяжелый револьвер
+betterquesting.quest.y5O4ErTBWUqHzzFzUO_zZA.desc=Найдено в: Обломки C-130, Ржавые и Укрепленные сейфы.
+
+# Quest: Pin
+betterquesting.quest.XgBpIyT1ULaq9w4wBycthg.name=Булавка
+betterquesting.quest.XgBpIyT1ULaq9w4wBycthg.desc=Найдено в: Ржавые сейфы и Кучи мусора.
+
+# Quest: PillHerbal
+betterquesting.quest.U7YDSRE7UUuGpKZES7xVHQ.name=Травяные таблетки
+betterquesting.quest.U7YDSRE7UUuGpKZES7xVHQ.desc=Найдено в: Сокровище метеорита.
 
 ### Quests in multiple quest lines ###
 

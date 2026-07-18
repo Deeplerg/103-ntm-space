@@ -1529,12 +1529,324 @@ betterquesting.quest.wAu-q390TlKihyp-bEI2lw.desc=The §dSignPicture§r mod allow
 
 
 ## Quest Line: Admin Shop
-betterquesting.questline.AoTW_N_4T8esuIXYcFrQDw.name=Админский магазин
+betterquesting.questline.AoTW_N_4T8esuIXYcFrQDw.name=Admin Shop
 betterquesting.questline.AoTW_N_4T8esuIXYcFrQDw.desc=Special
 
 # Quest: Cat On Watermelon
-betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.name=Кот на Арбузе
+betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.name=Cat on Watermelon
 betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.desc=103 103 103
+
+# Quest: ChlorinePinwheel
+betterquesting.quest.OYBzGhRQWLW8Ti8XuoSOlA.name=Chlorine Pinwheel
+betterquesting.quest.OYBzGhRQWLW8Ti8XuoSOlA.desc=Found in: Expensive Pool.
+
+# Quest: GunDoubleBarrel
+betterquesting.quest.l68-e5JbWzmgxF_9m8c0hg.name=Double Barrel Shotgun
+betterquesting.quest.l68-e5JbWzmgxF_9m8c0hg.desc=Found in: Expensive Pool.
+
+# Quest: LaunchCode
+betterquesting.quest.GWaUxt5-Xyeb7612183N4w.name=Launch Code Piece
+betterquesting.quest.GWaUxt5-Xyeb7612183N4w.desc=Found in: Expensive Pool and Meteorite Treasure.
+
+# Quest: SyringeAwesome
+betterquesting.quest.-1f31nqUWGGm7U_hf__iEQ.name=Awesome Syringe
+betterquesting.quest.-1f31nqUWGGm7U_hf__iEQ.desc=Found in: Expensive Pool.
+
+# Quest: StealthBoy
+betterquesting.quest.poEa3Vh6UvG2Omu60c4hXg.name=Stealth Boy
+betterquesting.quest.poEa3Vh6UvG2Omu60c4hXg.desc=Found in: Expensive Pool, Antenna Pool, and Vertibird Wrecks.
+
+# Quest: FusionCore
+betterquesting.quest.q7D7K_4vX36ZoZZU4YZ7aw.name=Fusion Core
+betterquesting.quest.q7D7K_4vX36ZoZZU4YZ7aw.desc=Found in: Expensive Pool and Vertibird Wrecks.
+
+# Quest: GunPanzerschreck
+betterquesting.quest.-ELVdRn3WQOxcuJyMEwKww.name=Panzerschreck
+betterquesting.quest.-ELVdRn3WQOxcuJyMEwKww.desc=Found in: Expensive Pool and C130 Wrecks.
+
+# Quest: GunHangman
+betterquesting.quest.9yYslFRKXaip9DQF-YbX5g.name=Hangman Revolver
+betterquesting.quest.9yYslFRKXaip9DQF-YbX5g.desc=Found in: Red Room.
+
+# Quest: GunMas36
+betterquesting.quest.BIZu9RXuWdyNTOUgFzkEqg.name=MAS-36 Rifle
+betterquesting.quest.BIZu9RXuWdyNTOUgFzkEqg.desc=Found in: Red Room.
+
+# Quest: SecretFolly
+betterquesting.quest.4YrtLGsUVhi6KZ_BrgBBfw.name=Secret Item: Folly
+betterquesting.quest.4YrtLGsUVhi6KZ_BrgBBfw.desc=Found in: Red Room.
+
+# Quest: SecretSeleniumSteel
+betterquesting.quest._h-eS2usUyefrCp8NLJJaw.name=Selenium Steel
+betterquesting.quest._h-eS2usUyefrCp8NLJJaw.desc=Found in: Red Room.
+
+# Quest: SecretController
+betterquesting.quest.OeLebbJgW_WdaeruN4_5xA.name=Secret Controller
+betterquesting.quest.OeLebbJgW_WdaeruN4_5xA.desc=Found in: Red Room.
+
+# Quest: SecretCanister
+betterquesting.quest.AVOi4J0DU_eO_1vk50a8ng.name=Secret Canister
+betterquesting.quest.AVOi4J0DU_eO_1vk50a8ng.desc=Found in: Red Room.
+
+# Quest: BlackBook
+betterquesting.quest.rKMTSxH1WaqZGsvlDyTwYQ.name=Black Book
+betterquesting.quest.rKMTSxH1WaqZGsvlDyTwYQ.desc=Found in: Red Room and Meteor Safes.
+
+# Quest: Alexandrite
+betterquesting.quest.W-mpDfldW_2wgc8dHTxXHQ.name=Alexandrite
+betterquesting.quest.W-mpDfldW_2wgc8dHTxXHQ.desc=Found in: Red Room and Meteorite Treasure.
+
+# Quest: StarmetalSword
+betterquesting.quest.W3WdpViVXJikyTQvMUps-Q.name=Starmetal Sword
+betterquesting.quest.W3WdpViVXJikyTQvMUps-Q.desc=Found in: Red Room.
+
+# Quest: T51BHelmet
+betterquesting.quest.bZ5rB7T_U1qU5xIGyxyKbA.name=T-51b Helmet
+betterquesting.quest.bZ5rB7T_U1qU5xIGyxyKbA.desc=Found in: Vertibird Wrecks.
+
+# Quest: T51BChest
+betterquesting.quest.wqwOXQ-9Vwya5LLMrpbKwg.name=T-51b Chestplate
+betterquesting.quest.wqwOXQ-9Vwya5LLMrpbKwg.desc=Found in: Vertibird Wrecks.
+
+# Quest: T51BLegs
+betterquesting.quest.mYyDLMRlVei9ujIaq1qiAw.name=T-51b Leggings
+betterquesting.quest.mYyDLMRlVei9ujIaq1qiAw.desc=Found in: Vertibird Wrecks.
+
+# Quest: T51BBoots
+betterquesting.quest.5GpwI6iXWEC9Bf8TITrQIw.name=T-51b Boots
+betterquesting.quest.5GpwI6iXWEC9Bf8TITrQIw.desc=Found in: Vertibird Wrecks.
+
+# Quest: GunCongolake
+betterquesting.quest.ZqLCdmd1Vq2or5GWS2ig3g.name=Congolake Shotgun
+betterquesting.quest.ZqLCdmd1Vq2or5GWS2ig3g.desc=Found in: Unbreakable Safes.
+
+# Quest: GunCarbine
+betterquesting.quest._WkyHNJAV3mvGiO-CqyV9Q.name=Carbine
+betterquesting.quest._WkyHNJAV3mvGiO-CqyV9Q.desc=Found in: Unbreakable Safes.
+
+# Quest: GunAm180
+betterquesting.quest.BnSie2oqUraXK9973uuPjQ.name=AM-180 Submachine Gun
+betterquesting.quest.BnSie2oqUraXK9973uuPjQ.desc=Found in: Rusty Safes.
+
+# Quest: CellAntimatter
+betterquesting.quest.ona6iE8zWmi9smaMfIaSVw.name=Antimatter Cell
+betterquesting.quest.ona6iE8zWmi9smaMfIaSVw.desc=Found in: Spaceships.
+
+# Quest: AncientScrap
+betterquesting.quest.jMaifU1SUzyQd63Kd-dv5g.name=Ancient Scrap
+betterquesting.quest.jMaifU1SUzyQd63Kd-dv5g.desc=Found in: Ancient Tombs (Pyramids).
+
+# Quest: BallisticGauntlet
+betterquesting.quest.zgq_0m9yUWGFbn49dp1mxA.name=Ballistic Gauntlet
+betterquesting.quest.zgq_0m9yUWGFbn49dp1mxA.desc=Found in: Red Room.
+
+# Quest: HeartContainer
+betterquesting.quest.oFwWjjsiXzClu6NZ3404cA.name=Heart Container
+betterquesting.quest.oFwWjjsiXzClu6NZ3404cA.desc=Found in: Red Room.
+
+# Quest: HeartPiece
+betterquesting.quest.QYdlL2gMVjiHeA-K_J4xtw.name=Heart Piece
+betterquesting.quest.QYdlL2gMVjiHeA-K_J4xtw.desc=Found in: Meteorite Treasure.
+
+# Quest: EggGlyphid
+betterquesting.quest.yVkVPlgyX1CwTTWX94f_0w.name=Glyphid Egg
+betterquesting.quest.yVkVPlgyX1CwTTWX94f_0w.desc=Found in: Glyphid Hives and Meteorite Treasure.
+
+# Quest: CobaltPickaxe
+betterquesting.quest.NhEedcDTUtKCfDrmkK91mQ.name=Cobalt Pickaxe
+betterquesting.quest.NhEedcDTUtKCfDrmkK91mQ.desc=Found in: Meteorite Treasure.
+
+# Quest: CardAos
+betterquesting.quest.pOvSn4oqXhSIZiceJecQQA.name=Ace of Spades
+betterquesting.quest.pOvSn4oqXhSIZiceJecQQA.desc=Found in: Red Room.
+
+# Quest: CardQos
+betterquesting.quest.iUN0N7U-WN6kuCbOEFu6yw.name=Queen of Spades
+betterquesting.quest.iUN0N7U-WN6kuCbOEFu6yw.desc=Found in: Red Room.
+
+# Quest: BlackDiamond
+betterquesting.quest.-u-rUw4JXIe29lZIWwHywQ.name=Black Diamond
+betterquesting.quest.-u-rUw4JXIe29lZIWwHywQ.desc=Found in: Red Room.
+
+# Quest: QuartzPlutonium
+betterquesting.quest.CjO7E-qkXcuwpA2qanv60g.name=Plutonium Quartz
+betterquesting.quest.CjO7E-qkXcuwpA2qanv60g.desc=Found in: Red Room.
+
+# Quest: ClayTablet
+betterquesting.quest.bLrVVKHvVq-iQWnd3o6Vgg.name=Clay Tablet
+betterquesting.quest.bLrVVKHvVq-iQWnd3o6Vgg.desc=Found in: Red Room.
+
+# Quest: FlaskInfusion
+betterquesting.quest.cM6SeDTJU6CldPqOJs_twQ.name=Infusion Flask
+betterquesting.quest.cM6SeDTJU6CldPqOJs_twQ.desc=Found in: Red Room.
+
+# Quest: SpiderMilk
+betterquesting.quest.dpNlTMhjUaafPOT6iJzstQ.name=Spider Milk
+betterquesting.quest.dpNlTMhjUaafPOT6iJzstQ.desc=Found in: Red Room.
+
+# Quest: Scrumpy
+betterquesting.quest.O6TaQnVcVza3PWuCPB-bAA.name=Scrumpy
+betterquesting.quest.O6TaQnVcVza3PWuCPB-bAA.desc=Found in: Red Room and Meteorite Treasure.
+
+# Quest: WildP
+betterquesting.quest.5eNfPehlXH2Y5kfgkDh6hw.name=Wild P
+betterquesting.quest.5eNfPehlXH2Y5kfgkDh6hw.desc=Found in: Red Room.
+
+# Quest: Serum
+betterquesting.quest.D_p6Fru2VVaEmp7RUqzyTg.name=Serum
+betterquesting.quest.D_p6Fru2VVaEmp7RUqzyTg.desc=Found in: Red Room and Meteorite Treasure.
+
+# Quest: Ink
+betterquesting.quest.vJU7aKrOVi6kdQ5Xq8lZPw.name=Ink
+betterquesting.quest.vJU7aKrOVi6kdQ5Xq8lZPw.desc=Found in: Red Room and Filing Cabinets.
+
+# Quest: MorningGlory
+betterquesting.quest.Mv0Be4phWgOxAd7vkVOMZQ.name=Morning Glory
+betterquesting.quest.Mv0Be4phWgOxAd7vkVOMZQ.desc=Found in: Red Room and Vault Labs.
+
+# Quest: ArmorPolish
+betterquesting.quest.LSNVJ0cKXb2hPTkcJiNt1w.name=Armor Polish
+betterquesting.quest.LSNVJ0cKXb2hPTkcJiNt1w.desc=Found in: Red Room and Vault Lockers.
+
+# Quest: Crackpipe
+betterquesting.quest.Pcyv0PM1XGim2vGOQKHhNA.name=Crackpipe
+betterquesting.quest.Pcyv0PM1XGim2vGOQKHhNA.desc=Found in: Red Room.
+
+# Quest: WmodNickel
+betterquesting.quest.pLpvBPEYVUmIsNxGtVG1Yw.name=Weapon Mod: Nickel
+betterquesting.quest.pLpvBPEYVUmIsNxGtVG1Yw.desc=Found in: Red Room.
+
+# Quest: WmodDoubloons
+betterquesting.quest.zMw7WSZQXOuu6Pb4vJnqSA.name=Weapon Mod: Doubloons
+betterquesting.quest.zMw7WSZQXOuu6Pb4vJnqSA.desc=Found in: Red Room.
+
+# Quest: StampBook0
+betterquesting.quest.FfEhGw-bXvW8S3Up92h_DQ.name=Stamp Book (Vol. 1)
+betterquesting.quest.FfEhGw-bXvW8S3Up92h_DQ.desc=Found in: Meteor Safes.
+
+# Quest: StampBook1
+betterquesting.quest.qKaSMqJOWme6oHE0ApcEYg.name=Stamp Book (Vol. 2)
+betterquesting.quest.qKaSMqJOWme6oHE0ApcEYg.desc=Found in: Meteor Safes.
+
+# Quest: StampBook2
+betterquesting.quest.v8D8XgQsWZmRYisZR8wrcQ.name=Stamp Book (Vol. 3)
+betterquesting.quest.v8D8XgQsWZmRYisZR8wrcQ.desc=Found in: Meteor Safes.
+
+# Quest: StampBook3
+betterquesting.quest.DQrtob30UzOF-U6JOJknXg.name=Stamp Book (Vol. 4)
+betterquesting.quest.DQrtob30UzOF-U6JOJknXg.desc=Found in: Meteor Safes.
+
+# Quest: StampBook4
+betterquesting.quest.oNtwGO9RVsyou5M8VEdK9w.name=Stamp Book (Vol. 5)
+betterquesting.quest.oNtwGO9RVsyou5M8VEdK9w.desc=Found in: Meteor Safes.
+
+# Quest: StampBook5
+betterquesting.quest.QuInn9RrUiGrl3fuAomeCg.name=Stamp Book (Vol. 6)
+betterquesting.quest.QuInn9RrUiGrl3fuAomeCg.desc=Found in: Meteor Safes.
+
+# Quest: StampBook6
+betterquesting.quest.OeWzgWuiXaWtrOuKiujcPA.name=Stamp Book (Vol. 7)
+betterquesting.quest.OeWzgWuiXaWtrOuKiujcPA.desc=Found in: Meteor Safes.
+
+# Quest: StampBook7
+betterquesting.quest.snJUfl9jVVGQPGmi_ZdkOA.name=Stamp Book (Vol. 8)
+betterquesting.quest.snJUfl9jVVGQPGmi_ZdkOA.desc=Found in: Meteor Safes.
+
+# Quest: BoxcarBlock
+betterquesting.quest.TwFTEV_OVqStx_V2EUXbVA.name=Boxcar
+betterquesting.quest.TwFTEV_OVqStx_V2EUXbVA.desc=Found in: Red Room.
+
+# Quest: BlueprintFolder0
+betterquesting.quest.l9ZfhbWWUkSg7SRdHKUDIA.name=Blueprint Folder (Common)
+betterquesting.quest.l9ZfhbWWUkSg7SRdHKUDIA.desc=Found in: Machine Parts, Filing Cabinets, and Blueprint Chests.
+
+# Quest: BlueprintFolder1
+betterquesting.quest.fFuiNT9iXEy5uAnyDkJK9A.name=Blueprint Folder (Rare)
+betterquesting.quest.fFuiNT9iXEy5uAnyDkJK9A.desc=Found in: Vault Labs, Expensive Pool, Meteorite Treasure, and Blueprint Chests.
+
+# Quest: BlueprintFolder2
+betterquesting.quest.hdLa6xgDV9ei8fwx08WXCA.name=Blueprint Folder (Secret)
+betterquesting.quest.hdLa6xgDV9ei8fwx08WXCA.desc=Found in: Red Room and Blueprint Chests.
+
+# Quest: CircuitVacuumTube
+betterquesting.quest.h3bIsynYX46N6PUin1TM2g.name=Vacuum Tube
+betterquesting.quest.h3bIsynYX46N6PUin1TM2g.desc=Found in: Generic Pools, Safes, and Meteorite Treasure.
+
+# Quest: CircuitAnalog
+betterquesting.quest.1yIL2cCEUhi6KJnPyQOF9A.name=Capacitor
+betterquesting.quest.1yIL2cCEUhi6KJnPyQOF9A.desc=Found in: Expensive Pool and Oil Rigs.
+
+# Quest: CircuitChip
+betterquesting.quest.OgDmVeM3VH63s59g7TWL5Q.name=Tantalum Capacitor
+betterquesting.quest.OgDmVeM3VH63s59g7TWL5Q.desc=Found in: Safes, Expensive Pool, and Meteorite Treasure.
+
+# Quest: CircuitAdvanced
+betterquesting.quest.YJD8qEF4UOePOdJcXjMW6Q.name=Printed Circuit Board
+betterquesting.quest.YJD8qEF4UOePOdJcXjMW6Q.desc=Found in: Unbreakable Safes.
+
+# Quest: GunKit1
+betterquesting.quest.Z3HAlED-W6Spb5LX48E64g.name=Weapon Kit 1
+betterquesting.quest.Z3HAlED-W6Spb5LX48E64g.desc=Found in: Expensive Pool, Generic Pools, and Vertibird Wrecks.
+
+# Quest: GunKit2
+betterquesting.quest.3kVsAHHaXre2q-pidH61Ng.name=Weapon Kit 2
+betterquesting.quest.3kVsAHHaXre2q-pidH61Ng.desc=Found in: Expensive Pool.
+
+# Quest: GrenadeTriplex
+betterquesting.quest.AMZQKPjfWHeRkmaxdjPFYg.name=Triplex Grenade
+betterquesting.quest.AMZQKPjfWHeRkmaxdjPFYg.desc=Found in: Expensive Pool and Reinforced Safes.
+
+# Quest: BatteryPackLithium
+betterquesting.quest.MxkfJ5CBU4advH-80ziinw.name=Lithium Battery Pack
+betterquesting.quest.MxkfJ5CBU4advH-80ziinw.desc=Found in: Expensive Pool.
+
+# Quest: BottleNuka
+betterquesting.quest.oMtVL77zVhWgoOpaM40U9A.name=Nuka Cola
+betterquesting.quest.oMtVL77zVhWgoOpaM40U9A.desc=Found in: Silos, Vertibird Wrecks, Vending Machines, and Glyphid Hives.
+
+# Quest: BottleQuantum
+betterquesting.quest.kp2BhnaXU92PnB3IMYvyEA.name=Nuka Cola Quantum
+betterquesting.quest.kp2BhnaXU92PnB3IMYvyEA.desc=Found in: Expensive Pool, Nuclear Trash, and Vertibird Wrecks.
+
+# Quest: RedBarrel
+betterquesting.quest.uLNWwhu0UZKFRf_RfqpWVw.name=Red Barrel
+betterquesting.quest.uLNWwhu0UZKFRf_RfqpWVw.desc=Found in: Expensive Pool and Silos.
+
+# Quest: GasMaskM65
+betterquesting.quest.T6XAJn0XW4K8UDWneDuHGQ.name=M65 Gas Mask
+betterquesting.quest.T6XAJn0XW4K8UDWneDuHGQ.desc=Found in: Silos, Expensive Pool, Nuclear Trash, and Vertibird Wrecks.
+
+# Quest: BombCaller0
+betterquesting.quest.wizSsZX8W9y_KqJrnOcX4Q.name=Bomber Caller
+betterquesting.quest.wizSsZX8W9y_KqJrnOcX4Q.desc=Found in: Silos, Expensive Pool, and Vertibird Wrecks.
+
+# Quest: BombCaller1
+betterquesting.quest.7_aINBCQWEOZJvtZpfaAfw.name=Bomber Caller (Incendiary)
+betterquesting.quest.7_aINBCQWEOZJvtZpfaAfw.desc=Found in: Expensive Pool and Vertibird Wrecks.
+
+# Quest: BombCaller2
+betterquesting.quest.CFCsa0WYXxWUIuzpoYBQKQ.name=Bomber Caller (Nuclear)
+betterquesting.quest.CFCsa0WYXxWUIuzpoYBQKQ.desc=Found in: Expensive Pool and Vertibird Wrecks.
+
+# Quest: GasMaskFilter
+betterquesting.quest.BFquaCyJXqOw7uRmPT8yeg.name=Gas Mask Filter
+betterquesting.quest.BFquaCyJXqOw7uRmPT8yeg.desc=Found in: Generic Pools, Expensive Pool, and Vault Lockers.
+
+# Quest: AmmoContainer
+betterquesting.quest.yJrLE-J2UJyuvvT9QxCqKg.name=Ammo Container
+betterquesting.quest.yJrLE-J2UJyuvvT9QxCqKg.desc=Found in: C130 Wrecks and Safes.
+
+# Quest: GunHeavyRevolver
+betterquesting.quest.y5O4ErTBWUqHzzFzUO_zZA.name=Heavy Revolver
+betterquesting.quest.y5O4ErTBWUqHzzFzUO_zZA.desc=Found in: C130 Wrecks, Rusty Safes, and Reinforced Safes.
+
+# Quest: Pin
+betterquesting.quest.XgBpIyT1ULaq9w4wBycthg.name=Pin
+betterquesting.quest.XgBpIyT1ULaq9w4wBycthg.desc=Found in: Rusty Safes and Garbage Piles.
+
+# Quest: PillHerbal
+betterquesting.quest.U7YDSRE7UUuGpKZES7xVHQ.name=Herbal Pills
+betterquesting.quest.U7YDSRE7UUuGpKZES7xVHQ.desc=Found in: Meteorite Treasure.
 
 
 ### Quests in multiple quest lines ###
