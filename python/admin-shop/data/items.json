@@ -651,25 +651,25 @@
     "internal_name": "trenchmaster_helmet",
     "reward_id": "hbm:item.trenchmaster_helmet",
     "reward_meta": 0,
-    "hours_to_acquire": 2.5
+    "hours_to_acquire": 5
   },
   {
     "internal_name": "trenchmaster_chest",
     "reward_id": "hbm:item.trenchmaster_plate",
     "reward_meta": 0,
-    "hours_to_acquire": 2.5
+    "hours_to_acquire": 5
   },
   {
     "internal_name": "trenchmaster_legs",
     "reward_id": "hbm:item.trenchmaster_legs",
     "reward_meta": 0,
-    "hours_to_acquire": 2.5
+    "hours_to_acquire": 5
   },
   {
     "internal_name": "trenchmaster_boots",
     "reward_id": "hbm:item.trenchmaster_boots",
     "reward_meta": 0,
-    "hours_to_acquire": 2.5
+    "hours_to_acquire": 5
   },
   {
     "internal_name": "gun_uzi",
