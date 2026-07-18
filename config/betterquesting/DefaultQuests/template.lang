@@ -1536,6 +1536,10 @@ betterquesting.questline.AoTW_N_4T8esuIXYcFrQDw.desc=Special
 betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.name=Cat on Watermelon
 betterquesting.quest.TcQR1SIASkix1NxmWdZ4aA.desc=103 103 103
 
+# Quest: More Soon™
+betterquesting.quest.H610CIV2R5yHHX8FqZ5YnA.name=More Soon™
+betterquesting.quest.H610CIV2R5yHHX8FqZ5YnA.desc=More Soon™
+
 # Quest: ChlorinePinwheel
 betterquesting.quest.OYBzGhRQWLW8Ti8XuoSOlA.name=Chlorine Pinwheel
 betterquesting.quest.OYBzGhRQWLW8Ti8XuoSOlA.desc=Found in: Expensive Pool.
@@ -1951,6 +1955,142 @@ betterquesting.quest.bOj_s2k4WPu9R5165stYBw.desc=Found in: Offices, Arctic Vault
 # Quest: CrateJungle
 betterquesting.quest.sAH1YjQuVyCHxUlfE7CNkQ.name=Jungle Crate
 betterquesting.quest.sAH1YjQuVyCHxUlfE7CNkQ.desc=Found in: Jungle Dungeons.
+
+# Quest: NcrpaHelmet
+betterquesting.quest.E2Xevc6DWBWEk4SE7pyyvA.name=NCR Ranger Patrol Armor Helmet
+betterquesting.quest.E2Xevc6DWBWEk4SE7pyyvA.desc=Found in: Red Room.
+
+# Quest: NcrpaChest
+betterquesting.quest._Ypai7EXVAyaaJEJ7ysZOg.name=NCR Ranger Patrol Armor Chestplate
+betterquesting.quest._Ypai7EXVAyaaJEJ7ysZOg.desc=Found in: Red Room.
+
+# Quest: NcrpaLegs
+betterquesting.quest.wWZenoCxXBOHuOskA-nIPQ.name=NCR Ranger Patrol Armor Leggings
+betterquesting.quest.wWZenoCxXBOHuOskA-nIPQ.desc=Found in: Red Room.
+
+# Quest: NcrpaBoots
+betterquesting.quest.dWVFCSvoX5m-Z057sMsFvA.name=NCR Ranger Patrol Armor Boots
+betterquesting.quest.dWVFCSvoX5m-Z057sMsFvA.desc=Found in: Red Room.
+
+# Quest: TrenchmasterHelmet
+betterquesting.quest._hkiN1TGVxaBLcEr6ogSyA.name=Trenchmaster Helmet
+betterquesting.quest._hkiN1TGVxaBLcEr6ogSyA.desc=Found in: Red Room.
+
+# Quest: TrenchmasterChest
+betterquesting.quest.xYuuAFBiWe63ACO_ddZQvw.name=Trenchmaster Chestplate
+betterquesting.quest.xYuuAFBiWe63ACO_ddZQvw.desc=Found in: Red Room.
+
+# Quest: TrenchmasterLegs
+betterquesting.quest.bJ4rMpBxXWeo-Khw0QwBpQ.name=Trenchmaster Leggings
+betterquesting.quest.bJ4rMpBxXWeo-Khw0QwBpQ.desc=Found in: Red Room.
+
+# Quest: TrenchmasterBoots
+betterquesting.quest.rSF0y9YQWryrVyTUlvIUJQ.name=Trenchmaster Boots
+betterquesting.quest.rSF0y9YQWryrVyTUlvIUJQ.desc=Found in: Red Room.
+
+# Quest: GunUzi
+betterquesting.quest.Zc_ZzIE1VX6wHlrn-1K2pA.name=UZI Submachine Gun
+betterquesting.quest.Zc_ZzIE1VX6wHlrn-1K2pA.desc=Found in: Standard Safes.
+
+# Quest: GunHenry
+betterquesting.quest.ps5mlKx-XxKZ-hzgBPUMvQ.name=Lever Action Rifle
+betterquesting.quest.ps5mlKx-XxKZ-hzgBPUMvQ.desc=Found in: C-130 Wrecks.
+
+# Quest: GunGreasegun
+betterquesting.quest.sq-P6Js7XaqVhbW5fNUXCA.name=Grease Gun
+betterquesting.quest.sq-P6Js7XaqVhbW5fNUXCA.desc=Found in: C-130 Wrecks.
+
+# Quest: RobesHelmet
+betterquesting.quest.L3WCjm_uXUSEB-dK4ISgdQ.name=Casual Hoodie
+betterquesting.quest.L3WCjm_uXUSEB-dK4ISgdQ.desc=Found in: Vault Lockers.
+
+# Quest: RobesChest
+betterquesting.quest.wAMDx-9YXgyZECmvzao_ig.name=Casual Shirt
+betterquesting.quest.wAMDx-9YXgyZECmvzao_ig.desc=Found in: Vault Lockers.
+
+# Quest: RobesLegs
+betterquesting.quest.yBvSJpA6Wiqvv1WCyW2UvQ.name=Casual Pants
+betterquesting.quest.yBvSJpA6Wiqvv1WCyW2UvQ.desc=Found in: Vault Lockers.
+
+# Quest: RobesBoots
+betterquesting.quest.loVaBsMOWkuUyFt0pZU62g.name=Field Boots
+betterquesting.quest.loVaBsMOWkuUyFt0pZU62g.desc=Found in: Vault Lockers.
+
+# Quest: Jackt
+betterquesting.quest.0KULQiYDXK2tBbmWnmlmAg.name=Hella Rad Ballistic Jacket
+betterquesting.quest.0KULQiYDXK2tBbmWnmlmAg.desc=Found in: Vault Lockers.
+
+# Quest: Jackt2
+betterquesting.quest.C52KXLhGX9O4o8cyej2Eig.name=Hella Rad Ballistic Jacket 2: Tokyo Drift
+betterquesting.quest.C52KXLhGX9O4o8cyej2Eig.desc=Found in: Vault Lockers.
+
+# Quest: GasMaskMono
+betterquesting.quest.rVZm9sSnWL2G7pz9hsGSAg.name=Half Mask
+betterquesting.quest.rVZm9sSnWL2G7pz9hsGSAg.desc=Found in: Vault Lockers.
+
+# Quest: Goggles
+betterquesting.quest.450tbjp1V1C5YgHMAWJmCA.name=Goggles
+betterquesting.quest.450tbjp1V1C5YgHMAWJmCA.desc=Found in: Vault Lockers.
+
+# Quest: HazmatKit
+betterquesting.quest.wDdpHR-3UQ-cM8EmNWbrgA.name=Hazmat Kit
+betterquesting.quest.wDdpHR-3UQ-cM8EmNWbrgA.desc=Found in: Nuclear Trash and Nuclear Misc Pools.
+
+# Quest: SatChip
+betterquesting.quest.P_h9CSmoXzyStDAkUcGoVQ.name=Satellite ID Chip
+betterquesting.quest.P_h9CSmoXzyStDAkUcGoVQ.desc=Found in: Reinforced Safes.
+
+# Quest: Reacher
+betterquesting.quest.4jhj2vLCXrm5Y74OGA_qMQ.name=Tungsten Reachers
+betterquesting.quest.4jhj2vLCXrm5Y74OGA_qMQ.desc=Found in: Nuke Fuel Rooms.
+
+# Quest: Designator
+betterquesting.quest.4gp9Z-CCXiGCXfClA3m7Fg.name=Short Range Designator
+betterquesting.quest.4gp9Z-CCXiGCXfClA3m7Fg.desc=Found in: Silos.
+
+# Quest: OilDetector
+betterquesting.quest.nLR_rsQIVVSopUvVb4TVew.name=Oil Reservoir Detector
+betterquesting.quest.nLR_rsQIVVSopUvVb4TVew.desc=Found in: Oil Rigs.
+
+# Quest: GeigerCounter
+betterquesting.quest.ZjoT-W5kUImiTK3a1f1KRA.name=Geiger Counter
+betterquesting.quest.ZjoT-W5kUImiTK3a1f1KRA.desc=Found in: Generic Pools, C-130 Wrecks, and Silos.
+
+# Quest: Siox
+betterquesting.quest.EMG1Qy-MWeu5S3QgWG0mAQ.name=SiOx Cancer Medication
+betterquesting.quest.EMG1Qy-MWeu5S3QgWG0mAQ.desc=Found in: Medicine Stashes.
+
+# Quest: Radx
+betterquesting.quest.Ka1d8l12XBaY9rzmM5KE4A.name=Rad-X
+betterquesting.quest.Ka1d8l12XBaY9rzmM5KE4A.desc=Found in: Medicine Stashes.
+
+# Quest: MedBag
+betterquesting.quest.WnFGjG-NW1qtUEkTC0_IJw.name=First Aid Kit
+betterquesting.quest.WnFGjG-NW1qtUEkTC0_IJw.desc=Found in: C-130 Wrecks.
+
+# Quest: BottleCherry
+betterquesting.quest.-5B_iI6hUbaDaZLCqN0rxw.name=Nuka Cherry
+betterquesting.quest.-5B_iI6hUbaDaZLCqN0rxw.desc=Found in: Generic Pools, Antenna Pools, and Vending Machines.
+
+# Quest: CanBepis
+betterquesting.quest.InBygHR7U9eQBa9g_EIgHw.name=Bepis
+betterquesting.quest.InBygHR7U9eQBa9g_EIgHw.desc=Found in: Vending Machines.
+
+# Quest: CanLuna
+betterquesting.quest.1qHEG81HV7GXnZlQH5S6WQ.name=Black Mesa Luna - Dark Cola
+betterquesting.quest.1qHEG81HV7GXnZlQH5S6WQ.desc=Found in: Vending Machines.
+
+# Quest: CanMug
+betterquesting.quest.x7C25LPaW7enI2H8JUoaeg.name=Mug Root Beer
+betterquesting.quest.x7C25LPaW7enI2H8JUoaeg.desc=Found in: Vending Machines.
+
+# Quest: CanBreen
+betterquesting.quest.P2Yyz2QyUiWHBudv20Sstw.name=Dr. Breen's Private Reserve
+betterquesting.quest.P2Yyz2QyUiWHBudv20Sstw.desc=Found in: Vending Machines.
+
+# Quest: FlamePony
+betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.name=Painting of a Cartoon Pony
+betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.desc=Found in: Meteorite Treasure.
 
 
 ### Quests in multiple quest lines ###

@@ -1956,6 +1956,142 @@ betterquesting.quest.bOj_s2k4WPu9R5165stYBw.desc=Найдено в: Офисы, 
 betterquesting.quest.sAH1YjQuVyCHxUlfE7CNkQ.name=Ящик из джунглей
 betterquesting.quest.sAH1YjQuVyCHxUlfE7CNkQ.desc=Найдено в: Данжи в джунглях.
 
+# Quest: NcrpaHelmet
+betterquesting.quest.E2Xevc6DWBWEk4SE7pyyvA.name=Шлем силовой брони рейнджера НКР
+betterquesting.quest.E2Xevc6DWBWEk4SE7pyyvA.desc=Найдено в: Красная комната.
+
+# Quest: NcrpaChest
+betterquesting.quest._Ypai7EXVAyaaJEJ7ysZOg.name=Нагрудник силовой брони рейнджера НКР
+betterquesting.quest._Ypai7EXVAyaaJEJ7ysZOg.desc=Найдено в: Красная комната.
+
+# Quest: NcrpaLegs
+betterquesting.quest.wWZenoCxXBOHuOskA-nIPQ.name=Поножи силовой брони рейнджера НКР
+betterquesting.quest.wWZenoCxXBOHuOskA-nIPQ.desc=Найдено в: Красная комната.
+
+# Quest: NcrpaBoots
+betterquesting.quest.dWVFCSvoX5m-Z057sMsFvA.name=Ботинки силовой брони рейнджера НКР
+betterquesting.quest.dWVFCSvoX5m-Z057sMsFvA.desc=Найдено в: Красная комната.
+
+# Quest: TrenchmasterHelmet
+betterquesting.quest._hkiN1TGVxaBLcEr6ogSyA.name=Шлем траншейщика
+betterquesting.quest._hkiN1TGVxaBLcEr6ogSyA.desc=Найдено в: Красная комната.
+
+# Quest: TrenchmasterChest
+betterquesting.quest.xYuuAFBiWe63ACO_ddZQvw.name=Нагрудник траншейщика
+betterquesting.quest.xYuuAFBiWe63ACO_ddZQvw.desc=Найдено в: Красная комната.
+
+# Quest: TrenchmasterLegs
+betterquesting.quest.bJ4rMpBxXWeo-Khw0QwBpQ.name=Поножи траншейщика
+betterquesting.quest.bJ4rMpBxXWeo-Khw0QwBpQ.desc=Найдено в: Красная комната.
+
+# Quest: TrenchmasterBoots
+betterquesting.quest.rSF0y9YQWryrVyTUlvIUJQ.name=Сапоги траншейщика
+betterquesting.quest.rSF0y9YQWryrVyTUlvIUJQ.desc=Найдено в: Красная комната.
+
+# Quest: GunUzi
+betterquesting.quest.Zc_ZzIE1VX6wHlrn-1K2pA.name=Пистолет-пулемёт "UZI"
+betterquesting.quest.Zc_ZzIE1VX6wHlrn-1K2pA.desc=Найдено в: Обычные сейфы.
+
+# Quest: GunHenry
+betterquesting.quest.ps5mlKx-XxKZ-hzgBPUMvQ.name=Винтовка рычажного действия
+betterquesting.quest.ps5mlKx-XxKZ-hzgBPUMvQ.desc=Найдено в: Обломки C-130.
+
+# Quest: GunGreasegun
+betterquesting.quest.sq-P6Js7XaqVhbW5fNUXCA.name=Пистолет-пулемёт "Grease Gun"
+betterquesting.quest.sq-P6Js7XaqVhbW5fNUXCA.desc=Найдено в: Обломки C-130.
+
+# Quest: RobesHelmet
+betterquesting.quest.L3WCjm_uXUSEB-dK4ISgdQ.name=Повседневная толстовка с капюшоном
+betterquesting.quest.L3WCjm_uXUSEB-dK4ISgdQ.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: RobesChest
+betterquesting.quest.wAMDx-9YXgyZECmvzao_ig.name=Повседневная кофта
+betterquesting.quest.wAMDx-9YXgyZECmvzao_ig.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: RobesLegs
+betterquesting.quest.yBvSJpA6Wiqvv1WCyW2UvQ.name=Повседневные брюки
+betterquesting.quest.yBvSJpA6Wiqvv1WCyW2UvQ.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: RobesBoots
+betterquesting.quest.loVaBsMOWkuUyFt0pZU62g.name=Полевые ботинки
+betterquesting.quest.loVaBsMOWkuUyFt0pZU62g.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: Jackt
+betterquesting.quest.0KULQiYDXK2tBbmWnmlmAg.name=Чертовски стильная баллистическая куртка
+betterquesting.quest.0KULQiYDXK2tBbmWnmlmAg.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: Jackt2
+betterquesting.quest.C52KXLhGX9O4o8cyej2Eig.name=Чертовски стильная баллистическая куртка 2: Токийский Дрифт
+betterquesting.quest.C52KXLhGX9O4o8cyej2Eig.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: GasMaskMono
+betterquesting.quest.rVZm9sSnWL2G7pz9hsGSAg.name=Полумаска
+betterquesting.quest.rVZm9sSnWL2G7pz9hsGSAg.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: Goggles
+betterquesting.quest.450tbjp1V1C5YgHMAWJmCA.name=Защитные очки
+betterquesting.quest.450tbjp1V1C5YgHMAWJmCA.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: HazmatKit
+betterquesting.quest.wDdpHR-3UQ-cM8EmNWbrgA.name=Набор химической и радиационной защиты
+betterquesting.quest.wDdpHR-3UQ-cM8EmNWbrgA.desc=Найдено в: Ядерные отходы и Разное ядерное оборудование.
+
+# Quest: SatChip
+betterquesting.quest.P_h9CSmoXzyStDAkUcGoVQ.name=Спутниковый ID-чип
+betterquesting.quest.P_h9CSmoXzyStDAkUcGoVQ.desc=Найдено в: Укрепленные сейфы.
+
+# Quest: Reacher
+betterquesting.quest.4jhj2vLCXrm5Y74OGA_qMQ.name=Вольфрамовые хваталки
+betterquesting.quest.4jhj2vLCXrm5Y74OGA_qMQ.desc=Найдено в: Комнаты с ядерным топливом.
+
+# Quest: Designator
+betterquesting.quest.4gp9Z-CCXiGCXfClA3m7Fg.name=Целеуказатель ближнего действия
+betterquesting.quest.4gp9Z-CCXiGCXfClA3m7Fg.desc=Найдено в: Пусковые шахты.
+
+# Quest: OilDetector
+betterquesting.quest.nLR_rsQIVVSopUvVb4TVew.name=Детектор нефтяного резервуара
+betterquesting.quest.nLR_rsQIVVSopUvVb4TVew.desc=Найдено в: Нефтяные вышки.
+
+# Quest: GeigerCounter
+betterquesting.quest.ZjoT-W5kUImiTK3a1f1KRA.name=Ручной счётчик Гейгера
+betterquesting.quest.ZjoT-W5kUImiTK3a1f1KRA.desc=Найдено в: Обычные пулы, Обломки C-130 и Пусковые шахты.
+
+# Quest: Siox
+betterquesting.quest.EMG1Qy-MWeu5S3QgWG0mAQ.name=Лекарство от рака "SiOx"
+betterquesting.quest.EMG1Qy-MWeu5S3QgWG0mAQ.desc=Найдено в: Медицинские тайники.
+
+# Quest: Radx
+betterquesting.quest.Ka1d8l12XBaY9rzmM5KE4A.name=Рад-X
+betterquesting.quest.Ka1d8l12XBaY9rzmM5KE4A.desc=Найдено в: Медицинские тайники.
+
+# Quest: MedBag
+betterquesting.quest.WnFGjG-NW1qtUEkTC0_IJw.name=Аптечка первой помощи
+betterquesting.quest.WnFGjG-NW1qtUEkTC0_IJw.desc=Найдено в: Обломки C-130.
+
+# Quest: BottleCherry
+betterquesting.quest.-5B_iI6hUbaDaZLCqN0rxw.name=Бутылка Ядер-вишни
+betterquesting.quest.-5B_iI6hUbaDaZLCqN0rxw.desc=Найдено в: Обычные пулы, Башни связи и Торговые автоматы.
+
+# Quest: CanBepis
+betterquesting.quest.InBygHR7U9eQBa9g_EIgHw.name=Бепис
+betterquesting.quest.InBygHR7U9eQBa9g_EIgHw.desc=Найдено в: Торговые автоматы.
+
+# Quest: CanLuna
+betterquesting.quest.1qHEG81HV7GXnZlQH5S6WQ.name=Чёрная Меза луна - Тёмная кола
+betterquesting.quest.1qHEG81HV7GXnZlQH5S6WQ.desc=Найдено в: Торговые автоматы.
+
+# Quest: CanMug
+betterquesting.quest.x7C25LPaW7enI2H8JUoaeg.name=Квас "Царские Припасы"
+betterquesting.quest.x7C25LPaW7enI2H8JUoaeg.desc=Найдено в: Торговые автоматы.
+
+# Quest: CanBreen
+betterquesting.quest.P2Yyz2QyUiWHBudv20Sstw.name=Личный резерв др.Брина
+betterquesting.quest.P2Yyz2QyUiWHBudv20Sstw.desc=Найдено в: Торговые автоматы.
+
+# Quest: FlamePony
+betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.name=Картинка цветной лошади
+betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.desc=Найдено в: Сокровище метеорита.
+
 ### Quests in multiple quest lines ###
 
 # Quest: Antimatter
