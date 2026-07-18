@@ -622,5 +622,209 @@
     "reward_id": "hbm:tile.crate_jungle",
     "reward_meta": 0,
     "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "ncrpa_helmet",
+    "reward_id": "hbm:item.ncrpa_helmet",
+    "reward_meta": 0,
+    "hours_to_acquire": 5
+  },
+  {
+    "internal_name": "ncrpa_chest",
+    "reward_id": "hbm:item.ncrpa_plate",
+    "reward_meta": 0,
+    "hours_to_acquire": 5
+  },
+  {
+    "internal_name": "ncrpa_legs",
+    "reward_id": "hbm:item.ncrpa_legs",
+    "reward_meta": 0,
+    "hours_to_acquire": 5
+  },
+  {
+    "internal_name": "ncrpa_boots",
+    "reward_id": "hbm:item.ncrpa_boots",
+    "reward_meta": 0,
+    "hours_to_acquire": 5
+  },
+  {
+    "internal_name": "trenchmaster_helmet",
+    "reward_id": "hbm:item.trenchmaster_helmet",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
+  },
+  {
+    "internal_name": "trenchmaster_chest",
+    "reward_id": "hbm:item.trenchmaster_plate",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
+  },
+  {
+    "internal_name": "trenchmaster_legs",
+    "reward_id": "hbm:item.trenchmaster_legs",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
+  },
+  {
+    "internal_name": "trenchmaster_boots",
+    "reward_id": "hbm:item.trenchmaster_boots",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
+  },
+  {
+    "internal_name": "gun_uzi",
+    "reward_id": "hbm:item.gun_uzi",
+    "reward_meta": 0,
+    "hours_to_acquire": 3.5
+  },
+  {
+    "internal_name": "gun_henry",
+    "reward_id": "hbm:item.gun_henry",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "gun_greasegun",
+    "reward_id": "hbm:item.gun_greasegun",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "robes_helmet",
+    "reward_id": "hbm:item.robes_helmet",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "robes_chest",
+    "reward_id": "hbm:item.robes_plate",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "robes_legs",
+    "reward_id": "hbm:item.robes_legs",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "robes_boots",
+    "reward_id": "hbm:item.robes_boots",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "jackt",
+    "reward_id": "hbm:item.jackt",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "jackt2",
+    "reward_id": "hbm:item.jackt2",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "gas_mask_mono",
+    "reward_id": "hbm:item.gas_mask_mono",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "goggles",
+    "reward_id": "hbm:item.goggles",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "hazmat_kit",
+    "reward_id": "hbm:item.hazmat_kit",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "sat_chip",
+    "reward_id": "hbm:item.sat_chip",
+    "reward_meta": 0,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "reacher",
+    "reward_id": "hbm:item.reacher",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.8
+  },
+  {
+    "internal_name": "designator",
+    "reward_id": "hbm:item.designator",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "oil_detector",
+    "reward_id": "hbm:item.oil_detector",
+    "reward_meta": 0,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "geiger_counter",
+    "reward_id": "hbm:item.geiger_counter",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.5
+  },
+  {
+    "internal_name": "siox",
+    "reward_id": "hbm:item.siox",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.5
+  },
+  {
+    "internal_name": "radx",
+    "reward_id": "hbm:item.radx",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "med_bag",
+    "reward_id": "hbm:item.med_bag",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.6
+  },
+  {
+    "internal_name": "bottle_cherry",
+    "reward_id": "hbm:item.bottle_cherry",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "can_bepis",
+    "reward_id": "hbm:item.can_bepis",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "can_luna",
+    "reward_id": "hbm:item.can_luna",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "can_mug",
+    "reward_id": "hbm:item.can_mug",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "can_breen",
+    "reward_id": "hbm:item.can_breen",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.2
+  },
+  {
+    "internal_name": "flame_pony",
+    "reward_id": "hbm:item.flame_pony",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
   }
 ]

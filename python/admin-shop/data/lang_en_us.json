@@ -414,5 +414,141 @@
   "crate_jungle": {
     "name": "Jungle Crate",
     "desc": "Found in: Jungle Dungeons."
+  },
+  "ncrpa_helmet": {
+    "name": "NCR Ranger Patrol Armor Helmet",
+    "desc": "Found in: Red Room."
+  },
+  "ncrpa_chest": {
+    "name": "NCR Ranger Patrol Armor Chestplate",
+    "desc": "Found in: Red Room."
+  },
+  "ncrpa_legs": {
+    "name": "NCR Ranger Patrol Armor Leggings",
+    "desc": "Found in: Red Room."
+  },
+  "ncrpa_boots": {
+    "name": "NCR Ranger Patrol Armor Boots",
+    "desc": "Found in: Red Room."
+  },
+  "trenchmaster_helmet": {
+    "name": "Trenchmaster Helmet",
+    "desc": "Found in: Red Room."
+  },
+  "trenchmaster_chest": {
+    "name": "Trenchmaster Chestplate",
+    "desc": "Found in: Red Room."
+  },
+  "trenchmaster_legs": {
+    "name": "Trenchmaster Leggings",
+    "desc": "Found in: Red Room."
+  },
+  "trenchmaster_boots": {
+    "name": "Trenchmaster Boots",
+    "desc": "Found in: Red Room."
+  },
+  "gun_uzi": {
+    "name": "UZI Submachine Gun",
+    "desc": "Found in: Standard Safes."
+  },
+  "gun_henry": {
+    "name": "Lever Action Rifle",
+    "desc": "Found in: C-130 Wrecks."
+  },
+  "gun_greasegun": {
+    "name": "Grease Gun",
+    "desc": "Found in: C-130 Wrecks."
+  },
+  "robes_helmet": {
+    "name": "Casual Hoodie",
+    "desc": "Found in: Vault Lockers."
+  },
+  "robes_chest": {
+    "name": "Casual Shirt",
+    "desc": "Found in: Vault Lockers."
+  },
+  "robes_legs": {
+    "name": "Casual Pants",
+    "desc": "Found in: Vault Lockers."
+  },
+  "robes_boots": {
+    "name": "Field Boots",
+    "desc": "Found in: Vault Lockers."
+  },
+  "jackt": {
+    "name": "Hella Rad Ballistic Jacket",
+    "desc": "Found in: Vault Lockers."
+  },
+  "jackt2": {
+    "name": "Hella Rad Ballistic Jacket 2: Tokyo Drift",
+    "desc": "Found in: Vault Lockers."
+  },
+  "gas_mask_mono": {
+    "name": "Half Mask",
+    "desc": "Found in: Vault Lockers."
+  },
+  "goggles": {
+    "name": "Goggles",
+    "desc": "Found in: Vault Lockers."
+  },
+  "hazmat_kit": {
+    "name": "Hazmat Kit",
+    "desc": "Found in: Nuclear Trash and Nuclear Misc Pools."
+  },
+  "sat_chip": {
+    "name": "Satellite ID Chip",
+    "desc": "Found in: Reinforced Safes."
+  },
+  "reacher": {
+    "name": "Tungsten Reachers",
+    "desc": "Found in: Nuke Fuel Rooms."
+  },
+  "designator": {
+    "name": "Short Range Designator",
+    "desc": "Found in: Silos."
+  },
+  "oil_detector": {
+    "name": "Oil Reservoir Detector",
+    "desc": "Found in: Oil Rigs."
+  },
+  "geiger_counter": {
+    "name": "Geiger Counter",
+    "desc": "Found in: Generic Pools, C-130 Wrecks, and Silos."
+  },
+  "siox": {
+    "name": "SiOx Cancer Medication",
+    "desc": "Found in: Medicine Stashes."
+  },
+  "radx": {
+    "name": "Rad-X",
+    "desc": "Found in: Medicine Stashes."
+  },
+  "med_bag": {
+    "name": "First Aid Kit",
+    "desc": "Found in: C-130 Wrecks."
+  },
+  "bottle_cherry": {
+    "name": "Nuka Cherry",
+    "desc": "Found in: Generic Pools, Antenna Pools, and Vending Machines."
+  },
+  "can_bepis": {
+    "name": "Bepis",
+    "desc": "Found in: Vending Machines."
+  },
+  "can_luna": {
+    "name": "Black Mesa Luna - Dark Cola",
+    "desc": "Found in: Vending Machines."
+  },
+  "can_mug": {
+    "name": "Mug Root Beer",
+    "desc": "Found in: Vending Machines."
+  },
+  "can_breen": {
+    "name": "Dr. Breen's Private Reserve",
+    "desc": "Found in: Vending Machines."
+  },
+  "flame_pony": {
+    "name": "Painting of a Cartoon Pony",
+    "desc": "Found in: Meteorite Treasure."
   }
 }
