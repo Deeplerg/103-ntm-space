@@ -1,0 +1,470 @@
+[
+  {
+    "internal_name": "chlorine_pinwheel",
+    "reward_id": "hbm:item.chlorine_pinwheel",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "gun_double_barrel",
+    "reward_id": "hbm:item.gun_double_barrel",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "launch_code",
+    "reward_id": "hbm:item.launch_code_piece",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "syringe_awesome",
+    "reward_id": "hbm:item.syringe_awesome",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "stealth_boy",
+    "reward_id": "hbm:item.stealth_boy",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.8
+  },
+  {
+    "internal_name": "fusion_core",
+    "reward_id": "hbm:item.fusion_core",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.4
+  },
+  {
+    "internal_name": "gun_panzerschreck",
+    "reward_id": "hbm:item.gun_panzerschreck",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.4
+  },
+  {
+    "internal_name": "gun_hangman",
+    "reward_id": "hbm:item.gun_hangman",
+    "reward_meta": 0,
+    "hours_to_acquire": 4.1
+  },
+  {
+    "internal_name": "gun_mas36",
+    "reward_id": "hbm:item.gun_mas36",
+    "reward_meta": 0,
+    "hours_to_acquire": 4.1
+  },
+  {
+    "internal_name": "secret_folly",
+    "reward_id": "hbm:item.item_secret",
+    "reward_meta": 1,
+    "hours_to_acquire": 4.1
+  },
+  {
+    "internal_name": "secret_selenium_steel",
+    "reward_id": "hbm:item.item_secret",
+    "reward_meta": 2,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "secret_controller",
+    "reward_id": "hbm:item.item_secret",
+    "reward_meta": 3,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "secret_canister",
+    "reward_id": "hbm:item.item_secret",
+    "reward_meta": 4,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "black_book",
+    "reward_id": "hbm:item.book_of_",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "alexandrite",
+    "reward_id": "hbm:item.gem_alexandrite",
+    "reward_meta": 0,
+    "hours_to_acquire": 5
+  },
+  {
+    "internal_name": "starmetal_sword",
+    "reward_id": "hbm:item.starmetal_sword",
+    "reward_meta": 0,
+    "hours_to_acquire": 10
+  },
+  {
+    "internal_name": "t51b_helmet",
+    "reward_id": "hbm:item.t51_helmet",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "t51b_chest",
+    "reward_id": "hbm:item.t51_plate",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "t51b_legs",
+    "reward_id": "hbm:item.t51_legs",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "t51b_boots",
+    "reward_id": "hbm:item.t51_boots",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "gun_congolake",
+    "reward_id": "hbm:item.gun_congolake",
+    "reward_meta": 0,
+    "hours_to_acquire": 10.0
+  },
+  {
+    "internal_name": "gun_carbine",
+    "reward_id": "hbm:item.gun_carbine",
+    "reward_meta": 0,
+    "hours_to_acquire": 10.0
+  },
+  {
+    "internal_name": "gun_am180",
+    "reward_id": "hbm:item.gun_am180",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
+  },
+  {
+    "internal_name": "cell_antimatter",
+    "reward_id": "hbm:item.cell_antimatter",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "ancient_scrap",
+    "reward_id": "hbm:tile.ancient_scrap",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.5
+  },
+  {
+    "internal_name": "ballistic_gauntlet",
+    "reward_id": "hbm:item.ballistic_gauntlet",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "heart_container",
+    "reward_id": "hbm:item.heart_container",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "heart_piece",
+    "reward_id": "hbm:item.heart_piece",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "egg_glyphid",
+    "reward_id": "hbm:item.egg_glyphid",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "cobalt_pickaxe",
+    "reward_id": "hbm:item.cobalt_pickaxe",
+    "reward_meta": 0,
+    "hours_to_acquire": 5
+  },
+  {
+    "internal_name": "card_aos",
+    "reward_id": "hbm:item.card_aos",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "card_qos",
+    "reward_id": "hbm:item.card_qos",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "black_diamond",
+    "reward_id": "hbm:item.black_diamond",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "quartz_plutonium",
+    "reward_id": "hbm:item.quartz_plutonium",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "clay_tablet",
+    "reward_id": "hbm:item.clay_tablet",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "flask_infusion",
+    "reward_id": "hbm:item.flask_infusion",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "spider_milk",
+    "reward_id": "hbm:item.spider_milk",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "scrumpy",
+    "reward_id": "hbm:item.scrumpy",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "wild_p",
+    "reward_id": "hbm:item.wild_p",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "serum",
+    "reward_id": "hbm:item.serum",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "ink",
+    "reward_id": "hbm:item.ink",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "morning_glory",
+    "reward_id": "hbm:item.morning_glory",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "armor_polish",
+    "reward_id": "hbm:item.armor_polish",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.2
+  },
+  {
+    "internal_name": "crackpipe",
+    "reward_id": "hbm:item.crackpipe",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "wmod_nickel",
+    "reward_id": "hbm:item.weapon_mod_special",
+    "reward_meta": 19,
+    "hours_to_acquire": 4.1
+  },
+  {
+    "internal_name": "wmod_doubloons",
+    "reward_id": "hbm:item.weapon_mod_special",
+    "reward_meta": 31,
+    "hours_to_acquire": 4.1
+  },
+  {
+    "internal_name": "stamp_book_0",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 0,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_1",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 1,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_2",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 2,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_3",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 3,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_4",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 4,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_5",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 5,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_6",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 6,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "stamp_book_7",
+    "reward_id": "hbm:item.stamp_book",
+    "reward_meta": 7,
+    "hours_to_acquire": 5.0
+  },
+  {
+    "internal_name": "boxcar_block",
+    "reward_id": "hbm:tile.boxcar",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.4
+  },
+  {
+    "internal_name": "blueprint_folder_0",
+    "reward_id": "hbm:item.blueprint_folder",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "blueprint_folder_1",
+    "reward_id": "hbm:item.blueprint_folder",
+    "reward_meta": 1,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "blueprint_folder_2",
+    "reward_id": "hbm:item.blueprint_folder",
+    "reward_meta": 2,
+    "hours_to_acquire": 4.1
+  },
+  {
+    "internal_name": "circuit_vacuum_tube",
+    "reward_id": "hbm:item.circuit",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.4
+  },
+  {
+    "internal_name": "circuit_analog",
+    "reward_id": "hbm:item.circuit",
+    "reward_meta": 1,
+    "hours_to_acquire": 0.4
+  },
+  {
+    "internal_name": "circuit_chip",
+    "reward_id": "hbm:item.circuit",
+    "reward_meta": 2,
+    "hours_to_acquire": 2
+  },
+  {
+    "internal_name": "circuit_advanced",
+    "reward_id": "hbm:item.circuit",
+    "reward_meta": 3,
+    "hours_to_acquire": 0.4
+  },
+  {
+    "internal_name": "gun_kit_1",
+    "reward_id": "hbm:item.gun_kit_1",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "gun_kit_2",
+    "reward_id": "hbm:item.gun_kit_2",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.5
+  },
+  {
+    "internal_name": "grenade_triplex",
+    "reward_id": "hbm:item.grenade_extra",
+    "reward_meta": 2,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "battery_pack_lithium",
+    "reward_id": "hbm:item.battery_pack",
+    "reward_meta": 1,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "bottle_nuka",
+    "reward_id": "hbm:item.bottle_nuka",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "bottle_quantum",
+    "reward_id": "hbm:item.bottle_quantum",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.5
+  },
+  {
+    "internal_name": "red_barrel",
+    "reward_id": "hbm:tile.red_barrel",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "gas_mask_m65",
+    "reward_id": "hbm:item.gas_mask_m65",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.3
+  },
+  {
+    "internal_name": "bomb_caller_0",
+    "reward_id": "hbm:item.bomb_caller",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.8
+  },
+  {
+    "internal_name": "bomb_caller_1",
+    "reward_id": "hbm:item.bomb_caller",
+    "reward_meta": 1,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "bomb_caller_2",
+    "reward_id": "hbm:item.bomb_caller",
+    "reward_meta": 2,
+    "hours_to_acquire": 1.6
+  },
+  {
+    "internal_name": "gas_mask_filter",
+    "reward_id": "hbm:item.gas_mask_filter",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.4
+  },
+  {
+    "internal_name": "ammo_container",
+    "reward_id": "hbm:item.ammo_container",
+    "reward_meta": 0,
+    "hours_to_acquire": 10.0
+  },
+  {
+    "internal_name": "gun_heavy_revolver",
+    "reward_id": "hbm:item.gun_heavy_revolver",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.2
+  },
+  {
+    "internal_name": "pin",
+    "reward_id": "hbm:item.pin",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.5
+  },
+  {
+    "internal_name": "pill_herbal",
+    "reward_id": "hbm:item.pill_herbal",
+    "reward_meta": 0,
+    "hours_to_acquire": 0.5
+  }
+]

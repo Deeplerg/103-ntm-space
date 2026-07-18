@@ -1,0 +1,314 @@
+{
+  "chlorine_pinwheel": {
+    "name": "Chlorine Pinwheel",
+    "desc": "Found in: Expensive Pool."
+  },
+  "gun_double_barrel": {
+    "name": "Double Barrel Shotgun",
+    "desc": "Found in: Expensive Pool."
+  },
+  "launch_code": {
+    "name": "Launch Code Piece",
+    "desc": "Found in: Expensive Pool and Meteorite Treasure."
+  },
+  "syringe_awesome": {
+    "name": "Awesome Syringe",
+    "desc": "Found in: Expensive Pool."
+  },
+  "stealth_boy": {
+    "name": "Stealth Boy",
+    "desc": "Found in: Expensive Pool, Antenna Pool, and Vertibird Wrecks."
+  },
+  "fusion_core": {
+    "name": "Fusion Core",
+    "desc": "Found in: Expensive Pool and Vertibird Wrecks."
+  },
+  "gun_panzerschreck": {
+    "name": "Panzerschreck",
+    "desc": "Found in: Expensive Pool and C130 Wrecks."
+  },
+  "gun_hangman": {
+    "name": "Hangman Revolver",
+    "desc": "Found in: Red Room."
+  },
+  "gun_mas36": {
+    "name": "MAS-36 Rifle",
+    "desc": "Found in: Red Room."
+  },
+  "secret_folly": {
+    "name": "Secret Item: Folly",
+    "desc": "Found in: Red Room."
+  },
+  "secret_selenium_steel": {
+    "name": "Selenium Steel",
+    "desc": "Found in: Red Room."
+  },
+  "secret_controller": {
+    "name": "Secret Controller",
+    "desc": "Found in: Red Room."
+  },
+  "secret_canister": {
+    "name": "Secret Canister",
+    "desc": "Found in: Red Room."
+  },
+  "black_book": {
+    "name": "Black Book",
+    "desc": "Found in: Red Room and Meteor Safes."
+  },
+  "alexandrite": {
+    "name": "Alexandrite",
+    "desc": "Found in: Red Room and Meteorite Treasure."
+  },
+  "starmetal_sword": {
+    "name": "Starmetal Sword",
+    "desc": "Found in: Red Room."
+  },
+  "t51b_helmet": {
+    "name": "T-51b Helmet",
+    "desc": "Found in: Vertibird Wrecks."
+  },
+  "t51b_chest": {
+    "name": "T-51b Chestplate",
+    "desc": "Found in: Vertibird Wrecks."
+  },
+  "t51b_legs": {
+    "name": "T-51b Leggings",
+    "desc": "Found in: Vertibird Wrecks."
+  },
+  "t51b_boots": {
+    "name": "T-51b Boots",
+    "desc": "Found in: Vertibird Wrecks."
+  },
+  "gun_congolake": {
+    "name": "Congolake Shotgun",
+    "desc": "Found in: Unbreakable Safes."
+  },
+  "gun_carbine": {
+    "name": "Carbine",
+    "desc": "Found in: Unbreakable Safes."
+  },
+  "gun_am180": {
+    "name": "AM-180 Submachine Gun",
+    "desc": "Found in: Rusty Safes."
+  },
+  "cell_antimatter": {
+    "name": "Antimatter Cell",
+    "desc": "Found in: Spaceships."
+  },
+  "ancient_scrap": {
+    "name": "Ancient Scrap",
+    "desc": "Found in: Ancient Tombs (Pyramids)."
+  },
+  "ballistic_gauntlet": {
+    "name": "Ballistic Gauntlet",
+    "desc": "Found in: Red Room."
+  },
+  "heart_container": {
+    "name": "Heart Container",
+    "desc": "Found in: Red Room."
+  },
+  "heart_piece": {
+    "name": "Heart Piece",
+    "desc": "Found in: Meteorite Treasure."
+  },
+  "egg_glyphid": {
+    "name": "Glyphid Egg",
+    "desc": "Found in: Glyphid Hives and Meteorite Treasure."
+  },
+  "cobalt_pickaxe": {
+    "name": "Cobalt Pickaxe",
+    "desc": "Found in: Meteorite Treasure."
+  },
+  "card_aos": {
+    "name": "Ace of Spades",
+    "desc": "Found in: Red Room."
+  },
+  "card_qos": {
+    "name": "Queen of Spades",
+    "desc": "Found in: Red Room."
+  },
+  "black_diamond": {
+    "name": "Black Diamond",
+    "desc": "Found in: Red Room."
+  },
+  "quartz_plutonium": {
+    "name": "Plutonium Quartz",
+    "desc": "Found in: Red Room."
+  },
+  "clay_tablet": {
+    "name": "Clay Tablet",
+    "desc": "Found in: Red Room."
+  },
+  "flask_infusion": {
+    "name": "Infusion Flask",
+    "desc": "Found in: Red Room."
+  },
+  "spider_milk": {
+    "name": "Spider Milk",
+    "desc": "Found in: Red Room."
+  },
+  "scrumpy": {
+    "name": "Scrumpy",
+    "desc": "Found in: Red Room and Meteorite Treasure."
+  },
+  "wild_p": {
+    "name": "Wild P",
+    "desc": "Found in: Red Room."
+  },
+  "serum": {
+    "name": "Serum",
+    "desc": "Found in: Red Room and Meteorite Treasure."
+  },
+  "ink": {
+    "name": "Ink",
+    "desc": "Found in: Red Room and Filing Cabinets."
+  },
+  "morning_glory": {
+    "name": "Morning Glory",
+    "desc": "Found in: Red Room and Vault Labs."
+  },
+  "armor_polish": {
+    "name": "Armor Polish",
+    "desc": "Found in: Red Room and Vault Lockers."
+  },
+  "crackpipe": {
+    "name": "Crackpipe",
+    "desc": "Found in: Red Room."
+  },
+  "wmod_nickel": {
+    "name": "Weapon Mod: Nickel",
+    "desc": "Found in: Red Room."
+  },
+  "wmod_doubloons": {
+    "name": "Weapon Mod: Doubloons",
+    "desc": "Found in: Red Room."
+  },
+  "stamp_book_0": {
+    "name": "Stamp Book (Vol. 1)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_1": {
+    "name": "Stamp Book (Vol. 2)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_2": {
+    "name": "Stamp Book (Vol. 3)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_3": {
+    "name": "Stamp Book (Vol. 4)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_4": {
+    "name": "Stamp Book (Vol. 5)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_5": {
+    "name": "Stamp Book (Vol. 6)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_6": {
+    "name": "Stamp Book (Vol. 7)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "stamp_book_7": {
+    "name": "Stamp Book (Vol. 8)",
+    "desc": "Found in: Meteor Safes."
+  },
+  "boxcar_block": {
+    "name": "Boxcar",
+    "desc": "Found in: Red Room."
+  },
+  "blueprint_folder_0": {
+    "name": "Blueprint Folder (Common)",
+    "desc": "Found in: Machine Parts, Filing Cabinets, and Blueprint Chests."
+  },
+  "blueprint_folder_1": {
+    "name": "Blueprint Folder (Rare)",
+    "desc": "Found in: Vault Labs, Expensive Pool, Meteorite Treasure, and Blueprint Chests."
+  },
+  "blueprint_folder_2": {
+    "name": "Blueprint Folder (Secret)",
+    "desc": "Found in: Red Room and Blueprint Chests."
+  },
+  "circuit_vacuum_tube": {
+    "name": "Vacuum Tube",
+    "desc": "Found in: Generic Pools, Safes, and Meteorite Treasure."
+  },
+  "circuit_analog": {
+    "name": "Capacitor",
+    "desc": "Found in: Expensive Pool and Oil Rigs."
+  },
+  "circuit_chip": {
+    "name": "Tantalum Capacitor",
+    "desc": "Found in: Safes, Expensive Pool, and Meteorite Treasure."
+  },
+  "circuit_advanced": {
+    "name": "Printed Circuit Board",
+    "desc": "Found in: Unbreakable Safes."
+  },
+  "gun_kit_1": {
+    "name": "Weapon Kit 1",
+    "desc": "Found in: Expensive Pool, Generic Pools, and Vertibird Wrecks."
+  },
+  "gun_kit_2": {
+    "name": "Weapon Kit 2",
+    "desc": "Found in: Expensive Pool."
+  },
+  "grenade_triplex": {
+    "name": "Triplex Grenade",
+    "desc": "Found in: Expensive Pool and Reinforced Safes."
+  },
+  "battery_pack_lithium": {
+    "name": "Lithium Battery Pack",
+    "desc": "Found in: Expensive Pool."
+  },
+  "bottle_nuka": {
+    "name": "Nuka Cola",
+    "desc": "Found in: Silos, Vertibird Wrecks, Vending Machines, and Glyphid Hives."
+  },
+  "bottle_quantum": {
+    "name": "Nuka Cola Quantum",
+    "desc": "Found in: Expensive Pool, Nuclear Trash, and Vertibird Wrecks."
+  },
+  "red_barrel": {
+    "name": "Red Barrel",
+    "desc": "Found in: Expensive Pool and Silos."
+  },
+  "gas_mask_m65": {
+    "name": "M65 Gas Mask",
+    "desc": "Found in: Silos, Expensive Pool, Nuclear Trash, and Vertibird Wrecks."
+  },
+  "bomb_caller_0": {
+    "name": "Bomber Caller",
+    "desc": "Found in: Silos, Expensive Pool, and Vertibird Wrecks."
+  },
+  "bomb_caller_1": {
+    "name": "Bomber Caller (Incendiary)",
+    "desc": "Found in: Expensive Pool and Vertibird Wrecks."
+  },
+  "bomb_caller_2": {
+    "name": "Bomber Caller (Nuclear)",
+    "desc": "Found in: Expensive Pool and Vertibird Wrecks."
+  },
+  "gas_mask_filter": {
+    "name": "Gas Mask Filter",
+    "desc": "Found in: Generic Pools, Expensive Pool, and Vault Lockers."
+  },
+  "ammo_container": {
+    "name": "Ammo Container",
+    "desc": "Found in: C130 Wrecks and Safes."
+  },
+  "gun_heavy_revolver": {
+    "name": "Heavy Revolver",
+    "desc": "Found in: C130 Wrecks, Rusty Safes, and Reinforced Safes."
+  },
+  "pin": {
+    "name": "Pin",
+    "desc": "Found in: Rusty Safes and Garbage Piles."
+  },
+  "pill_herbal": {
+    "name": "Herbal Pills",
+    "desc": "Found in: Meteorite Treasure."
+  }
+}
