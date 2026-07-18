@@ -310,5 +310,109 @@
   "pill_herbal": {
     "name": "Herbal Pills",
     "desc": "Found in: Meteorite Treasure."
+  },
+  "bathwater": {
+    "name": "Bathwater",
+    "desc": "Found in: Village Blacksmiths and Mineshafts."
+  },
+  "no9": {
+    "name": "No. 9",
+    "desc": "Found in: Mineshafts and Bonus Chests."
+  },
+  "key_red_cracked": {
+    "name": "Cracked Red Key",
+    "desc": "Found in: Dungeons and Mineshafts."
+  },
+  "gun_flaregun": {
+    "name": "Flare Gun",
+    "desc": "Found in: Flaregun Stashes."
+  },
+  "taurun_helmet": {
+    "name": "Taurun Helmet",
+    "desc": "Found in: Gear Piles."
+  },
+  "taurun_plate": {
+    "name": "Taurun Chestplate",
+    "desc": "Found in: Gear Piles."
+  },
+  "taurun_legs": {
+    "name": "Taurun Leggings",
+    "desc": "Found in: Gear Piles."
+  },
+  "taurun_boots": {
+    "name": "Taurun Boots",
+    "desc": "Found in: Gear Piles."
+  },
+  "gun_n_i_4_n_i": {
+    "name": "N.I.4.N.I.",
+    "desc": "Found in: C-130 Wrecks."
+  },
+  "bobblehead_0": {
+    "name": "Bobblehead (Type 1)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_1": {
+    "name": "Bobblehead (Type 2)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_2": {
+    "name": "Bobblehead (Type 3)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_3": {
+    "name": "Bobblehead (Type 4)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_4": {
+    "name": "Bobblehead (Type 5)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_5": {
+    "name": "Bobblehead (Type 6)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_6": {
+    "name": "Bobblehead (Type 7)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_7": {
+    "name": "Bobblehead (Type 8)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_8": {
+    "name": "Bobblehead (Type 9)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_9": {
+    "name": "Bobblehead (Type 10)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_10": {
+    "name": "Bobblehead (Type 11)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_11": {
+    "name": "Bobblehead (Type 12)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_12": {
+    "name": "Bobblehead (Type 13)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_13": {
+    "name": "Bobblehead (Type 14)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_14": {
+    "name": "Bobblehead (Type 15)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "bobblehead_15": {
+    "name": "Bobblehead (Type 16)",
+    "desc": "Found in: Offices, Arctic Vaults, and Bunkers."
+  },
+  "crate_jungle": {
+    "name": "Jungle Crate",
+    "desc": "Found in: Jungle Dungeons."
   }
 }

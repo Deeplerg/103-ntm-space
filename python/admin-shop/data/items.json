@@ -87,13 +87,13 @@
     "internal_name": "alexandrite",
     "reward_id": "hbm:item.gem_alexandrite",
     "reward_meta": 0,
-    "hours_to_acquire": 5
+    "hours_to_acquire": 5.0
   },
   {
     "internal_name": "starmetal_sword",
     "reward_id": "hbm:item.starmetal_sword",
     "reward_meta": 0,
-    "hours_to_acquire": 10
+    "hours_to_acquire": 10.0
   },
   {
     "internal_name": "t51b_helmet",
@@ -177,7 +177,7 @@
     "internal_name": "cobalt_pickaxe",
     "reward_id": "hbm:item.cobalt_pickaxe",
     "reward_meta": 0,
-    "hours_to_acquire": 5
+    "hours_to_acquire": 5.0
   },
   {
     "internal_name": "card_aos",
@@ -363,7 +363,7 @@
     "internal_name": "circuit_chip",
     "reward_id": "hbm:item.circuit",
     "reward_meta": 2,
-    "hours_to_acquire": 2
+    "hours_to_acquire": 2.0
   },
   {
     "internal_name": "circuit_advanced",
@@ -466,5 +466,161 @@
     "reward_id": "hbm:item.pill_herbal",
     "reward_meta": 0,
     "hours_to_acquire": 0.5
+  },
+  {
+    "internal_name": "bathwater",
+    "reward_id": "hbm:item.bathwater",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "no9",
+    "reward_id": "hbm:item.no9",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "key_red_cracked",
+    "reward_id": "hbm:item.key_red_cracked",
+    "reward_meta": 0,
+    "hours_to_acquire": 1.0
+  },
+  {
+    "internal_name": "gun_flaregun",
+    "reward_id": "hbm:item.gun_flaregun",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
+  },
+  {
+    "internal_name": "taurun_helmet",
+    "reward_id": "hbm:item.taurun_helmet",
+    "reward_meta": 0,
+    "hours_to_acquire": 3
+  },
+  {
+    "internal_name": "taurun_plate",
+    "reward_id": "hbm:item.taurun_plate",
+    "reward_meta": 0,
+    "hours_to_acquire": 3
+  },
+  {
+    "internal_name": "taurun_legs",
+    "reward_id": "hbm:item.taurun_legs",
+    "reward_meta": 0,
+    "hours_to_acquire": 3
+  },
+  {
+    "internal_name": "taurun_boots",
+    "reward_id": "hbm:item.taurun_boots",
+    "reward_meta": 0,
+    "hours_to_acquire": 3
+  },
+  {
+    "internal_name": "gun_n_i_4_n_i",
+    "reward_id": "hbm:item.gun_n_i_4_n_i",
+    "reward_meta": 0,
+    "hours_to_acquire": 10.0
+  },
+  {
+    "internal_name": "bobblehead_0",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 0,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_1",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 1,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_2",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 2,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_3",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 3,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_4",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 4,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_5",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 5,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_6",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 6,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_7",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 7,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_8",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 8,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_9",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 9,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_10",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 10,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_11",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 11,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_12",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 12,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_13",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 13,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_14",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 14,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "bobblehead_15",
+    "reward_id": "hbm:tile.bobblehead",
+    "reward_meta": 15,
+    "hours_to_acquire": 3.0
+  },
+  {
+    "internal_name": "crate_jungle",
+    "reward_id": "hbm:tile.crate_jungle",
+    "reward_meta": 0,
+    "hours_to_acquire": 2.0
   }
 ]
