@@ -1,0 +1,15 @@
+name = "UniversalCoins"
+filename = "UniversalCoins-0.0.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Deeplerg/UniversalCoins/releases/download/v0.0.2/UniversalCoins-0.0.2.jar"
+hash-format = "sha256"
+hash = "30ebbc947723cda7382a76590b46134c67af78409bd6f8e01dd762fcbd293d0a"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "Deeplerg/UniversalCoins"
+tag = "v0.0.2"

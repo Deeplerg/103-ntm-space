@@ -1,0 +1,5 @@
+[project]
+name = "103-ntm-space"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = []

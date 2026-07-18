@@ -392,6 +392,7 @@ recipes.remove(<ExtraUtilities:generator.64:11>);
 recipes.remove(<EnderIO:blockSolarPanel:0>);
 recipes.remove(<EnderIO:blockSolarPanel:1>);
 recipes.remove(<EnderIO:blockSolarPanel:2>);
+recipes.remove(<universalcoins:atm>);
 
 
 
@@ -644,3 +645,5 @@ recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<hbm:tile.glass_quart
 recipes.addShaped(<appliedenergistics2:tile.BlockSpatialIOPort>, [[<hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>], [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:tile.BlockIOPort>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:plateSextupleSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateSextupleSteel>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>, [[<ore:plateSextupleSteel>, <appliedenergistics2:tile.BlockChest>, <ore:plateSextupleSteel>], [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:plateSextupleSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateSextupleSteel>]]);
 recipes.addShaped(<etfuturum:elytra>, [[<hbm:item.ingot_rubber>, <minecraft:end_stone>, <hbm:item.ingot_rubber>], [<hbm:item.ingot_rubber>, null, <hbm:item.ingot_rubber>], [<hbm:item.ingot_rubber>, null, <hbm:item.ingot_rubber>]]);
+recipes.addShaped(<universalcoins:item.iron_coin>, [[<catonwatermelon:walrus>, <catonwatermelon:walrus>, <catonwatermelon:walrus>], [<catonwatermelon:walrus>, null, <catonwatermelon:walrus>], [<catonwatermelon:walrus>, <catonwatermelon:walrus>, <catonwatermelon:walrus>]]);
+recipes.addShaped(<universalcoins:atm>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:diamond>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);

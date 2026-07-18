@@ -1,0 +1,8 @@
+[project]
+name = "admin-shop"
+version = "0.1.0"
+description = "Deterministic BetterQuesting generator for Admin Shop"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0",
+]
