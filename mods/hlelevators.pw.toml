@@ -1,0 +1,13 @@
+name = "HLElevators"
+filename = "hle-v1.0-main.6+7a6daf9dca.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca887245f15bda9eecc4d18b99dc8ffb338c258b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8009540
+project-id = 1528625

@@ -60,7 +60,20 @@
   },
   "questIDHigh:4": -5329374405835404860,
   "questIDLow:4": -5578858652425408103,
-  "rewards:9": {},
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "universalcoins:item.iron_coin",
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,

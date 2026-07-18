@@ -114,8 +114,9 @@ jobs:
           cp ../packwiz-installer-bootstrap.jar .
           
           rsync -a \
-            --include='*' \
             --exclude '*.pw.toml' \
+            --exclude 'python/' \
+            --include='*' \
             server-template/ ./
           
           zip -rq "../$MODPACK_NAME-server.zip" ./*

@@ -3,3 +3,5 @@
 global-config.toml
 index.toml
 pack.toml
+.venv
+python/admin-shop/output/

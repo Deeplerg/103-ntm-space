@@ -16,7 +16,7 @@
       ],
       "output": ["appliedenergistics2:item.ItemBasicStorageCell.1k"],
       "duration": 100,
-      "consumption": 2000
+      "consumption": 200
     },
     {
       "inputs": [
@@ -24,8 +24,8 @@
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,39]
       ],
       "output": ["appliedenergistics2:item.ItemBasicStorageCell.4k"],
-      "duration": 300,
-      "consumption": 10000
+      "duration": 120,
+      "consumption": 750
     },
     {
       "inputs": [
@@ -33,8 +33,8 @@
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,39]
       ],
       "output": ["appliedenergistics2:item.ItemBasicStorageCell.16k"],
-      "duration": 400,
-      "consumption": 500000
+      "duration": 140,
+      "consumption": 2000
     },
     {
       "inputs": [
@@ -42,8 +42,80 @@
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,39]
       ],
       "output": ["appliedenergistics2:item.ItemBasicStorageCell.64k"],
-      "duration": 600,
-      "consumption": 2500000
+      "duration": 160,
+      "consumption": 6250
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,0],
+        ["item","ae2fc:fluid_storage_housing",1]
+      ],
+      "output": ["ae2fc:fluid_storage1"],
+      "duration": 100,
+      "consumption": 200
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,1],
+        ["item","ae2fc:fluid_storage_housing",1]
+      ],
+      "output": ["ae2fc:fluid_storage4"],
+      "duration": 120,
+      "consumption": 750
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,2],
+        ["item","ae2fc:fluid_storage_housing",1]
+      ],
+      "output": ["ae2fc:fluid_storage16"],
+      "duration": 140,
+      "consumption": 2000
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,3],
+        ["item","ae2fc:fluid_storage_housing",1]
+      ],
+      "output": ["ae2fc:fluid_storage64"],
+      "duration": 160,
+      "consumption": 6250
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,0],
+        ["item","ae2fc:fluid_storage_housing",1, 2]
+      ],
+      "output": ["ae2fc:multi_fluid_storage1"],
+      "duration": 100,
+      "consumption": 200
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,1],
+        ["item","ae2fc:fluid_storage_housing",1, 2]
+      ],
+      "output": ["ae2fc:multi_fluid_storage4"],
+      "duration": 120,
+      "consumption": 750
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,2],
+        ["item","ae2fc:fluid_storage_housing",1, 2]
+      ],
+      "output": ["ae2fc:multi_fluid_storage16"],
+      "duration": 140,
+      "consumption": 2000
+    },
+    {
+      "inputs": [
+        ["item","ae2fc:fluid_part",1,3],
+        ["item","ae2fc:fluid_storage_housing",1, 2]
+      ],
+      "output": ["ae2fc:multi_fluid_storage64"],
+      "duration": 160,
+      "consumption": 6250
     },
     {
       "inputs": [
@@ -60,7 +132,7 @@
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,39]
       ],
       "output": ["appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"],
-      "duration": 300,
+      "duration": 200,
       "consumption": 10000
     },
      {
@@ -69,8 +141,8 @@
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,39]
       ],
       "output": ["appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"],
-      "duration": 400,
-      "consumption": 500000
+      "duration": 300,
+      "consumption": 50000
     },
     {
       "inputs": [
