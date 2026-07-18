@@ -550,5 +550,81 @@
   "flame_pony": {
     "name": "Painting of a Cartoon Pony",
     "desc": "Found in: Meteorite Treasure."
+  },
+  "bandaid": {
+    "name": "Velvet Bandaid",
+    "desc": "Found in: Red Room."
+  },
+  "record_glass": {
+    "name": "Music Disc (Transmission)",
+    "desc": "Found in: Crashed Soyuz Capsules."
+  },
+  "secret_aberrator": {
+    "name": "Secret Item: Aberrator",
+    "desc": "Found in: Aberrator Events."
+  },
+  "twinkie": {
+    "name": "Twinkie",
+    "desc": "Found in: Vending Machines and Office Trash."
+  },
+  "bottle_opener": {
+    "name": "Homemade Bottle Opener",
+    "desc": "Found in: Antenna Structures."
+  },
+  "cigarette": {
+    "name": "FFI Brand Cigarette",
+    "desc": "Found in: Filing Cabinets and Vault Lockers."
+  },
+  "flame_opinion": {
+    "name": "Own Opinion",
+    "desc": "Found in: Vault Lockers."
+  },
+  "flame_conspiracy": {
+    "name": "Conspiracy Theory",
+    "desc": "Found in: Vault Lockers."
+  },
+  "flame_politics": {
+    "name": "Political Topic",
+    "desc": "Found in: Vault Lockers and Office Trash."
+  },
+  "can_creature": {
+    "name": "Creature Energy Drink",
+    "desc": "Found in: Office Trash."
+  },
+  "can_smart": {
+    "name": "Smart Energy Drink",
+    "desc": "Found in: Office Trash."
+  },
+  "can_mrsugar": {
+    "name": "Dr. Sugar Soft Drink",
+    "desc": "Found in: Office Trash."
+  },
+  "coin_token": {
+    "name": "Vending Machine Token",
+    "desc": "Found in: Vault Lockers and Office Trash."
+  },
+  "iv_blood": {
+    "name": "Blood Bag",
+    "desc": "Found in: Medical Stashes and Glyphid Hives."
+  },
+  "syringe_metal_medx": {
+    "name": "Med-X",
+    "desc": "Found in: Medical Stashes."
+  },
+  "syringe_metal_psycho": {
+    "name": "Psycho",
+    "desc": "Found in: Medical Stashes."
+  },
+  "yellow_barrel": {
+    "name": "Radioactive Barrel",
+    "desc": "Found in: Nuclear Trash."
+  },
+  "gun_maresleg": {
+    "name": "Mare's Leg",
+    "desc": "Found in: Generic Pools."
+  },
+  "gun_light_revolver": {
+    "name": "Break-Action Revolver",
+    "desc": "Found in: Generic Pools."
   }
 }
