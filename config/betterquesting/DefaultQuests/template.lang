@@ -2092,6 +2092,82 @@ betterquesting.quest.P2Yyz2QyUiWHBudv20Sstw.desc=Found in: Vending Machines.
 betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.name=Painting of a Cartoon Pony
 betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.desc=Found in: Meteorite Treasure.
 
+# Quest: Bandaid
+betterquesting.quest.XZmdeC05VVGs8Gr-4Fx85Q.name=Velvet Bandaid
+betterquesting.quest.XZmdeC05VVGs8Gr-4Fx85Q.desc=Found in: Red Room.
+
+# Quest: RecordGlass
+betterquesting.quest.jcvfpz3-U-i_3Op1eVufsg.name=Music Disc (Transmission)
+betterquesting.quest.jcvfpz3-U-i_3Op1eVufsg.desc=Found in: Crashed Soyuz Capsules.
+
+# Quest: SecretAberrator
+betterquesting.quest.n6LkgttKXAuzqmdjLg-C2Q.name=Secret Item: Aberrator
+betterquesting.quest.n6LkgttKXAuzqmdjLg-C2Q.desc=Found in: Aberrator Events.
+
+# Quest: Twinkie
+betterquesting.quest.VQPG9K-fUmqQQt-trmyQwg.name=Twinkie
+betterquesting.quest.VQPG9K-fUmqQQt-trmyQwg.desc=Found in: Vending Machines and Office Trash.
+
+# Quest: BottleOpener
+betterquesting.quest.OjXjW-J5VgOr2Jv-rsm3jg.name=Homemade Bottle Opener
+betterquesting.quest.OjXjW-J5VgOr2Jv-rsm3jg.desc=Found in: Antenna Structures.
+
+# Quest: Cigarette
+betterquesting.quest.yCsmePQ-Xvmxdd2Ed206_A.name=FFI Brand Cigarette
+betterquesting.quest.yCsmePQ-Xvmxdd2Ed206_A.desc=Found in: Filing Cabinets and Vault Lockers.
+
+# Quest: FlameOpinion
+betterquesting.quest.9XJHexIsUxOlSBWbf1F1HA.name=Own Opinion
+betterquesting.quest.9XJHexIsUxOlSBWbf1F1HA.desc=Found in: Vault Lockers.
+
+# Quest: FlameConspiracy
+betterquesting.quest.8f_Rd4SjUSSy3m9y2YmINw.name=Conspiracy Theory
+betterquesting.quest.8f_Rd4SjUSSy3m9y2YmINw.desc=Found in: Vault Lockers.
+
+# Quest: FlamePolitics
+betterquesting.quest.yUD390BTX-GABpk6qDB7JQ.name=Political Topic
+betterquesting.quest.yUD390BTX-GABpk6qDB7JQ.desc=Found in: Vault Lockers and Office Trash.
+
+# Quest: CanCreature
+betterquesting.quest.vHYB_IfaVquxfiBOHi0Q1w.name=Creature Energy Drink
+betterquesting.quest.vHYB_IfaVquxfiBOHi0Q1w.desc=Found in: Office Trash.
+
+# Quest: CanSmart
+betterquesting.quest.cEYKlHCPXryV_FWJ72NvpA.name=Smart Energy Drink
+betterquesting.quest.cEYKlHCPXryV_FWJ72NvpA.desc=Found in: Office Trash.
+
+# Quest: CanMrsugar
+betterquesting.quest.zM_4M1v7XjevhG2ncLkoZA.name=Dr. Sugar Soft Drink
+betterquesting.quest.zM_4M1v7XjevhG2ncLkoZA.desc=Found in: Office Trash.
+
+# Quest: CoinToken
+betterquesting.quest._Y9lLfMAXdaW8vC-GaI_Nw.name=Vending Machine Token
+betterquesting.quest._Y9lLfMAXdaW8vC-GaI_Nw.desc=Found in: Vault Lockers and Office Trash.
+
+# Quest: IvBlood
+betterquesting.quest.99wORwZdVuy2wt5u8acR0Q.name=Blood Bag
+betterquesting.quest.99wORwZdVuy2wt5u8acR0Q.desc=Found in: Medical Stashes and Glyphid Hives.
+
+# Quest: SyringeMetalMedx
+betterquesting.quest._XJRDVzjXF6WNroqN9QVuQ.name=Med-X
+betterquesting.quest._XJRDVzjXF6WNroqN9QVuQ.desc=Found in: Medical Stashes.
+
+# Quest: SyringeMetalPsycho
+betterquesting.quest.hS3ASVCyWFyqL1Xi4JFf-w.name=Psycho
+betterquesting.quest.hS3ASVCyWFyqL1Xi4JFf-w.desc=Found in: Medical Stashes.
+
+# Quest: YellowBarrel
+betterquesting.quest.oLuln__AXLW_v4oDXlX3yQ.name=Radioactive Barrel
+betterquesting.quest.oLuln__AXLW_v4oDXlX3yQ.desc=Found in: Nuclear Trash.
+
+# Quest: GunMaresleg
+betterquesting.quest.Iceoy1UzU_26Uw1GHNiGug.name=Mare's Leg
+betterquesting.quest.Iceoy1UzU_26Uw1GHNiGug.desc=Found in: Generic Pools.
+
+# Quest: GunLightRevolver
+betterquesting.quest.-odfTim3X1-RGykKvyIxKQ.name=Break-Action Revolver
+betterquesting.quest.-odfTim3X1-RGykKvyIxKQ.desc=Found in: Generic Pools.
+
 
 ### Quests in multiple quest lines ###
 

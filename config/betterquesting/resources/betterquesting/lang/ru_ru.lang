@@ -2092,6 +2092,82 @@ betterquesting.quest.P2Yyz2QyUiWHBudv20Sstw.desc=Найдено в: Торгов
 betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.name=Картинка цветной лошади
 betterquesting.quest.Jxls5Re3UQ-h5VnvfIC1SQ.desc=Найдено в: Сокровище метеорита.
 
+# Quest: Bandaid
+betterquesting.quest.XZmdeC05VVGs8Gr-4Fx85Q.name=Пластырь Вельвет
+betterquesting.quest.XZmdeC05VVGs8Gr-4Fx85Q.desc=Найдено в: Красная комната.
+
+# Quest: RecordGlass
+betterquesting.quest.jcvfpz3-U-i_3Op1eVufsg.name=Пластинка (Трансляция)
+betterquesting.quest.jcvfpz3-U-i_3Op1eVufsg.desc=Найдено в: Упавшие капсулы "Союз".
+
+# Quest: SecretAberrator
+betterquesting.quest.n6LkgttKXAuzqmdjLg-C2Q.name=Часть "Aberrator"
+betterquesting.quest.n6LkgttKXAuzqmdjLg-C2Q.desc=Найдено в: Ивент "Aberrator".
+
+# Quest: Twinkie
+betterquesting.quest.VQPG9K-fUmqQQt-trmyQwg.name=Твинки
+betterquesting.quest.VQPG9K-fUmqQQt-trmyQwg.desc=Найдено в: Торговые автоматы и Офисный мусор.
+
+# Quest: BottleOpener
+betterquesting.quest.OjXjW-J5VgOr2Jv-rsm3jg.name=Собственная самодельная открывашка
+betterquesting.quest.OjXjW-J5VgOr2Jv-rsm3jg.desc=Найдено в: Башни связи.
+
+# Quest: Cigarette
+betterquesting.quest.yCsmePQ-Xvmxdd2Ed206_A.name=Сигарета марки "FFI"
+betterquesting.quest.yCsmePQ-Xvmxdd2Ed206_A.desc=Найдено в: Картотечные шкафы и Шкафчики в убежище.
+
+# Quest: FlameOpinion
+betterquesting.quest.9XJHexIsUxOlSBWbf1F1HA.name=Собственное мнение
+betterquesting.quest.9XJHexIsUxOlSBWbf1F1HA.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: FlameConspiracy
+betterquesting.quest.8f_Rd4SjUSSy3m9y2YmINw.name=Конспирологическая теория
+betterquesting.quest.8f_Rd4SjUSSy3m9y2YmINw.desc=Найдено в: Шкафчики в убежище.
+
+# Quest: FlamePolitics
+betterquesting.quest.yUD390BTX-GABpk6qDB7JQ.name=Политическая тема
+betterquesting.quest.yUD390BTX-GABpk6qDB7JQ.desc=Найдено в: Шкафчики в убежище и Офисный мусор.
+
+# Quest: CanCreature
+betterquesting.quest.vHYB_IfaVquxfiBOHi0Q1w.name=Энергетический напиток "Существо"
+betterquesting.quest.vHYB_IfaVquxfiBOHi0Q1w.desc=Найдено в: Офисный мусор.
+
+# Quest: CanSmart
+betterquesting.quest.cEYKlHCPXryV_FWJ72NvpA.name=Энергетический напиток "Смарт"
+betterquesting.quest.cEYKlHCPXryV_FWJ72NvpA.desc=Найдено в: Офисный мусор.
+
+# Quest: CanMrsugar
+betterquesting.quest.zM_4M1v7XjevhG2ncLkoZA.name=Безалкогольный напиток 'Доктор Сахар'
+betterquesting.quest.zM_4M1v7XjevhG2ncLkoZA.desc=Найдено в: Офисный мусор.
+
+# Quest: CoinToken
+betterquesting.quest._Y9lLfMAXdaW8vC-GaI_Nw.name=Жетон для торгового автомата
+betterquesting.quest._Y9lLfMAXdaW8vC-GaI_Nw.desc=Найдено в: Шкафчики в убежище и Офисный мусор.
+
+# Quest: IvBlood
+betterquesting.quest.99wORwZdVuy2wt5u8acR0Q.name=Пакет с кровью
+betterquesting.quest.99wORwZdVuy2wt5u8acR0Q.desc=Найдено в: Медицинские тайники и Ульи глифидов.
+
+# Quest: SyringeMetalMedx
+betterquesting.quest._XJRDVzjXF6WNroqN9QVuQ.name=Мед-X
+betterquesting.quest._XJRDVzjXF6WNroqN9QVuQ.desc=Найдено в: Медицинские тайники.
+
+# Quest: SyringeMetalPsycho
+betterquesting.quest.hS3ASVCyWFyqL1Xi4JFf-w.name=Психо
+betterquesting.quest.hS3ASVCyWFyqL1Xi4JFf-w.desc=Найдено в: Медицинские тайники.
+
+# Quest: YellowBarrel
+betterquesting.quest.oLuln__AXLW_v4oDXlX3yQ.name=Радиоактивная бочка
+betterquesting.quest.oLuln__AXLW_v4oDXlX3yQ.desc=Найдено в: Ядерные отходы.
+
+# Quest: GunMaresleg
+betterquesting.quest.Iceoy1UzU_26Uw1GHNiGug.name=Дробовик рычажного действия
+betterquesting.quest.Iceoy1UzU_26Uw1GHNiGug.desc=Найдено в: Обычные пулы.
+
+# Quest: GunLightRevolver
+betterquesting.quest.-odfTim3X1-RGykKvyIxKQ.name=Револьвер переломного действия
+betterquesting.quest.-odfTim3X1-RGykKvyIxKQ.desc=Найдено в: Обычные пулы.
+
 ### Quests in multiple quest lines ###
 
 # Quest: Antimatter
