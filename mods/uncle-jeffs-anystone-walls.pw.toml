@@ -1,0 +1,8 @@
+name = "uncle-jeffs-anystone-walls"
+filename = "jrfwalls-1.7.10-00.01.05.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/2214/155/jrfwalls-1.7.10-00.01.05.jar"
+hash-format = "sha256"
+hash = "185b065e4dd00294edc4607c9a98f915c4573ead86101baebd3f0276196ba200"
