@@ -9,174 +9,6 @@
       ]
     },
     {
-      "input": ["item","denseores:block0",1,6],
-      "output": [
-        ["minecraft:coal_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,2],
-      "output": [
-        ["minecraft:lapis_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,3],
-      "output": [
-        ["minecraft:diamond_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,5],
-      "output": [
-        ["minecraft:redstone_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,4],
-      "output": [
-        ["minecraft:emerald_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,7],
-      "output": [
-        ["minecraft:quartz_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,11],
-      "output": [
-        ["hbm:tile.ore_sulfur",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,15],
-      "output": [
-        ["hbm:tile.ore_lignite",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,0],
-      "output": [
-        ["hbm:tile.ore_fluorite",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,2],
-      "output": [
-        ["hbm:tile.ore_niter",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,4],
-      "output": [
-        ["hbm:tile.ore_rare",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,5],
-      "output": [
-        ["hbm:tile.ore_asbestos",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,7],
-      "output": [
-        ["hbm:tile.ore_nether_sulfur",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,9],
-      "output": [
-        ["hbm:tile.ore_nether_fire",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,10],
-      "output": [
-        ["appliedenergistics2:tile.OreQuartz",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,11],
-      "output": [
-        ["hbm:tile.ore_coltan",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,0],
-      "output": [
-        ["minecraft:iron_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,1],
-      "output": [
-        ["minecraft:gold_ore",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,8],
-      "output": [
-        ["hbm:tile.ore_uranium",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,9],
-      "output": [
-        ["hbm:tile.ore_thorium",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,10],
-      "output": [
-        ["hbm:tile.ore_copper",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,12],
-      "output": [
-        ["hbm:tile.ore_aluminium",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,13],
-      "output": [
-        ["hbm:tile.ore_titanium",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block0",1,14],
-      "output": [
-        ["hbm:tile.ore_tungsten",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,1],
-      "output": [
-        ["hbm:tile.ore_lead",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,3],
-      "output": [
-        ["hbm:tile.ore_beryllium",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,6],
-      "output": [
-        ["hbm:tile.ore_nether_uranium",3]
-      ]
-    },
-    {
-      "input": ["item","denseores:block1",1,8],
-      "output": [
-        ["hbm:tile.ore_nether_tungsten",3]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2077],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,9200],
@@ -1511,15 +1343,6 @@
       ]
     },
     {
-      "input": ["dict","oreNetherThorium"],
-      "output": [
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_uranium"],
-        ["minecraft:gravel"]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,1822],
       "output": [
         ["hbm:item.bedrock_ore",2,2078],
@@ -1854,15 +1677,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,9400],
         ["hbm:item.bedrock_ore",1,3363]
-      ]
-    },
-    {
-      "input": ["dict","oreThorium"],
-      "output": [
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_uranium"],
-        ["minecraft:gravel"]
       ]
     },
     {
@@ -4337,15 +4151,6 @@
       ]
     },
     {
-      "input": ["dict","oreNetherThorium232"],
-      "output": [
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_uranium"],
-        ["minecraft:gravel"]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2832],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,20000],
@@ -4903,15 +4708,6 @@
       "input": ["item","hbm:item.bedrock_ore",1,267],
       "output": [
         ["hbm:item.bedrock_ore",1,779],
-        ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["dict","oreNetherTh232"],
-      "output": [
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_uranium"],
         ["minecraft:gravel"]
       ]
     },
@@ -5896,15 +5692,6 @@
       "output": [
         ["hbm:item.bedrock_ore",1,796],
         ["hbm:item.bedrock_ore",1,796],
-        ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["dict","oreTh232"],
-      "output": [
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_thorium"],
-        ["hbm:item.powder_uranium"],
         ["minecraft:gravel"]
       ]
     },
@@ -7718,6 +7505,175 @@
         ["hbm:item.bedrock_ore_fragment",18,9032],
         ["hbm:item.bedrock_ore",1,3345]
       ]
+    },
+    {
+      "input": ["item","denseores:block0",1,6],
+      "output": [
+        ["minecraft:coal_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,2],
+      "output": [
+        ["minecraft:lapis_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,3],
+      "output": [
+        ["minecraft:diamond_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,5],
+      "output": [
+        ["minecraft:redstone_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,4],
+      "output": [
+        ["minecraft:emerald_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,7],
+      "output": [
+        ["minecraft:quartz_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,11],
+      "output": [
+        ["hbm:tile.ore_sulfur",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,15],
+      "output": [
+        ["hbm:tile.ore_lignite",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,0],
+      "output": [
+        ["hbm:tile.ore_fluorite",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,2],
+      "output": [
+        ["hbm:tile.ore_niter",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,4],
+      "output": [
+        ["hbm:tile.ore_rare",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,5],
+      "output": [
+        ["hbm:tile.ore_asbestos",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,7],
+      "output": [
+        ["hbm:tile.ore_nether_sulfur",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,9],
+      "output": [
+        ["hbm:tile.ore_nether_fire",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,10],
+      "output": [
+        ["appliedenergistics2:tile.OreQuartz",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,11],
+      "output": [
+        ["hbm:tile.ore_coltan",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,0],
+      "output": [
+        ["minecraft:iron_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,1],
+      "output": [
+        ["minecraft:gold_ore",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,8],
+      "output": [
+        ["hbm:tile.ore_uranium",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,9],
+      "output": [
+        ["hbm:tile.ore_thorium",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,10],
+      "output": [
+        ["hbm:tile.ore_copper",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,12],
+      "output": [
+        ["hbm:tile.ore_aluminium",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,13],
+      "output": [
+        ["hbm:tile.ore_titanium",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block0",1,14],
+      "output": [
+        ["hbm:tile.ore_tungsten",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,1],
+      "output": [
+        ["hbm:tile.ore_lead",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,3],
+      "output": [
+        ["hbm:tile.ore_beryllium",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,6],
+      "output": [
+        ["hbm:tile.ore_nether_uranium",3]
+      ]
+    },
+    {
+      "input": ["item","denseores:block1",1,8],
+      "output": [
+        ["hbm:tile.ore_nether_tungsten",3]
+      ]
     }
   ]
 }
+
