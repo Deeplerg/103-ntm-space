@@ -259,6 +259,27 @@
       "input": ["dict","ingotCMBSteel"],
       "stamp": "plate",
       "output": ["hbm:item.plate_combine_steel"]
+    },
+    {
+      "input": ["item","appliedenergistics2:item.ItemMultiMaterial",1,10],
+      "stamp": "circuit",
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,16]
+    },
+    {
+      "input": ["item","minecraft:diamond"],
+      "stamp": "circuit",
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,17]
+    },
+    {
+      "input": ["item","hbm:item.circuit",1,4],
+      "stamp": "flat",
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,20]
+    },
+    {
+      "input": ["item","minecraft:gold_ingot",1],
+      "stamp": "circuit",
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,18]
     }
   ]
 }
+

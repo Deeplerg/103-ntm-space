@@ -128,6 +128,12 @@
       "input": ["dict","nuggetThorium232"],
       "solidOutput": ["hbm:item.nugget_thorium_fuel"],
       "fusionOnly": false
+    },
+    {
+      "input": ["item","GraviGun:GraviGun",1,0],
+      "solidOutput": ["GraviGun:GraviGun",1,1],
+      "fusionOnly": true
     }
   ]
 }
+

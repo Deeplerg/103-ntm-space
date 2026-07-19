@@ -12481,6 +12481,14 @@
       "input": ["item","hbm:item.bedrock_ore",1,1816],
       "output": ["hbm:item.bedrock_ore",1,2840],
       "productivity": 0.0
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","etfuturum:nether_gold_ore"],
+      "output": ["hbm:item.crystal_gold"],
+      "productivity": 0.05000000074505806
     }
   ]
 }
+
