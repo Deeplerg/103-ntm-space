@@ -1,13 +1,8 @@
-name = "Extra Utilities"
+name = "extra-utilities"
 filename = "extrautilities-1.2.12.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5abef956579df31d86f54cc20bf7ac8ba7d481a8"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2264383
-project-id = 225561
+url = "https://mediafilez.forgecdn.net/files/2264/383/extrautilities-1.2.12.jar"
+hash-format = "sha256"
+hash = "a1941ee4d4b965c4d2ddc6ec0e0b1eb3f3ff8c8b492a18a25b5fcf27c67ba58b"

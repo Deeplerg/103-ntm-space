@@ -1,13 +1,8 @@
-name = "Dense Ores"
+name = "dense-ores"
 filename = "denseores-1.6.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "40f3925a6df561b83efc349acdbcf730ba49800e"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2234692
-project-id = 224942
+url = "https://mediafilez.forgecdn.net/files/2234/692/denseores-1.6.2.jar"
+hash-format = "sha256"
+hash = "e1ed114a61c4581b050f8db9932aa14bac4ac322994be51015ebc8e4cad66287"

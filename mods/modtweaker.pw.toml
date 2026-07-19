@@ -1,13 +1,8 @@
-name = "ModTweaker"
+name = "modtweaker"
 filename = "ModTweaker2-0.9.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4b44a9267050b3a97bc1d9e8f3d060ff217dfd4b"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2313730
-project-id = 220954
+url = "https://mediafilez.forgecdn.net/files/2313/730/ModTweaker2-0.9.6.jar"
+hash-format = "sha256"
+hash = "dee791c989e12cda1a32cb65081e24d40d727b9b6d99a38750fe6b9478983669"

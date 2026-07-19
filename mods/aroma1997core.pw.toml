@@ -1,13 +1,8 @@
-name = "Aroma1997Core"
+name = "aroma1997core"
 filename = "Aroma1997Core-1.7.10-1.0.2.16.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f86607a5748c70d4614502115070e0e63a266810"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2257644
-project-id = 223735
+url = "https://mediafilez.forgecdn.net/files/2257/644/Aroma1997Core-1.7.10-1.0.2.16.jar"
+hash-format = "sha256"
+hash = "18099a0fd57d57a8157ce864acb293bf19fc5767ae39a64a167ce3d35a21f1a6"

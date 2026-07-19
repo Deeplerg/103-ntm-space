@@ -1,13 +1,8 @@
-name = "Enhanced Mob Variants"
+name = "enhanced-mob-variants"
 filename = "moremobvariants-1.7.10-1.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2e7ff9541d397c015818d288282c2eb212e55dca"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 8199201
-project-id = 1425148
+url = "https://mediafilez.forgecdn.net/files/8199/201/moremobvariants-1.7.10-1.2.0.jar"
+hash-format = "sha256"
+hash = "2b5571a297dee28b03ee2750a2b70fb5841c81e1fea6e48ad713bc6ae21945a4"

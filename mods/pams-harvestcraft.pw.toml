@@ -1,13 +1,8 @@
-name = "Pam's HarvestCraft"
+name = "pams-harvestcraft"
 filename = "Pam's HarvestCraft 1.7.10Lb.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5f85c3fcbf8586a438030c216c4fe37c7a6402c0"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2270206
-project-id = 221857
+url = "https://mediafilez.forgecdn.net/files/2270/206/Pam%27s%20HarvestCraft%201.7.10Lb.jar"
+hash-format = "sha256"
+hash = "b0dc253702948d19d9c2d5191ae78ae022b65fac73210ca7313d7ef3b1cd7a57"

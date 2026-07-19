@@ -1,13 +1,8 @@
-name = "Blur"
+name = "blur"
 filename = "Blur-MC1.7.10-1.0.1-2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a13f8d0b8aa5543c74a5740117b7a5375def83dc"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2426965
-project-id = 268324
+url = "https://mediafilez.forgecdn.net/files/2426/965/Blur-MC1.7.10-1.0.1-2.jar"
+hash-format = "sha256"
+hash = "1923569206eab5a1bdbfaadcd3b10274a4085e71485e9aa8f9cb34189d0c747c"
