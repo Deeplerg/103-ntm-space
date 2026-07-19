@@ -1,13 +1,8 @@
-name = "GraveStone Mod"
+name = "gravestone-mod"
 filename = "GraveStone Mod 0.7.10.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a2f4c4acdedcd0d16345d2a5b90dad5469aa9797"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2374232
-project-id = 238551
+url = "https://mediafilez.forgecdn.net/files/2374/232/GraveStone%20Mod%200.7.10.3.jar"
+hash-format = "sha256"
+hash = "3118408a45396b1c89e8ddd19e1813eadffd3ac13e274e9086b48cde165cd88f"

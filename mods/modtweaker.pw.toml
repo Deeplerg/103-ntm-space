@@ -3,11 +3,11 @@ filename = "ModTweaker2-0.9.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4b44a9267050b3a97bc1d9e8f3d060ff217dfd4b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/7ZsHKFX3/versions/JCOS1cuU/ModTweaker2-0.9.6.jar"
+hash-format = "sha512"
+hash = "81bd30cb145bdf5fc94ee1d0234c7fac7bc062eeb5f61af6bf6a5efdc898e7c99621576b451448cb12bfb3e81c5687f11bda9cc65dcef760699fe7eb6e2233d2"
 
 [update]
-[update.curseforge]
-file-id = 2313730
-project-id = 220954
+[update.modrinth]
+mod-id = "7ZsHKFX3"
+version = "JCOS1cuU"

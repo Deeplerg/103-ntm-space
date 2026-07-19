@@ -1,13 +1,8 @@
-name = "iChunUtil"
+name = "ichunutil"
 filename = "iChunUtil-4.2.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b46c0d444f0d61e3c3e98626e49ec834993c8417"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2338148
-project-id = 229060
+url = "https://mediafilez.forgecdn.net/files/2338/148/iChunUtil-4.2.3.jar"
+hash-format = "sha256"
+hash = "18236a63620280880ccac38f216c126573784bdd101f41e929f0bc92da057a6b"

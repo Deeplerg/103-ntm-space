@@ -1,0 +1,8 @@
+[project]
+name = "curseforge-direct"
+version = "0.1.0"
+description = "Convert mods using cf api to direct url download"
+requires-python = ">=3.8"
+dependencies = [
+    "tomli>=2.0.1",
+]

@@ -1,13 +1,8 @@
-name = "SimpleHarvest"
+name = "simpleharvest"
 filename = "Harvest-1.7.10-1.0.0-2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0efc47f0c90d7679bd4f9315596c297d1ff53e77"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2279650
-project-id = 240783
+url = "https://mediafilez.forgecdn.net/files/2279/650/Harvest-1.7.10-1.0.0-2.jar"
+hash-format = "sha256"
+hash = "6c205c97de8efd9f589bfa3aa36337dcc976d4d4f099280a09b157260e288a33"

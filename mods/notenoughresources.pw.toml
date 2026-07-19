@@ -1,13 +1,8 @@
-name = "NotEnoughResources"
+name = "notenoughresources"
 filename = "NotEnoughResources-1.7.10-0.1.0-128.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8da5097b7b13050f246ced9573eee23d5e069c2a"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2323485
-project-id = 225815
+url = "https://mediafilez.forgecdn.net/files/2323/485/NotEnoughResources-1.7.10-0.1.0-128.jar"
+hash-format = "sha256"
+hash = "f740aa8bbc9ee42a897121881d0bb6282dd85cb9413e0594ad3749a468c16e32"

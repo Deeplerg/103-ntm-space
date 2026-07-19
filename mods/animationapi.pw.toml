@@ -1,13 +1,8 @@
-name = "AnimationAPI"
+name = "animationapi"
 filename = "AnimationAPI-1.7.10-1.2.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bc1698fbce79e6769d6c5f395fe692de3ce642b4"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 2221721
-project-id = 77191
+url = "https://mediafilez.forgecdn.net/files/2221/721/AnimationAPI-1.7.10-1.2.4.jar"
+hash-format = "sha256"
+hash = "57e68a303740e7b09ee05ed1fd6da342a1c2dc7d3f14ae283d71cbd35673f7b6"

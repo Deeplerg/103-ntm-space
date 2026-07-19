@@ -3,11 +3,11 @@ filename = "CraftTweaker-1.7.10-3.1.0-legacy.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ecd735d334578d127b75fc4a680a2a8043e0f5d5"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Xg35A4rS/versions/Hz9R6dqB/CraftTweaker-1.7.10-3.1.0-legacy.jar"
+hash-format = "sha512"
+hash = "0c791258d81438a37c180d21f652afbb616650be8d361d97b4a20e8f6ec7c39474aee150f21716e6b645580f9a99793d63d220accf02e3d5080b820886ce3761"
 
 [update]
-[update.curseforge]
-file-id = 2838720
-project-id = 239197
+[update.modrinth]
+mod-id = "Xg35A4rS"
+version = "Hz9R6dqB"
