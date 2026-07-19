@@ -6,11 +6,6 @@
       "fusionOnly": false
     },
     {
-      "input": ["item","GraviGun:GraviGun",1,0],
-      "solidOutput": ["GraviGun:GraviGun",1,1],
-      "fusionOnly": true
-    },
-    {
       "input": ["dict","ingotCobalt"],
       "solidOutput": ["hbm:item.ingot_co60"],
       "fusionOnly": false

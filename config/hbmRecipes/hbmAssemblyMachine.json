@@ -1100,6 +1100,21 @@
       "power": 100
     },
     {
+      "name": "ass.cargodoor",
+      "inputItem": [
+        ["item","hbm:tile.steel_beam",32],
+        ["dict","plateSteel",4],
+        ["dict","boltDuraSteel",4],
+        ["item","hbm:item.motor",2],
+        ["dict","dyeGray"]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.cargo_door"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
       "name": "ass.capnuka",
       "inputItem": [
         ["item","hbm:item.cap_nuka",64],
@@ -1190,7 +1205,7 @@
         ["dict","ingotSteel",4],
         ["dict","plateCopper",4],
         ["item","hbm:item.motor",2],
-        ["item","hbm:item.circuit",1,8]
+        ["item","hbm:item.circuit",1,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_assembly_machine"]]
@@ -1207,6 +1222,20 @@
         ["item","hbm:item.motor",2],
         ["item","hbm:item.coil_tungsten",2],
         ["item","hbm:item.circuit",1,8]
+      ],
+      "outputItem": [
+        ["single",["hbm:tile.machine_chemical_plant"]]
+      ],
+      "duration": 200,
+      "power": 100
+    },
+    {
+      "name": "ass.chemplantAlt",
+      "inputItem": [
+        ["dict","plateDuraSteel",8],
+        ["dict","ntmpipeCopper",4],
+        ["item","hbm:item.motor",2],
+        ["item","hbm:item.circuit",1,9]
       ],
       "outputItem": [
         ["single",["hbm:tile.machine_chemical_plant"]]
@@ -2030,7 +2059,7 @@
         ["dict","ntmpipeDuraSteel",4],
         ["dict","ntmpipeSteel",4],
         ["item","hbm:item.turbine_tungsten"],
-        ["item","hbm:item.ingot_rubber",12],
+        ["dict","ingotRubber",12],
         ["item","hbm:item.circuit",3,9]
       ],
       "outputItem": [
