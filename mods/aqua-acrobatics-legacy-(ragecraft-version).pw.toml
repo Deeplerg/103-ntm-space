@@ -1,0 +1,13 @@
+name = "Aqua Acrobatics Legacy (ragecraft version)"
+filename = "aquaacrobatics-0.0.6-1-7-10.44+6fc0f073fd-dirty.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5gArbeUg/versions/dcgP54YG/aquaacrobatics-0.0.6-1-7-10.44%2B6fc0f073fd-dirty.jar"
+hash-format = "sha512"
+hash = "f527ad5016338df003994d0d9e2f4740cd8746ed98ee85c2a2dcd180f5a75faaa75b8e8049bc67cf0bfbb62dd34bc9ec806f864f77ded02ab4222d1d82081340"
+
+[update]
+[update.modrinth]
+mod-id = "5gArbeUg"
+version = "dcgP54YG"

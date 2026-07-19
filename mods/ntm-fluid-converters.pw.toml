@@ -1,8 +1,13 @@
-name = "ntm-fluid-converters"
+name = "NTM Fluid Converters"
 filename = "ntmfluidconverters-1.4.jar"
 side = "both"
 
 [download]
-url = "https://mediafilez.forgecdn.net/files/8347/504/ntmfluidconverters-1.4.jar"
-hash-format = "sha256"
-hash = "dafd48b840529f4f28607de748962ad4595b80652cdf4e9429c4987f4b7df604"
+url = "https://cdn.modrinth.com/data/n0TZ9qTo/versions/rL7g9bbT/ntmfluidconverters-1.4.jar"
+hash-format = "sha512"
+hash = "d460de1c39052526e1bcd3ce1944cfa8f111826f72f819b6213c914ace089c7d41d045e6a9397b4008257ea636400daa7117f9553cd78f5de16144ea9086d784"
+
+[update]
+[update.modrinth]
+mod-id = "n0TZ9qTo"
+version = "rL7g9bbT"
