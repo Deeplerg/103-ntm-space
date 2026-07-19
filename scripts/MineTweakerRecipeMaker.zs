@@ -26,8 +26,6 @@ copper.remove(<Railcraft:ingot:1>);
 tin.remove(<Railcraft:ingot:2>);
 lead.remove(<Railcraft:ingot:3>);
 nuggetIron.remove(<Railcraft:nugget>);
-nuggetSteel.remove(<Railcraft:nugget:1>);
-nuggetCopper.remove(<Railcraft:nugget:2>);
 nuggetTin.remove(<Railcraft:nugget:3>);
 nuggetLead.remove(<Railcraft:nugget:4>);
 
@@ -83,6 +81,9 @@ recipes.remove(<ae2fc:fluid_pattern_encoder>);
 recipes.remove(<ae2fc:certus_quartz_tank>);
 recipes.remove(<ae2fc:large_ingredient_buffer>);
 recipes.remove(<ae2fc:ingredient_buffer>);
+recipes.remove(<EnderIO:itemPowderIngot:3>);
+furnace.remove(<Railcraft:ingot:1>);
+furnace.remove(<Railcraft:ingot:2>);
 furnace.remove(<Railcraft:nugget:1>);
 recipes.remove(<Railcraft:nugget>);
 recipes.remove(<Railcraft:nugget:4>);
