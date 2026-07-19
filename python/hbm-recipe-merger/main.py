@@ -17,20 +17,15 @@ FILE_MAPPING = {
 
 def parse_custom_recipes(filepath: Path) -> list[dict]:
     """
-    Reads the custom recipe file.
-    Because the files are just raw comma-separated JSON objects and often
-    have a trailing comma, we need to clean them up and wrap them in brackets
-    so they parse as a valid JSON array.
+    Reads the custom recipe file, cleans up trailing commas,
+    and wraps them in brackets so they parse as a valid JSON array.
     """
     try:
         content = filepath.read_text(encoding="utf-8").strip()
         if not content:
             return []
 
-        # Strip trailing commas that would break standard JSON parsing
         content = content.rstrip(",")
-
-        # Wrap the raw objects in an array
         json_string = f"[{content}]"
 
         return json.loads(json_string)
@@ -41,10 +36,48 @@ def parse_custom_recipes(filepath: Path) -> list[dict]:
         print(f"[ERROR] Could not read {filepath.name}: {e}")
         return []
 
+def _format_recipe(recipe: dict) -> str:
+    """Formats a single recipe object according to HBM's specific rules."""
+    lines = []
+    for key, value in recipe.items():
+        # If it's a list containing other lists or dicts, split it across multiple lines
+        if isinstance(value, list) and any(isinstance(x, (list, dict)) for x in value):
+            inner_items = [f'        {json.dumps(x, separators=(",", ":"))}' for x in value]
+            inner_block = ",\n".join(inner_items)
+            lines.append(f'      "{key}": [\n{inner_block}\n      ]')
+        else:
+            # Primitives and flat lists stay on one single line
+            val_str = json.dumps(value, separators=(',', ':'))
+            lines.append(f'      "{key}": {val_str}')
+
+    # Join all keys with a comma and newline, wrapped in the recipe's braces
+    recipe_body = ",\n".join(lines)
+    return f'    {{\n{recipe_body}\n    }}'
+
+def dump_hbm_format(data: dict) -> str:
+    """
+    Custom JSON stringifier that perfectly matches HBM's formatting style
+    to prevent massive git diffs caused by standard python json.dump().
+    """
+    top_lines = []
+    for key, value in data.items():
+        if key == "recipes" and isinstance(value, list):
+            # Format each recipe and join them with commas
+            recipes_block = ",\n".join(_format_recipe(r) for r in value)
+            top_lines.append(f'  "{key}": [\n{recipes_block}\n  ]')
+        else:
+            # Generic top-level keys (like "comment")
+            val_str = json.dumps(value, separators=(',', ':'))
+            top_lines.append(f'  "{key}": {val_str}')
+
+    # Join the top level keys and wrap in the root braces
+    body = ",\n".join(top_lines)
+    return f'{{\n{body}\n}}\n'
+
 def merge_recipes(custom_recipes: list[dict], hbm_filepath: Path, dry_run: bool) -> bool:
     """
     Loads the target HBM JSON, checks for duplicates via deep equality,
-    appends new recipes, and saves the file.
+    appends new recipes, and saves the file preserving HBM formatting.
     """
     try:
         with open(hbm_filepath, "r", encoding="utf-8") as f:
@@ -61,17 +94,16 @@ def merge_recipes(custom_recipes: list[dict], hbm_filepath: Path, dry_run: bool)
     added_count = 0
 
     for custom_recipe in custom_recipes:
-        # Python natively does deep dictionary equality checks.
-        # This will perfectly match the JSON object regardless of where it is in the list!
         if custom_recipe not in base_recipes:
             base_recipes.append(custom_recipe)
             added_count += 1
 
     if added_count > 0:
         if not dry_run:
+            formatted_json = dump_hbm_format(hbm_data)
             with open(hbm_filepath, "w", encoding="utf-8") as f:
-                # Indent of 2 closely matches the default HBM formatting
-                json.dump(hbm_data, f, indent=2)
+                f.write(formatted_json)
+                f.write('\n') # Ensure trailing newline
 
         action = "Would add" if dry_run else "Added"
         print(f"[+] {action} {added_count} new recipe(s) to {hbm_filepath.name}")
