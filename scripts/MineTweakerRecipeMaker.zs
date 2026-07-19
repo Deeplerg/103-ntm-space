@@ -26,14 +26,13 @@ copper.remove(<Railcraft:ingot:1>);
 tin.remove(<Railcraft:ingot:2>);
 lead.remove(<Railcraft:ingot:3>);
 nuggetIron.remove(<Railcraft:nugget>);
-nuggetSteel.remove(<Railcraft:nugget:1>);
-nuggetCopper.remove(<Railcraft:nugget:2>);
 nuggetTin.remove(<Railcraft:nugget:3>);
 nuggetLead.remove(<Railcraft:nugget:4>);
 
 
 // ================================================================================r
 //#MARKER REMOVE
+recipes.remove(<EnderIO:blockTransceiver>);
 recipes.remove(<harvestcraft:fishtrapbaitItem>);
 recipes.remove(<harvestcraft:fishtrap>);
 recipes.remove(<ae2fc:oc_pattern_editor>);
@@ -82,6 +81,9 @@ recipes.remove(<ae2fc:fluid_pattern_encoder>);
 recipes.remove(<ae2fc:certus_quartz_tank>);
 recipes.remove(<ae2fc:large_ingredient_buffer>);
 recipes.remove(<ae2fc:ingredient_buffer>);
+recipes.remove(<EnderIO:itemPowderIngot:3>);
+furnace.remove(<Railcraft:ingot:1>);
+furnace.remove(<Railcraft:ingot:2>);
 furnace.remove(<Railcraft:nugget:1>);
 recipes.remove(<Railcraft:nugget>);
 recipes.remove(<Railcraft:nugget:4>);

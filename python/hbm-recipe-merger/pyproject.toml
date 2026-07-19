@@ -1,0 +1,6 @@
+[project]
+name = "hbm-recipe-merger"
+version = "1.0.0"
+description = "A tool to safely merge custom recipes into auto-generated HBM machine JSONs."
+requires-python = ">=3.11"
+dependencies = []
