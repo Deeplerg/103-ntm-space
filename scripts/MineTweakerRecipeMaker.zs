@@ -34,6 +34,7 @@ nuggetLead.remove(<Railcraft:nugget:4>);
 
 // ================================================================================r
 //#MARKER REMOVE
+recipes.remove(<EnderIO:blockTransceiver>);
 recipes.remove(<harvestcraft:fishtrapbaitItem>);
 recipes.remove(<harvestcraft:fishtrap>);
 recipes.remove(<ae2fc:oc_pattern_editor>);
