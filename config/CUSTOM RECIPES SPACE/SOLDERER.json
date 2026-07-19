@@ -606,5 +606,148 @@
       "output": ["OpenComputers:item",1,39],
       "duration": 100,
       "consumption": 1000
-    },  
+    },
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,35],
+        ["item","hbm:item.circuit",1,3],
+        ["item","hbm:item.ingot_titanium", 1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,36],
+      "duration": 200,
+      "consumption": 100
+    },
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,36],
+        ["item","hbm:item.circuit",1,9],
+        ["item","hbm:item.ingot_cobalt",1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,37],
+      "duration": 300,
+      "consumption": 150
+    },
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",3,37],
+        ["item","hbm:item.circuit",1,10],
+        ["item","hbm:item.ingot_desh",1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,38],
+      "duration": 400,
+      "consumption": 200
+    },
+    {
+      "toppings": [
+        ["item","ae2fc:fluid_part",3,0],
+        ["item","hbm:item.circuit",1,3],
+        ["item","hbm:item.ingot_titanium", 1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["ae2fc:fluid_part",1,1],
+      "duration": 200,
+      "consumption": 100
+    },
+    {
+      "toppings": [
+        ["item","ae2fc:fluid_part",3,1],
+        ["item","hbm:item.circuit",1,9],
+        ["item","hbm:item.ingot_cobalt",1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["ae2fc:fluid_part",1,2],
+      "duration": 300,
+      "consumption": 150
+    },
+    {
+      "toppings": [
+        ["item","ae2fc:fluid_part",3,2],
+        ["item","hbm:item.circuit",1,10],
+        ["item","hbm:item.ingot_desh",1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["ae2fc:fluid_part",1,3],
+      "duration": 400,
+      "consumption": 200
+    },
+        {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,9],
+        ["item","hbm:item.circuit",1,9]
+      ],
+      "pcb": [
+        ["dict","plateSteel", 1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,32],
+      "duration": 200,
+      "consumption": 100
+    },
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,9],
+        ["item","hbm:item.circuit",1,10],
+        ["dict","ingotAnyResistantAlloy",1]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,33],
+      "duration": 300,
+      "consumption": 150
+    },
+    {
+      "toppings": [
+        ["item","appliedenergistics2:item.ItemMultiMaterial",1,9],
+        ["item","hbm:item.circuit",1,12],
+        ["dict","ingotAnyResistantAlloy",2]
+      ],
+      "pcb": [
+        ["dict","plateSteel",1]
+      ],
+      "solder": [
+        ["dict","wireFineLead",8]
+      ],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,34],
+      "duration": 400,
+      "consumption": 200
+    },
     
