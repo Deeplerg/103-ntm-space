@@ -38,6 +38,7 @@ jobs:
             --include='/modpack/***' \
             --include='/mods/***' \
             --include='/mods-optional/***' \
+            --include='/resourcepacks/***' \
             --include='/scripts/***' \
             --include='/serverutilities/***' \
             --include='/shaderpacks/***' \
