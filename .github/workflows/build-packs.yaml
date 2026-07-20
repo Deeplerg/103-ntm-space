@@ -116,6 +116,7 @@ jobs:
           rsync -a \
             --exclude '*.pw.toml' \
             --exclude 'python/' \
+            --exclude 'resourcepacks/' \
             --exclude 'shaderpacks/' \
             --include='*' \
             server-template/ ./
