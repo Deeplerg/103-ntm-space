@@ -232,7 +232,9 @@ showGarbageCollectorWarning = true
 # but may cause server/simulation lag.
 # Note: unlike other modes this option DOES save generated chunks to
 # Minecraft's region files.
-distantGeneratorMode = "INTERNAL_SERVER"
+
+# (!!!) Use INTERNAL_SERVER for generating new terrain!
+distantGeneratorMode = "PRE_EXISTING_ONLY"
 #
 # How should distant generator progress be displayed?
 #
