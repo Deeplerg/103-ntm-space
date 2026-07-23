@@ -5,6 +5,7 @@ global-config.toml
 global-config.toml.example
 .github/
 README.md
+MODS.md
 launcher-template/
 index.toml.template
 pack.toml.template
