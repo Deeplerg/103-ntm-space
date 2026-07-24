@@ -1,14 +1,14 @@
 name = "retroEMI-Forge"
-filename = "emi-1.1.24-beta3+1.7.10+forge.jar"
+filename = "emi-1.1.24-beta4+1.7.10+forge.jar"
 side = "server"
 
 [download]
-url = "https://github.com/Deeplerg/retroEMI-Forge/releases/download/1.1.24-beta3/emi-1.1.24-beta3%2B1.7.10%2Bforge.jar"
+url = "https://github.com/Deeplerg/retroEMI-Forge/releases/download/1.1.24-beta4/emi-1.1.24-beta4%2B1.7.10%2Bforge.jar"
 hash-format = "sha256"
-hash = "9eb4cc6a176dffad0732058a0f829fb38c10806855d3c3246966b1388e5c5c52"
+hash = "397719e9ab07d8ea4707635a465e23e312cf8821818ff0d15d17d587f79ea037"
 
 [update]
 [update.github]
 regex = "^.*1\\.7\\.10.*(?<!-api|-dev|-dev-preshadow|-sources|-)\\.jar$"
 slug = "Deeplerg/retroEMI-Forge"
-tag = "1.1.24-beta3"
+tag = "1.1.24-beta4"
