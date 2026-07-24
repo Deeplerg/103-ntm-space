@@ -940,5 +940,11 @@
     "reward_id": "hbm:item.gun_light_revolver",
     "reward_meta": 0,
     "hours_to_acquire": 0.6
+  },
+  {
+    "internal_name": "crate_red",
+    "reward_id": "hbm:tile.crate_red",
+    "reward_meta": 0,
+    "hours_to_acquire": 5.0
   }
 ]

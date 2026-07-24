@@ -626,5 +626,9 @@
   "gun_light_revolver": {
     "name": "Break-Action Revolver",
     "desc": "Found in: Generic Pools."
+  },
+  "crate_red": {
+    "name": "Red Crate",
+    "desc": "Found in: Underground Meteor Dungeon."
   }
 }
