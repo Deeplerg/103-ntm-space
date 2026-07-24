@@ -1,0 +1,15 @@
+name = "SleepyHead"
+filename = "sleepyhead-1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/MoriPastaPizza/SleepyHead/releases/download/1.0.0/sleepyhead-1.0.jar"
+hash-format = "sha256"
+hash = "4c002a30848ac80f5ee81f5b5f2bb70d3003210e32c0091bf1bd5785a6252d96"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "MoriPastaPizza/SleepyHead"
+tag = "1.0.0"

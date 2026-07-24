@@ -373,6 +373,12 @@ recipes.remove(<ExtraUtilities:angelRing:4>);
 recipes.remove(<ExtraUtilities:generator>);
 recipes.remove(<ExtraUtilities:generator:1>);
 recipes.remove(<ExtraUtilities:generator:2>);
+recipes.remove(<ExtraUtilities:generator:4>);
+
+
+recipes.remove(<ExtraUtilities:generator:5>);
+recipes.remove(<ExtraUtilities:generator:9>);
+
 recipes.remove(<ExtraUtilities:generator:7>);
 recipes.remove(<ExtraUtilities:generator:8>);
 recipes.remove(<ExtraUtilities:generator:10>);
@@ -449,6 +455,8 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [<hbm:item.pla
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:generator:5>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <harvestcraft:delightedmealItem>, <minecraft:iron_ingot>], [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]]);
+recipes.addShaped(<ExtraUtilities:generator:9>, [[<minecraft:wool:6>, <minecraft:wool:6>, <minecraft:wool:6>], [<minecraft:wool:6>, <ore:dyePink>, <minecraft:wool:6>], [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]]);
 recipes.addShaped(<ae2fc:oc_pattern_editor>, [[<hbm:item.ingot_steel>, <OpenComputers:item:24>, <hbm:item.ingot_steel>], [<OpenComputers:cable>, <appliedenergistics2:item.ItemMultiMaterial:52>, <OpenComputers:cable>], [<hbm:item.ingot_steel>, <minecraft:bucket>, <hbm:item.ingot_steel>]]);
 recipes.addShaped(<ae2fc:part_fluid_export>, [[<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:22>, <hbm:item.ingot_steel>], [<ore:gemLapis>, <minecraft:piston>, <ore:gemLapis>]]);
 recipes.addShaped(<ae2fc:part_fluid_import>, [[<ore:gemLapis>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:gemLapis>], [<hbm:item.ingot_steel>, <minecraft:piston>, <hbm:item.ingot_steel>]]);
