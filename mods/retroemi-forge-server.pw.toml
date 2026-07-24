@@ -1,6 +1,6 @@
 name = "retroEMI-Forge"
 filename = "emi-1.1.24-beta3+1.7.10+forge.jar"
-side = "client"
+side = "server"
 
 [download]
 url = "https://github.com/Deeplerg/retroEMI-Forge/releases/download/1.1.24-beta3/emi-1.1.24-beta3%2B1.7.10%2Bforge.jar"
