@@ -1,0 +1,13 @@
+name = "Effortless Building Gadgets"
+filename = "effortless-0.10.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Wczg4z6/versions/5WdijTtz/effortless-0.10.1.jar"
+hash-format = "sha512"
+hash = "150510df02b434ba335ef72031295907b75aa8aed4312f1ef1c38e11b286c34f0ad2c5959c06c5c0a6eb1f5c97f462187c91588101c5b263e79fac678eb016a2"
+
+[update]
+[update.modrinth]
+mod-id = "8Wczg4z6"
+version = "5WdijTtz"
