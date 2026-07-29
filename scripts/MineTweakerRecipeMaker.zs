@@ -32,6 +32,7 @@ nuggetLead.remove(<Railcraft:nugget:4>);
 
 // ================================================================================r
 //#MARKER REMOVE
+recipes.remove(<hbm:item.stick_dynamite_fishing>);
 recipes.remove(<EnderIO:blockTransceiver>);
 recipes.remove(<harvestcraft:fishtrapbaitItem>);
 recipes.remove(<harvestcraft:fishtrap>);
