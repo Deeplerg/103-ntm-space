@@ -9,6 +9,7 @@ FILE_MAPPING = {
     "ASSEMBLER.json": "hbmAssemblyMachine.json",
     "CENTRIFUGE.json": "hbmCentrifuge.json",
     "CHEMICAL PLANT.json": "hbmChemicalPlant.json",
+    "FRACKING.json": "hbmCracking.json",
     "IRRADIATION.json": "hbmIrradiation.json",
     "PRESS.json": "hbmPress.json",
     "SHREDDER.json": "hbmShredder.json",

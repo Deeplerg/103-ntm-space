@@ -85,6 +85,12 @@
       "input": "BIOGAS",
       "output1": ["PETROLEUM",20],
       "output2": ["AROMATICS",20]
+    },
+    {
+      "input": "GAS",
+      "output1": ["PETROLEUM",30],
+      "output2": ["UNSATURATEDS",20]
     }
   ]
 }
+
