@@ -35,6 +35,7 @@ jobs:
             --include='/icon.png' \
             --include='/settings.rtg' \
             --include='/config/***' \
+            --include='/CustomSkinLoader/***' \
             --include='/modpack/***' \
             --include='/mods/***' \
             --include='/mods-optional/***' \
