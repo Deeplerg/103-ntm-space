@@ -1,0 +1,8 @@
+name = "CompatibilityLayerForCustomSkinLoader"
+filename = "CompatibilityLayerForCustomSkinLoader-ALPHA-11.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/3795/843/CompatibilityLayerForCustomSkinLoader-ALPHA-11.jar"
+hash-format = "sha256"
+hash = "1269cbf2f78387c310ebd79dbd2f99f0efa9603831876b178c1802fa47b0bedf"
