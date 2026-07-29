@@ -5,3 +5,6 @@ index.toml
 pack.toml
 .venv
 python/admin-shop/output/
+CustomSkinLoader/caches
+CustomSkinLoader/*.log
+CustomSkinLoader/*ClientID

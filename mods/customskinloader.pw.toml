@@ -1,0 +1,8 @@
+name = "customskinloader"
+filename = "CustomSkinLoader_ForgeLegacy-14.15-SNAPSHOT-348.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/4110/57/CustomSkinLoader_ForgeLegacy-14.15-SNAPSHOT-348.jar"
+hash-format = "sha256"
+hash = "34ab5dcb28212af36df8b7d132d69683ec1b878bf4a1fb7106209714e403e147"
