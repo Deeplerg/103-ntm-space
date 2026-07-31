@@ -844,18 +844,6 @@
     },
     {
       "toppings": [
-        ["item","OpenComputers:item",2,26],
-        ["item","minecraft:ender_pearl",2],
-        ["item","OpenComputers:item",2,11]
-      ],
-      "pcb": [],
-      "solder": [],
-      "output": ["OpenComputers:item",1,51],
-      "duration": 100,
-      "consumption": 1000
-    },
-    {
-      "toppings": [
         ["item","OpenComputers:item",1,33],
         ["item","minecraft:ender_pearl",1],
         ["item","OpenComputers:item",1,25]

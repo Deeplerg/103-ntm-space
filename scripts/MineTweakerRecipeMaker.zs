@@ -162,7 +162,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:61>);
 recipes.remove(<appliedenergistics2:item.ItemVoidStorageCell>);
 recipes.remove(<appliedenergistics2:tile.BlockEnergyCell>);
 recipes.remove(<appliedenergistics2:tile.BlockSpatialPylon>);
-furnace.remove(<OpenComputers:item:32>);
 recipes.remove(<chisel:nucrete>);
 furnace.remove(<chisel:concrete>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:39>);
@@ -192,7 +191,6 @@ recipes.remove(<OpenComputers:item:76>);
 recipes.remove(<OpenComputers:item:34>);
 recipes.remove(<OpenComputers:item:35>);
 recipes.remove(<OpenComputers:item:75>);
-recipes.remove(<OpenComputers:item:36>);
 recipes.remove(<OpenComputers:item:112>);
 recipes.remove(<OpenComputers:item:85>);
 recipes.remove(<OpenComputers:item:61>);
@@ -223,7 +221,6 @@ recipes.remove(<OpenComputers:keyboard>);
 recipes.remove(<OpenComputers:item:22>);
 recipes.remove(<OpenComputers:item:20>);
 recipes.remove(<OpenComputers:item:21>);
-recipes.remove(<OpenComputers:transposer>);
 recipes.remove(<OpenComputers:netSplitter>);
 recipes.remove(<OpenComputers:waypoint>);
 recipes.remove(<OpenComputers:printer>);
@@ -264,13 +261,9 @@ recipes.remove(<OpenComputers:item:45>);
 recipes.remove(<OpenComputers:item:12>);
 recipes.remove(<OpenComputers:item:66>);
 recipes.remove(<OpenComputers:item:44>);
-recipes.remove(<OpenComputers:item:51>);
 recipes.remove(<OpenComputers:item:13>);
 recipes.remove(<OpenComputers:item:113>);
 recipes.remove(<OpenComputers:item:11>);
-recipes.remove(<OpenComputers:item:7>);
-recipes.remove(<OpenComputers:item:6>);
-recipes.remove(<OpenComputers:item:5>);
 recipes.remove(<OpenComputers:item:106>);
 recipes.remove(<OpenComputers:item:105>);
 recipes.remove(<OpenComputers:item:104>);
@@ -411,7 +404,6 @@ recipes.remove(<universalcoins:atm>);
 // ================================================================================
 //#MARKER REMOVE SHAPED
 recipes.removeShaped(<StorageDrawers:compDrawers>, [[<minecraft:piston>, <hbm:tile.mass_storage>, <ore:craftingPiston>]]);
-recipes.removeShaped(<OpenComputers:transposer>, [[<ore:Steel>, <ore:Steel>, <ore:Steel>], [<hbm:item.part_generic:1>, <hbm:tile.crate_steel>, <hbm:item.part_generic:1>], [<ore:Steel>, <ore:Steel>, <ore:Steel>]]);
 recipes.removeShaped(<minecraft:fire>, [[<ore:cobblestone>, null, null], [<ore:cobblestone>, null, null], [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]]);
 
 // ================================================================================
@@ -578,7 +570,6 @@ recipes.addShaped(<OpenComputers:item:76>, [[<ore:oc:circuitChip1>], [<minecraft
 recipes.addShaped(<OpenComputers:item:34>, [[<ore:blockGlassColorless>], [<ore:oc:circuitChip3>], [<hbm:item.circuit:3>]]);
 recipes.addShaped(<OpenComputers:item:35>, [[<ore:oc:circuitChip1>], [<ore:signWood>], [<hbm:item.circuit:3>]]);
 recipes.addShaped(<OpenComputers:item:75>, [[<ore:oc:circuitChip1>], [<ore:craftingPiston>], [<hbm:item.circuit:3>]]);
-recipes.addShaped(<OpenComputers:item:36>, [[<ore:oc:circuitChip1>], [<minecraft:paper>], [<hbm:item.circuit:3>]]);
 recipes.addShaped(<OpenComputers:item:112>, [[null, <ore:torchRedstoneActive>, null], [<ore:oc:linkedCard>, <ore:oc:circuitChip3>, <ore:oc:linkedCard>], [null, <hbm:item.circuit:3>, null]]);
 recipes.addShaped(<OpenComputers:item:85>, [[<ore:oc:circuitChip1>], [<minecraft:lead>], [<hbm:item.circuit:3>]]);
 recipes.addShaped(<OpenComputers:item:61>, [[<ore:torchRedstoneActive>], [<OpenComputers:item:25>], [<hbm:item.circuit:3>]]);
@@ -606,7 +597,6 @@ recipes.addShaped(<OpenComputers:item:94>, [[<ore:Steel>, <minecraft:dispenser>,
 recipes.addShaped(<OpenComputers:item:107>, [[<ore:Steel>, <ore:oc:wlanCard>, <ore:Steel>], [<ore:oc:cpu2>, <ore:oc:materialAcid>, <ore:oc:ram3>], [<ore:Steel>, <ore:oc:capacitor>, <ore:Steel>]]);
 recipes.addShaped(<OpenComputers:item>, [[<ore:torchRedstoneActive>], [<ore:oc:materialTransistor>], [<hbm:item.circuit:3>]]);
 recipes.addShaped(<OpenComputers:keyboard>, [[<ore:buttonStone>, <ore:buttonStone>, <ore:buttonStone>], [<ore:buttonStone>, <ore:buttonStone>, <ore:buttonStone>], [<ore:buttonStone>, <ore:buttonStone>, <ore:buttonStone>]]);
-recipes.addShaped(<OpenComputers:transposer>, [[<ore:Steel>, <ore:Steel>, <ore:Steel>], [<hbm:item.part_generic:1>, <hbm:tile.crate_steel>, <hbm:item.part_generic:1>], [<ore:Steel>, <ore:Steel>, <ore:Steel>]]);
 recipes.addShaped(<OpenComputers:netSplitter>, [[<ore:Steel>, <ore:oc:cable>, <ore:Steel>], [<ore:oc:cable>, <ore:dustRedstone>, <ore:oc:cable>], [<ore:Steel>, <hbm:item.circuit:3>, <ore:Steel>]]);
 recipes.addShaped(<OpenComputers:waypoint>, [[<ore:Steel>, <ore:oc:circuitChip1>, <ore:Steel>], [<ore:oc:materialTransistor>, <ore:materialEnderPearl>, <ore:oc:materialTransistor>], [<ore:Steel>, <hbm:item.circuit:3>, <ore:Steel>]]);
 recipes.addShaped(<OpenComputers:printer>, [[<ore:Steel>, <minecraft:hopper>, <ore:Steel>], [<hbm:item.part_generic:1>, <ore:oc:circuitChip3>, <hbm:item.part_generic:1>], [<ore:Steel>, <hbm:item.circuit:3>, <ore:Steel>]]);
