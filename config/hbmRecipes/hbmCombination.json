@@ -1458,6 +1458,11 @@
       "input": ["item","hbm:item.bedrock_ore",1,5649],
       "output": ["hbm:item.bedrock_ore",1,5905],
       "fluid": ["VITRIOL",50]
+    },
+    {
+      "input": ["item","chisel:marble",4],
+      "output": ["hbm:item.powder_calcium",1],
+      "fluid": ["CARBONDIOXIDE",250]
     }
   ]
 }
