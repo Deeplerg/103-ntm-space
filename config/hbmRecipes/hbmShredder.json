@@ -2160,6 +2160,18 @@
     {
       "input": ["appliedenergistics2:tile.BlockSkyStone"],
       "output": ["appliedenergistics2:item.ItemMultiMaterial",1,45]
+    },
+	{
+      "input": ["chisel:diorite"],
+      "output": ["minecraft:quartz",1]
+    },
+	{
+      "input": ["chisel:andesite"],
+      "output": ["minecraft:quartz",1]
+    },
+	{
+      "input": ["chisel:granite"],
+      "output": ["minecraft:quartz",1]
     }
   ]
 }
