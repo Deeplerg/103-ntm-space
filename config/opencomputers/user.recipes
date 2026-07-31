@@ -18,3 +18,26 @@ include file("default.recipes")
 # default.recipes file to get an idea how recipes have to be structured. You'll
 # want to define your recipes after all includes, to avoid those overwriting
 # your recipes.
+
+linkedCard {
+  input: [[radio_torch_sender, "", radio_torch_receiver]
+          ["oc:lanCard", {item=circuit, subID=10}, "oc:lanCard"]
+          ["oc:circuitChip3", "", "oc:circuitChip3"]]
+  output: 2
+}
+
+navigationUpgrade {
+  input: [["","",""]
+          [{item=circuit, subID=8}, pole_satellite_receiver, {item=circuit, subID=8}]
+          ["oc:circuitChip2", {item=filled_map, subID=any}, "oc:circuitChip2"]]
+}
+
+
+hdd1 = true
+hdd2 = true
+hdd3 = true
+transposer {
+	  input: [[ingot_steel,ingot_steel,ingot_steel]
+          [{item=part_generic, subID=1}, crate_steel, {item=part_generic, subID=1}]
+          [ingot_steel, ingot_steel, ingot_steel]]
+}
