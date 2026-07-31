@@ -1111,10 +1111,10 @@
     {
       "toppings": [
         ["item","appliedenergistics2:item.ItemMultiMaterial",3,35],
-        ["item","hbm:item.circuit",1,3],
         ["item","hbm:item.ingot_titanium",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,3],
         ["dict","plateSteel",1]
       ],
       "solder": [
@@ -1159,10 +1159,10 @@
     {
       "toppings": [
         ["item","ae2fc:fluid_part",3,0],
-        ["item","hbm:item.circuit",1,3],
         ["item","hbm:item.ingot_titanium",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,3],
         ["dict","plateSteel",1]
       ],
       "solder": [
