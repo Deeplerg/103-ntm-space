@@ -21,13 +21,7 @@ val nuggetCopper = <ore:nuggetCopper>;
 val nuggetTin = <ore:nuggetTin>;
 val nuggetLead = <ore:nuggetLead>;
 
-steel.remove(<Railcraft:ingot>);
-copper.remove(<Railcraft:ingot:1>);
-tin.remove(<Railcraft:ingot:2>);
-lead.remove(<Railcraft:ingot:3>);
-nuggetIron.remove(<Railcraft:nugget>);
-nuggetTin.remove(<Railcraft:nugget:3>);
-nuggetLead.remove(<Railcraft:nugget:4>);
+
 
 
 // ================================================================================r
@@ -83,29 +77,6 @@ recipes.remove(<ae2fc:certus_quartz_tank>);
 recipes.remove(<ae2fc:large_ingredient_buffer>);
 recipes.remove(<ae2fc:ingredient_buffer>);
 recipes.remove(<EnderIO:itemPowderIngot:3>);
-furnace.remove(<Railcraft:ingot:1>);
-furnace.remove(<Railcraft:ingot:2>);
-furnace.remove(<Railcraft:nugget:1>);
-recipes.remove(<Railcraft:nugget>);
-recipes.remove(<Railcraft:nugget:4>);
-recipes.remove(<Railcraft:nugget:3>);
-recipes.remove(<Railcraft:nugget:2>);
-recipes.remove(<Railcraft:nugget:1>);
-recipes.remove(<Railcraft:ingot>);
-recipes.remove(<Railcraft:ingot:1>);
-recipes.remove(<Railcraft:ingot:2>);
-recipes.remove(<Railcraft:ingot:3>);
-recipes.remove(<Railcraft:tool.electric.meter>);
-recipes.remove(<Railcraft:machine.epsilon:3>);
-recipes.remove(<Railcraft:machine.epsilon:4>);
-recipes.remove(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}));
-recipes.remove(<Railcraft:part.rail:5>);
-recipes.remove(<Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"}));
-recipes.remove(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}));
-recipes.remove(<Railcraft:part.rail:3>);
-recipes.remove(<Railcraft:part.rail:4>);
-recipes.remove(<Railcraft:part.tie>);
-recipes.remove(<Railcraft:part.rail>);
 recipes.remove(<opensecurity:energyTurretBlock>);
 recipes.remove(<opensecurity:opensecurity.securityDoorPrivate>);
 recipes.remove(<opensecurity:opensecurity.securityDoor>);
@@ -464,22 +435,7 @@ recipes.addShaped(<ae2fc:fluid_pattern_encoder>, [[<hbm:item.plate_cast:30>, <ap
 recipes.addShaped(<ae2fc:certus_quartz_tank>, [[<hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>], [<hbm:tile.glass_quartz>, null, <hbm:tile.glass_quartz>], [<hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>, <hbm:tile.glass_quartz>]]);
 recipes.addShaped(<ae2fc:large_ingredient_buffer>, [[<ae2fc:ingredient_buffer>, <hbm:tile.glass_quartz>, <ae2fc:ingredient_buffer>], [<hbm:tile.glass_quartz>, <appliedenergistics2:item.ItemMultiMaterial:24>, <hbm:tile.glass_quartz>], [<ae2fc:ingredient_buffer>, <hbm:tile.glass_quartz>, <ae2fc:ingredient_buffer>]]);
 recipes.addShaped(<ae2fc:ingredient_buffer>, [[<hbm:item.ingot_steel>, <appliedenergistics2:item.ItemMultiMaterial:35>, <hbm:item.ingot_steel>], [<appliedenergistics2:item.ItemMultiMaterial:7>, <hbm:tile.glass_quartz>, <appliedenergistics2:item.ItemMultiMaterial:1>], [<hbm:item.ingot_steel>, <minecraft:bucket>, <hbm:item.ingot_steel>]]);
-recipes.addShaped(<Railcraft:tool.electric.meter>, [[<ore:ingotAluminum>, null, <ore:ingotAluminum>], [<ore:buttonStone>, <ore:paneGlass>, <ore:buttonStone>], [null, <ore:ingotCopper>, null]]);
-recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateAluminum>, <ore:ingotCopper>, <ore:plateAluminum>]]);
-recipes.addShaped(<Railcraft:machine.epsilon:4>, [[<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>], [<ore:ingotGold>, <ore:blockRedstone>, <ore:ingotGold>], [<ore:plateCopper>, <ore:ingotGold>, <ore:plateCopper>]]);
-recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}) * 16, [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:blockSteel>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);
-recipes.addShaped(<Railcraft:part.rail:5> * 6, [[<Railcraft:part.rail>, <ore:ingotCopper>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:ingotCopper>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:ingotCopper>, <Railcraft:part.rail>]]);
-recipes.addShaped(<Railcraft:cart.tank>, [[<ore:blockGlass>], [<minecraft:minecart>], []]);
-recipes.addShaped(<Railcraft:cart.loco.electric>.withTag({model: "railcraft:default"}), [[<minecraft:redstone_lamp>, <ore:blockSteel>, null], [<ore:blockSteel>, <hbm:tile.machine_converter_he_rf>, <ore:blockSteel>], [<hbm:item.turbine_titanium>, <minecraft:minecart>, <hbm:item.turbine_titanium>]]);
-recipes.addShaped(<Railcraft:cart.loco.steam.solid>.withTag({model: "railcraft:default"}), [[<ore:blockSteel>, <ore:blockSteel>, <hbm:tile.heater_firebox>], [<ore:blockSteel>, <ore:blockSteel>, <hbm:tile.heater_firebox>], [<ore:barsIron>, <minecraft:minecart>, <minecraft:minecart>]]);
-recipes.addShaped(<Railcraft:part.rail:3> * 8, [[<ore:ingotSteel>, <ore:StainlessSteel>, <ore:ingotGold>], [<ore:ingotSteel>, <ore:StainlessSteel>, <ore:ingotGold>], [<ore:ingotSteel>, <ore:StainlessSteel>, <ore:ingotGold>]]);
-recipes.addShaped(<Railcraft:part.rail:4> * 8, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:obsidian>, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
-recipes.addShaped(<Railcraft:part.tie>, [[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
-recipes.addShaped(<Railcraft:part.rail> * 8, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
-recipes.addShaped(<Railcraft:part.tie>, [[], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 recipes.addShaped(<opensecurity:energyTurretBlock>, [[<ore:oc:circuitChip3>], [<hbm:item.circuit:9>], [<ore:Steel>]]);
-recipes.addShaped(<Railcraft:part.tie>, [[], [], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
-recipes.addShaped(<Railcraft:part.rail> * 8, [[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
 recipes.addShaped(<opensecurity:opensecurity.securityDoorPrivate>, [[<ore:oc:materialTransistor>], [<hbm:item.door_bunker>], [<OpenComputers:item:25>]]);
 recipes.addShaped(<opensecurity:opensecurity.securityDoor>, [[<ore:oc:materialTransistor>], [<hbm:item.door_bunker>], [<ore:oc:circuitChip1>]]);
 recipes.addShaped(<opensecurity:biometricScanner>, [[<ore:Steel>, <ore:oc:materialTransistor>, <ore:Steel>], [<ore:oc:circuitChip1>, <ore:blockGlass>, <ore:oc:circuitChip1>], [<ore:Steel>, <ore:oc:materialTransistor>, <ore:Steel>]]);
