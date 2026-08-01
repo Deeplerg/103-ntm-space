@@ -844,18 +844,6 @@
     },
     {
       "toppings": [
-        ["item","OpenComputers:item",2,26],
-        ["item","minecraft:ender_pearl",2],
-        ["item","OpenComputers:item",2,11]
-      ],
-      "pcb": [],
-      "solder": [],
-      "output": ["OpenComputers:item",1,51],
-      "duration": 100,
-      "consumption": 1000
-    },
-    {
-      "toppings": [
         ["item","OpenComputers:item",1,33],
         ["item","minecraft:ender_pearl",1],
         ["item","OpenComputers:item",1,25]
@@ -1143,10 +1131,10 @@
     {
       "toppings": [
         ["item","appliedenergistics2:item.ItemMultiMaterial",3,37],
-        ["item","hbm:item.circuit",1,10],
         ["item","hbm:item.ingot_desh",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,10],
         ["dict","plateSteel",1]
       ],
       "solder": [
@@ -1191,10 +1179,10 @@
     {
       "toppings": [
         ["item","ae2fc:fluid_part",3,2],
-        ["item","hbm:item.circuit",1,10],
         ["item","hbm:item.ingot_desh",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,10],
         ["dict","plateSteel",1]
       ],
       "solder": [
@@ -1222,10 +1210,10 @@
     {
       "toppings": [
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,9],
-        ["item","hbm:item.circuit",1,10],
         ["dict","ingotAnyResistantAlloy",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,10],
         ["dict","plateSteel",1]
       ],
       "solder": [
