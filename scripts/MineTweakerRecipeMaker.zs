@@ -373,6 +373,7 @@ recipes.removeShaped(<minecraft:fire>, [[<ore:cobblestone>, null, null], [<ore:c
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:paper>, [<Railcraft:routing.ticket>]);
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:54>, [<appliedenergistics2:item.ItemMultiMaterial:28>, <appliedenergistics2:item.ItemMultiMaterial:35>]);
 recipes.addShapeless(<ae2stuff:Wireless:33>, [<ae2stuff:Wireless:17>, <ore:dyeBlack>]);
 recipes.addShapeless(<ae2stuff:Wireless:32>, [<ae2stuff:Wireless:17>, <ore:dyeRed>]);
