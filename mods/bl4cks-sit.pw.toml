@@ -1,0 +1,13 @@
+name = "Sit"
+filename = "sit-1.7.10-v1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VKXzIykF/versions/ZGamMOvX/sit-1.7.10-v1.1.jar"
+hash-format = "sha512"
+hash = "f2d0b9846fb4cca492ad50dc8171414f9f7e401939fc833f4093012aa60a3b0cffbb633dd3376fcf08af9b1217e00a63ac0158f918ceb252e45e7796b3e70e3f"
+
+[update]
+[update.modrinth]
+mod-id = "VKXzIykF"
+version = "ZGamMOvX"
