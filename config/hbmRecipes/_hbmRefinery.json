@@ -2,18 +2,10 @@
   "comment": "Inputs always assume 100mB, input ammount cannot be changed.",
   "recipes": [
     {
-      "input": "HOTOIL",
-      "output0": ["HEAVYOIL",50],
-      "output1": ["NAPHTHA",25],
-      "output2": ["LIGHTOIL",15],
-      "output3": ["PETROLEUM",10],
-      "solid": ["hbm:item.sulfur"]
-    },
-    {
-      "input": "HOTOIL_DS",
-      "output0": ["HEAVYOIL",30],
-      "output1": ["NAPHTHA_DS",35],
-      "output2": ["LIGHTOIL_DS",20],
+      "input": "HOTCRACKOIL_DS",
+      "output0": ["NAPHTHA_DS",35],
+      "output1": ["LIGHTOIL_DS",35],
+      "output2": ["AROMATICS",15],
       "output3": ["UNSATURATEDS",15],
       "solid": ["hbm:item.oil_tar",1,5]
     },
@@ -26,10 +18,18 @@
       "solid": ["hbm:item.oil_tar",1,1]
     },
     {
-      "input": "HOTCRACKOIL_DS",
-      "output0": ["NAPHTHA_DS",35],
-      "output1": ["LIGHTOIL_DS",35],
-      "output2": ["AROMATICS",15],
+      "input": "HOTOIL",
+      "output0": ["HEAVYOIL",50],
+      "output1": ["NAPHTHA",25],
+      "output2": ["LIGHTOIL",15],
+      "output3": ["PETROLEUM",10],
+      "solid": ["hbm:item.sulfur"]
+    },
+    {
+      "input": "HOTOIL_DS",
+      "output0": ["HEAVYOIL",30],
+      "output1": ["NAPHTHA_DS",35],
+      "output2": ["LIGHTOIL_DS",20],
       "output3": ["UNSATURATEDS",15],
       "solid": ["hbm:item.oil_tar",1,5]
     }

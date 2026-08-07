@@ -4967,7 +4967,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4365],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,1101],
+        ["hbm:item.bedrock_ore_fragment",9,2701],
         ["hbm:item.bedrock_ore",1,3341]
       ]
     },
@@ -5123,7 +5123,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4360],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,1101],
+        ["hbm:item.bedrock_ore_fragment",9,2701],
         ["hbm:item.bedrock_ore",1,3336]
       ]
     },

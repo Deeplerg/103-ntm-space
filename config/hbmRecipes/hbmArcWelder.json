@@ -405,51 +405,6 @@
     },
     {
       "inputs": [
-        ["item","hbm:item.sat_base"],
-        ["item","hbm:item.sat_head_mapper"]
-      ],
-      "output": ["hbm:item.sat_mapper"],
-      "duration": 600,
-      "consumption": 10000
-    },
-    {
-      "inputs": [
-        ["item","hbm:item.sat_base"],
-        ["item","hbm:item.sat_head_scanner"]
-      ],
-      "output": ["hbm:item.sat_scanner"],
-      "duration": 600,
-      "consumption": 10000
-    },
-    {
-      "inputs": [
-        ["item","hbm:item.sat_base"],
-        ["item","hbm:item.sat_head_radar"]
-      ],
-      "output": ["hbm:item.sat_radar"],
-      "duration": 600,
-      "consumption": 10000
-    },
-    {
-      "inputs": [
-        ["item","hbm:item.sat_base"],
-        ["item","hbm:item.sat_head_laser"]
-      ],
-      "output": ["hbm:item.sat_laser"],
-      "duration": 600,
-      "consumption": 50000
-    },
-    {
-      "inputs": [
-        ["item","hbm:item.sat_base"],
-        ["item","hbm:item.sat_head_resonator"]
-      ],
-      "output": ["hbm:item.sat_resonator"],
-      "duration": 600,
-      "consumption": 50000
-    },
-    {
-      "inputs": [
         ["dict","plateSextupleTungsten",2],
         ["dict","plateStainlessSteel",6],
         ["item","hbm:item.arc_electrode"]

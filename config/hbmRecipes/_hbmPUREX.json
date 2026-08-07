@@ -17,17 +17,46 @@
       "power": 1000
     },
     {
-      "name": "purex.pilepu",
+      "name": "purex.flashgold",
       "inputItem": [
-        ["item","hbm:item.pile_rod_plutonium"]
+        ["dict","billetGold198"],
+        ["item","hbm:item.pellet_charged"]
+      ],
+      "inputFluid": [
+        ["AMAT",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.billet_balefire_gold",2]]
+      ],
+      "duration": 600,
+      "power": 1000
+    },
+    {
+      "name": "purex.flashlead",
+      "inputItem": [
+        ["dict","billetLead209"],
+        ["item","hbm:item.billet_balefire_gold"]
+      ],
+      "inputFluid": [
+        ["AMAT",1000]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.billet_flashlead"]]
+      ],
+      "duration": 600,
+      "power": 1000
+    },
+    {
+      "name": "purex.pilepu239",
+      "inputItem": [
+        ["item","hbm:item.pile_rod",1,4]
       ],
       "inputFluid": [
         ["SULFURIC_ACID",100]
       ],
       "outputItem": [
-        ["single",["hbm:item.billet_pu_mix",2]],
-        ["single",["hbm:item.billet_uranium"]],
-        ["single",["hbm:item.plate_iron",2]]
+        ["single",["hbm:item.billet_pu239",2]],
+        ["single",["hbm:item.billet_uranium"]]
       ],
       "duration": 40,
       "power": 100,
@@ -35,18 +64,33 @@
       "autoSwitchGroup": "autoswitch.pile"
     },
     {
-      "name": "purex.pilepu239",
+      "name": "purex.pilergp",
       "inputItem": [
-        ["item","hbm:item.pile_rod_pu239"]
+        ["item","hbm:item.pile_rod",1,5]
       ],
       "inputFluid": [
         ["SULFURIC_ACID",100]
       ],
       "outputItem": [
-        ["single",["hbm:item.billet_pu239"]],
-        ["single",["hbm:item.billet_pu_mix"]],
-        ["single",["hbm:item.billet_uranium"]],
-        ["single",["hbm:item.plate_iron",2]]
+        ["single",["hbm:item.billet_pu_mix",2]],
+        ["single",["hbm:item.billet_nuclear_waste"]]
+      ],
+      "duration": 40,
+      "power": 100,
+      "nameWrapper": "purex.recycle",
+      "autoSwitchGroup": "autoswitch.pile"
+    },
+    {
+      "name": "purex.pilewaste",
+      "inputItem": [
+        ["item","hbm:item.pile_rod",1,6]
+      ],
+      "inputFluid": [
+        ["SULFURIC_ACID",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.billet_nuclear_waste",2]],
+        ["single",["hbm:item.billet_polonium"]]
       ],
       "duration": 40,
       "power": 100,
