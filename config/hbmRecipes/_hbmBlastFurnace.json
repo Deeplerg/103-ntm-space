@@ -126,10 +126,22 @@
       "power": 0
     },
     {
+      "name": "blast.meteor",
+      "inputItem": [
+        ["dict","ingotCobalt"],
+        ["item","hbm:item.powder_meteorite"]
+      ],
+      "outputItem": [
+        ["single",["hbm:item.ingot_meteorite"]]
+      ],
+      "duration": 600,
+      "power": 0
+    },
+    {
       "name": "blast.starmetal",
       "inputItem": [
         ["dict","ingotSaturnite"],
-        ["item","hbm:item.powder_meteorite"]
+        ["item","hbm:item.ingot_meteorite"]
       ],
       "outputItem": [
         ["single",["hbm:item.ingot_starmetal"]]

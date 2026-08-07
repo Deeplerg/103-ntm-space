@@ -91,7 +91,7 @@
       "duration": 60
     },
     {
-      "inputFluid": ["SYNGAS",260],
+      "inputFluid": ["SYNGAS",430],
       "outputItem": ["hbm:item.solid_fuel"],
       "duration": 60
     },
