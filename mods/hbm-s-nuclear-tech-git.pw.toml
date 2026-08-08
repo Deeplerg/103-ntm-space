@@ -1,15 +1,15 @@
 name = "Hbm-s-Nuclear-Tech-GIT"
-filename = "HBM-NTM-.1.0.27_X5778_H261.jar"
+filename = "HBM-NTM-.1.0.27_X5781_H261.jar"
 side = "both"
 
 [download]
-url = "https://github.com/JameH2/Hbm-s-Nuclear-Tech-GIT/releases/download/X5778/HBM-NTM-.1.0.27_X5778_H261.jar"
+url = "https://github.com/Deeplerg/fork-JameH2-Hbm-s-Nuclear-Tech-GIT/releases/download/v0.0.2/HBM-NTM-.1.0.27_X5781_H261.jar"
 hash-format = "sha256"
-hash = "aeabedf66ab317e3a7b5cf424c3e2a0c020b60631cac8bf5e287d66c6b0019ac"
+hash = "64c2141d47ecefbe260abaabaca1eed3d3be8b9545ced2f5dbe07b11ead7c85a"
 
 [update]
 [update.github]
 branch = "space-travel-twopointfive"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
-slug = "JameH2/Hbm-s-Nuclear-Tech-GIT"
-tag = "X5778"
+slug = "Deeplerg/fork-JameH2-Hbm-s-Nuclear-Tech-GIT"
+tag = "v0.0.2"
