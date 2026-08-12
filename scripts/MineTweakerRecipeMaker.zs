@@ -16,6 +16,7 @@
 
 // ================================================================================r
 //#MARKER REMOVE
+recipes.remove(<hbm:item.powder_copper>);
 recipes.remove(<hbm:item.stick_dynamite_fishing>);
 recipes.remove(<EnderIO:blockTransceiver>);
 recipes.remove(<harvestcraft:fishtrapbaitItem>);
@@ -411,6 +412,7 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiPart:36>, [<hbm:item.pla
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<hbm:item.powder_copper>, [[<hbm:item.bedrock_ore_fragment:2900>, <hbm:item.bedrock_ore_fragment:2900>, <hbm:item.bedrock_ore_fragment:2900>], [<hbm:item.bedrock_ore_fragment:2900>, <hbm:item.bedrock_ore_fragment:2900>, <hbm:item.bedrock_ore_fragment:2900>], [<hbm:item.bedrock_ore_fragment:2900>, <hbm:item.bedrock_ore_fragment:2900>, <hbm:item.bedrock_ore_fragment:2900>]]);
 recipes.addShaped(<ExtraUtilities:decorativeBlock1:2> * 8, [[<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>], [<ore:blockQuartz>, <hbm:item.coal_infernal>, <ore:blockQuartz>], [<ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>]]);
 recipes.addShaped(<ExtraUtilities:generator:5>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <harvestcraft:delightedmealItem>, <minecraft:iron_ingot>], [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]]);
 recipes.addShaped(<ExtraUtilities:generator:9>, [[<minecraft:wool:6>, <minecraft:wool:6>, <minecraft:wool:6>], [<minecraft:wool:6>, <ore:dyePink>, <minecraft:wool:6>], [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]]);
