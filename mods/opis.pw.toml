@@ -1,0 +1,8 @@
+name = "Opis"
+filename = "Opis-1.2.5_1.7.10.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/2232/520/Opis-1.2.5_1.7.10.jar"
+hash-format = "sha256"
+hash = "76905f92f829a960500ebe038924290e2757930102963920a3a347922c3402cf"
