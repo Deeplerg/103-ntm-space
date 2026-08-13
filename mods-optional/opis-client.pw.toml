@@ -1,6 +1,6 @@
 name = "Opis"
 filename = "Opis-1.2.5_1.7.10.jar"
-side = "server"
+side = "client"
 
 [download]
 url = "https://mediafilez.forgecdn.net/files/2232/520/Opis-1.2.5_1.7.10.jar"
