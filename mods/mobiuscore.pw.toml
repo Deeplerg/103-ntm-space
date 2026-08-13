@@ -1,0 +1,8 @@
+name = "MobiusCore"
+filename = "MobiusCore-1.2.5_1.7.10.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/2232/516/MobiusCore-1.2.5_1.7.10.jar"
+hash-format = "sha256"
+hash = "9bb96584505aae1c16ce93f61ca68ee75bc7d59543ea9f13c221ff9305fc6f68"
