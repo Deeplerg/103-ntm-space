@@ -642,10 +642,10 @@
     {
       "toppings": [
         ["item","appliedenergistics2:item.ItemMultiMaterial",3,37],
-        ["item","hbm:item.circuit",1,10],
         ["item","hbm:item.ingot_desh",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,10],
         ["dict","plateSteel",1]
       ],
       "solder": [
@@ -691,10 +691,10 @@
     {
       "toppings": [
         ["item","ae2fc:fluid_part",3,2],
-        ["item","hbm:item.circuit",1,10],
         ["item","hbm:item.ingot_desh",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,10],
         ["dict","plateSteel",1]
       ],
       "solder": [
@@ -722,10 +722,10 @@
     {
       "toppings": [
         ["item","appliedenergistics2:item.ItemMultiMaterial",1,9],
-        ["item","hbm:item.circuit",1,10],
         ["dict","ingotAnyResistantAlloy",1]
       ],
       "pcb": [
+        ["item","hbm:item.circuit",1,10],
         ["dict","plateSteel",1]
       ],
       "solder": [
